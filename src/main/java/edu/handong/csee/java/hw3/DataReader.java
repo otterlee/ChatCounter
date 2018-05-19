@@ -7,37 +7,39 @@ import java.util.Scanner;
 
 public class DataReader {
 	
-	public static void main(String[] args){
+	/*public static void main(String[] args){
 		DataReader dataReader = new DataReader();
 		dataReader.getData(args[0]);
-	}
+	}*/
 
 	public ArrayList<String> getData(String strDir){
 		//(1) getDirectory
 		File myDir = getDirectory(strDir);
 		//(2) getListOfFilesFromDirectory
-		File[] files = getListOfFilesFromDirectory(myDir);
+		ArrayList<File> files = getListOfFilesFromDirectory(myDir);
 		//(3)
 		ArrayList<String> messages = readFiles(files);
 
 		return messages;
 	}
 
-	private File getDirectory(String strDir) {
+	public File getDirectory(String strDir) {
 		File myDirectory = new File(strDir);
 		System.out.println("myDirectory : " +myDirectory);
 		return myDirectory;
 
 	}
 
-	private File[] getListOfFilesFromDirectory(File dataDir) {
+	public ArrayList<File> getListOfFilesFromDirectory(File dataDir) {
+		ArrayList<File> fileList = new ArrayList<File>();
 		for(File file: dataDir.listFiles()) {
 			System.out.println("->"+file.getAbsolutePath());
+			fileList.add(file);
 		}
-		return dataDir.listFiles();
+		return fileList;
 	}
 
-	private ArrayList<String> readFiles(File[] files) {
+	public ArrayList<String> readFiles(ArrayList<File> files) {
 		ArrayList<String> messages = new ArrayList<String>();
 		Scanner inputStream = null;
 		for(File f :files) {

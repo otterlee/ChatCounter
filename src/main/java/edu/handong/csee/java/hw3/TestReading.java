@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TestReading {
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		TestReading testReading = new TestReading();
 		ArrayList<String> messages = new ArrayList<String>();
 		messages = testReading.getData(args[0]);
@@ -31,12 +31,13 @@ public class TestReading {
        // System.out.println("FileName: " + file);
         Scanner inputStream = null;
 		System.out.println ("1");
+		System.out.println(file);
 		ArrayList<String> messages = new ArrayList<String>();
-		try {
+		try{
 			System.out.println ("2");
 			inputStream = new Scanner(file);
 			System.out.println ("3");
-		}  catch (FileNotFoundException e) {
+		} catch (FileNotFoundException e) {
 			System.out.println ("Error opening the file ");
 			System.exit(0);
 		}
@@ -47,5 +48,5 @@ public class TestReading {
 		inputStream.close();
 		
 		return messages;
-	}
+	}*/
 }
