@@ -15,19 +15,10 @@ public class DataReaderForCSV extends DataReader{
 	}
 	
 	public ArrayList<String> getData(String strDir){
-		/*File myDir = getDirectory(strDir);
-		ArrayList<File> files = getListOfFilesFromDirectory(myDir);
-		//(3)
-		ArrayList<String> messages = readFiles(files);
-
-		return messages;*/
 		return super.getData(strDir);
 	}
 
 	public File getDirectory(String strDir) {
-		//File myDirectory = new File(strDir);
-		//System.out.println("myDirectory : " +myDirectory);
-		//return myDirectory;
 		return super.getDirectory(strDir);
 	}
 
