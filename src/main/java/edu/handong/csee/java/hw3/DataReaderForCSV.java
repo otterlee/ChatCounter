@@ -25,7 +25,7 @@ public class DataReaderForCSV extends DataReader{
 	public ArrayList<File> getListOfFilesFromDirectory(File dataDir) {
 		ArrayList<File> fileListCSV = new ArrayList<File>();
 		for(File file: dataDir.listFiles()) {
-			if(file.getAbsolutePath().contains(".txt")) {
+			if(file.getAbsolutePath().contains(".csv")) {
 				fileListCSV.add(file);
 				System.out.println("->"+file.getAbsolutePath());
 			}
@@ -40,7 +40,7 @@ public class DataReaderForCSV extends DataReader{
 		for(File f :files) {
 			try{
 				System.out.println("File name >> "+f.getName());
-				inputStream = new Scanner(f);
+				inputStream = new Scanner(f,"UTF-8");
 			} catch (FileNotFoundException e) {
 				System.out.println ("Error opening the file ");
 				System.exit(0);
