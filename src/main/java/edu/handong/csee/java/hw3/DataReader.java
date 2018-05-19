@@ -6,9 +6,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DataReader {
+	//class that reads file. In this class, instantiate DataReaderForCSV or DataReaderForTXT by file type.
+	ArrayList<String> messages;
 	public static void main(String[] args){
 		DataReader dataReader = new DataReader();
-		dataReader.getData(args[0]);
+		dataReader.messages = dataReader.getData(args[0]);
 	}
 
 	public ArrayList<String> getData(String strDir){
