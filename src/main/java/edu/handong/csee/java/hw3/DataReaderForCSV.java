@@ -54,7 +54,7 @@ public class DataReaderForCSV extends DataReader{
 				System.out.println ("Error opening the file ");
 				System.exit(0);
 			}
-			while (inputStream.hasNextLine ()) {
+			while (inputStream.hasNext()) {
 				System.out.println("Start method readFiles");
 				String line = inputStream.nextLine();
 				messages.add(line);
