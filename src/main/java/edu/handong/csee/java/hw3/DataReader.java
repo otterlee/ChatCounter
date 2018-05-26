@@ -8,16 +8,12 @@ import java.util.Scanner;
 public class DataReader {
 	//class that reads file. In this class, instantiate DataReaderForCSV or DataReaderForTXT by file type.
 	ArrayList<String> messages;
-	public static void main(String[] args){
-		DataReader dataReader = new DataReader();
-		dataReader.messages = dataReader.getData(args[0]);
-	}
+	ArrayList<File> CSVFiles;
+	ArrayList<File> TXTFiles;
 
-	public ArrayList<String> getData(String strDir){
+	public void getData(String strDir){
 		File myDir = getDirectory(strDir);
-		File[] files = getListOfFilesFromDirectory(myDir);
-		ArrayList<String> messages = readFiles(files);
-		return messages;
+		getListOfFilesFromDirectory(myDir);
 	}
 
 	private File getDirectory(String strDir) {
@@ -27,14 +23,17 @@ public class DataReader {
 
 	}
 
-	private File[] getListOfFilesFromDirectory(File dataDir) {
+	private void getListOfFilesFromDirectory(File dataDir) {
+		CSVFiles = new ArrayList<File>();
+		TXTFiles = new ArrayList<File>();
 		for(File file: dataDir.listFiles()) {
-			System.out.println("->"+file.getAbsolutePath());
+			System.out.println(file.getName());
+			if(file.getAbsolutePath().contains(".csv")) CSVFiles.add(file);
+			else if(file.getAbsolutePath().contains(".txt")) TXTFiles.add(file);
+			}
 		}
-		return dataDir.listFiles();
-	}
 
-	private ArrayList<String> readFiles(File[] files) {
+	/*private ArrayList<String> readFiles(File[] files) {
 		ArrayList<String> messages = new ArrayList<String>();
 		Scanner inputStream = null;
 		for(File f :files) {
@@ -53,6 +52,6 @@ public class DataReader {
 		}
 		inputStream.close();
 		return messages;
-	}
+	}*/
 }
 
