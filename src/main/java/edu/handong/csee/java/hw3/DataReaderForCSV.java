@@ -1,47 +1,65 @@
 package edu.handong.csee.java.hw3;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
+//import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import com.opencsv.*;;
-
+import com.opencsv.*;
 public class DataReaderForCSV {
-	ArrayList<File> CSVFiles;
+	ArrayList<String> CSVData;
 	ArrayList<String[]> data;
 	ArrayList <ArrayList<String>> messages;
+	final String pattern = "(.+),\\\"(.+)\\\",\\\"(.+)\\\"";
+	final Pattern p = Pattern.compile(pattern);
 
-	DataReaderForCSV(ArrayList<File> cf){
-		this.CSVFiles = cf;
+	DataReaderForCSV(ArrayList<String> csvData){
+		this.CSVData = csvData;
 	}
-	
-	public ArrayList<String[]> parseCSV(ArrayList<File> files) {
+
+	public ArrayList<String[]> parseCSV() {
 		this.data = new ArrayList<String[]>();
-		String[] s;
-		for(File f : files) {
-			try {
-				CSVReader reader = new CSVReader(new FileReader(f));
-				while ((s = reader.readNext()) != null) {
-					s[0] = parseDatetime(s[0]);
-					String []m = {s[1], s[0], s[2]};
-					System.out.println(m[0] +" @@ "+m[1]+" @@ "+m[2]);
+		String fileName = "outCSV.txt";
+		PrintWriter outputStream = null;
+
+		System.out.println ("Those lines were written to " + fileName);
+		try {
+			outputStream = new PrintWriter(fileName);
+			for(String line : CSVData) {
+				Matcher matcher = p.matcher(line);
+
+				if(matcher.find()) {
+					if(matcher.group(1).equals("Data")) {
+						continue;
+					}
+					//System.out.println(line);
+					String timeData = mergeDatetime(matcher.group(1));
+					String []m = {matcher.group(2), timeData, matcher.group(3)};
+					outputStream.println("1) name : " + m[0]);
+					//System.out.println(m[0]);
+					outputStream.println("2) time : " + m[1]);
+					outputStream.println("3) message : " + m[2]);
 					data.add(m);
 				}
-				reader.close();
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
 			}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+			System.exit(0);
 		}
+		System.out.println("Finish to output/ CSV");
+		
+		outputStream.close();
 		return data;
 	}
 
-	private String parseDatetime(String dateTime) {
+	private String mergeDatetime(String dateTime) {
 		String pattern = "([0-9]+)-([0-9]+)-([0-9]+)\\s([0-9]+):([0-9]+):([0-9]+)";
 		Pattern d = Pattern.compile(pattern);
 		Matcher matchWithDate = d.matcher(dateTime);

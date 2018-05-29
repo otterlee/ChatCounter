@@ -6,22 +6,23 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class DataReaderForTXT {
-	ArrayList<File> TXTFiles;
-	ArrayList<String[]> data;
+	ArrayList<String> TXTData;
 	//HashMap<String, String[]> data;
 	final String chatMessagePattern ="\\[(.+)\\]\\s\\[(.+)\\s([0-9]+):([0-9]+)\\]\\s(.+)";
 	final String datePattern ="-+\\s([0-9]+).\\s([0-9]+).\\s([0-9]+).\\s.+\\s-+";
 	final Pattern c = Pattern.compile(chatMessagePattern);
 	final Pattern d = Pattern.compile(datePattern);
 
-	DataReaderForTXT(ArrayList<File> tf){
-		this.TXTFiles = tf;
+	DataReaderForTXT(ArrayList<String> td){
+		this.TXTData= td;
 	}
 
 	/*public void readTXT() throws IOException {
@@ -29,39 +30,47 @@ public class DataReaderForTXT {
 		//parseDatetime()
 	}*/
 
-	public ArrayList<String[]> parseTXT(ArrayList<File> files) {
+	public ArrayList<String[]> parseTXT() {
 		ArrayList<String[]> data = new ArrayList<String[]>();
 		String[] s;
 		String date= "";
-		String line= "";
-		BufferedReader br = null;
-		for(File f :files) {
-			System.out.println("****"+f.getName());
-			try{
-				br = new BufferedReader(new InputStreamReader(new FileInputStream(f), "UTF-8"));
-				while((line = br.readLine()) != null) {
-					line = br.readLine();
-					System.out.println(line);
-					//line이 메세지인지, 날짜 문장인지 구분
-					if(chooseParseType(line) == 1) {
-						date = parseDate(line);
-						System.out.println(date);
-					}
-					
-					//날짜 라인이면 날짜 미리 parse해놓아야 한다.
-					else if(chooseParseType(line) == 2) {
-						s = parseLine(line, date);
-						//time에 date 합치고서 return 하였음.
-						data.add(s);
-					}
+		String fileName = "outTXT.txt";
+		PrintWriter outputStream = null;
+		System.out.println("Im in parseTXT");
+		System.out.println("TXTData size is "+TXTData.size());
+		
+		try{
+			outputStream = new PrintWriter(fileName);
+			for(String line : TXTData) {
+				//br = new BufferedReader(new InputStreamReader(new FileInputStream(f), "UTF-8"));
+				
+				//System.out.println(line);
+				int kind = chooseParseType(line);
+				//System.out.println("kind : "+kind);
+				if(kind == 1) {
+					date = parseDate(line);
+					//System.out.println(date);
 				}
+				//날짜 라인이면 날짜 미리 parse해놓아야 한다.
+				else if(kind == 2) {
+					s = parseLine(line, date);
+					//time에 date 합치고서 return 하였음.
+					data.add(s);
+					outputStream.println("1) name : " + s[0]);
+					outputStream.println("2) time : " + s[1]);
+					outputStream.println("3) message : " + s[2]);
+				}
+				//else System.out.println("Fail to parse");
+			}
 
-			} catch (IOException e) {
-				System.out.println ("Error opening the file" + f.getName());
-				e.printStackTrace();
-				System.exit(0);
-			} 
-		}
+		} catch (FileNotFoundException e) {
+			System.out.println ("Error writing the file");
+			e.printStackTrace();
+			System.exit(0);
+		} 
+		System.out.println("Finish to output/ TXT");
+		outputStream.close();
+
 		return data;
 	}
 
@@ -89,10 +98,6 @@ public class DataReaderForTXT {
 			s[0] = name;
 			s[1] = date + convertedTime;
 			s[2] = message;
-
-			System.out.println("name=" + s[0]);
-			System.out.println("time=" + s[1]);
-			System.out.println("strMessage=" + s[2]);
 		}
 		return s;
 	}
@@ -103,8 +108,8 @@ public class DataReaderForTXT {
 		if(matchWithDate.find()) {
 			String year = matchWithDate.group(1);
 			int month = Integer.parseInt(matchWithDate.group(2));
-			String day = matchWithDate.group(3);
-			date = year + String.format("%02d", month) + day;
+			int day = Integer.parseInt(matchWithDate.group(3));
+			date = year + String.format("%02d", month) + String.format("%02d",day);
 		}
 		return date;
 	}
