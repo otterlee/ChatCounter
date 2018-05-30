@@ -36,14 +36,6 @@ public class MessageFilter {
 		chatCount = createCountList(filteredChatDataList);
 		//chatCount = sortHashMap(chatCount);
 
-		Iterator iterator = chatCount.keySet().iterator();
-
-		//Iterator it = sortByValue(catDataList).iterator();
-		while(iterator.hasNext()) {
-			String temp = (String)iterator.next();
-			System.out.println(temp + " = " + chatCount.get(temp));
-		}
-
 	}
 
 	private void checkRedundancy(HashMap<String, ArrayList<String[]>> messageSets){

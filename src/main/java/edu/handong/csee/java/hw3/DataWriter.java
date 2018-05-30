@@ -35,7 +35,6 @@ public class DataWriter {
 	 * run method is the main method in DataWriter.
 	 * by using Iterator, write the HashMap chatDataList.
 	 * 
-	 * 
 	 */
 	public void run() {
 		String fileName = outputPath;
@@ -54,7 +53,8 @@ public class DataWriter {
 		Iterator it = sortByCount(chatDataList).iterator();
 		while(it.hasNext()) {
 			String temp = (String)it.next();
-			outputStream.println(temp + " = " + chatDataList.get(temp));
+			outputStream.println(temp + "," + chatDataList.get(temp));
+			System.out.println(temp + "," + chatDataList.get(temp));
 		}
 
 		outputStream.close();

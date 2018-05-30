@@ -19,7 +19,7 @@ public class CLIOption {
 	String inputPath, outputPath;
 	boolean verbose;
 	boolean help;
-	
+
 	/**
 	 * run is the main method in this class.
 	 * use create Option to create my own options.
@@ -47,8 +47,6 @@ public class CLIOption {
 
 			inputPath = cmd.getOptionValue("i");
 			outputPath = cmd.getOptionValue("o");
-
-			verbose = cmd.hasOption("v");
 			help = cmd.hasOption("h");
 
 		} catch (Exception e) {

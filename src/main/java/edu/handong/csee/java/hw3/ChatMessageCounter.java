@@ -24,17 +24,18 @@ public class ChatMessageCounter {
 	 * To create output file, instantiate the DataWriter class.
 	 * 
 	 * @param args
+	 * @throws Exception 
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		DataReader dataReader = new DataReader();
-		//CLIOption cliOption = new CLIOption();
-		//cliOption.run(args);
-		
-		//dataReader.getData(cliOption.inputPath);
+		CLIOption cliOption = new CLIOption();
+		cliOption.run(args);
+
+		dataReader.getData(cliOption.inputPath);
 		dataReader.getData(args[0]);
-		
-		//System.out.println(cliOption.inputPath);
+
+		System.out.println(cliOption.inputPath);
 		DataReaderForTXT dataReaderForTXT = new DataReaderForTXT(dataReader.TXTdata);
 		DataReaderForCSV dataReaderForCSV = new DataReaderForCSV(dataReader.CSVdata);
 
@@ -56,12 +57,10 @@ public class ChatMessageCounter {
 		messageFilter.filterData();
 		HashMap<String, Integer> chatCountForOutPut = messageFilter.chatCount;
 
-		for (String name : chatCountForOutPut.keySet()) {
-			// System.out.println(s.getScore());
-		}
-		//System.out.println("cliOption.outputPath : "+cliOption.outputPath);
-		//DataWriter dataWriter = new DataWriter(chatCountForOutPut, cliOption.outputPath);
-		//dataWriter.run();
+	
+		System.out.println("cliOption.outputPath : "+cliOption.outputPath);
+		DataWriter dataWriter = new DataWriter(chatCountForOutPut, cliOption.outputPath);
+		dataWriter.run();
 
 
 	}

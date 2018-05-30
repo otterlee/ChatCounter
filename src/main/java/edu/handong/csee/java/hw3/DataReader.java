@@ -1,8 +1,7 @@
 package edu.handong.csee.java.hw3;
 
 import java.io.*;
-import java.util.ArrayList;
-
+import java.util.*;
 import org.apache.commons.lang3.StringUtils;
 
 /**
@@ -21,7 +20,7 @@ import org.apache.commons.lang3.StringUtils;
 
 public class DataReader {
 	//class that reads file. In this class, instantiate DataReaderForCSV or DataReaderForTXT by file type.
-	
+
 	ArrayList<File> CSVFiles;
 	ArrayList<File> TXTFiles;
 	ArrayList<String> CSVdata;
@@ -35,9 +34,10 @@ public class DataReader {
 	 * 
 	 * @param strDir is came from ChatMessageCounter class which is main class.
 	 * strDir is path of input files. 
+	 * @throws Exception 
 	 * 
 	 */
-	public void getData(String strDir){
+	public void getData(String strDir) throws Exception{
 		File myDir = getDirectory(strDir);
 		getListOfFilesFromDirectory(myDir);
 		CSVdata = readFiles(CSVFiles);
@@ -54,24 +54,24 @@ public class DataReader {
 	private void getListOfFilesFromDirectory(File dataDir) {
 		CSVFiles = new ArrayList<File>();
 		TXTFiles = new ArrayList<File>();
-		System.out.println("dataDir.listFiles() SIZE : "+dataDir.listFiles());
-		for(File file: dataDir.listFiles()) {
-			//System.out.println(file.getAbsolutePath());
-			if(file.getAbsolutePath().contains(".csv")) {
-				CSVFiles.add(file);
+		try {
+			for(File file: dataDir.listFiles()) {
+				if(file.getAbsolutePath().contains(".csv")) {
+					CSVFiles.add(file);
 
-			}
-			else if(file.getAbsolutePath().contains(".txt")) {
-				TXTFiles.add(file);
+				}
+				else if(file.getAbsolutePath().contains(".txt")) {
+					TXTFiles.add(file);
 
+				}
+				else if(file.getAbsolutePath().contains(".doc")) throw new Exception();
 			}
+		} catch(Exception e) {
+			System.out.println("Wrong File Format!");
 		}
-		System.out.println("csv file 개수: "+CSVFiles.size());
-		System.out.println("txt file 개수: "+TXTFiles.size());
-
 	}
 
-	private ArrayList<String> readFiles(ArrayList<File> files) {
+	private ArrayList<String> readFiles(ArrayList<File> files) throws Exception {
 		ArrayList<String> data = new ArrayList<String>();
 		BufferedReader br = null;
 		for(File f :files) {
@@ -94,6 +94,8 @@ public class DataReader {
 			} catch (IOException e) {
 				System.out.println ("Error opening the file" + f.getName());
 				System.exit(0);
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
 			}
 
 		}
