@@ -13,9 +13,21 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
+/**
+ * DataReaderForTXT class is the class that parse the strings from txt file and put to parsedData ArrayList.
+ * 
+ * TXTData is raw data from DataReader class.
+ * parsedData is parsed data from parseTXT method.
+ * chatMessagePattern and datePattern are pattern for using regex.
+ * Pattern c and d are for parsing. 
+ * 
+ * @author sua
+ */
 public class DataReaderForTXT {
 	ArrayList<String> TXTData;
-	//HashMap<String, String[]> data;
+	ArrayList<String[]> parsedData;
+
 	final String chatMessagePattern ="\\[(.+)\\]\\s\\[(.+)\\s([0-9]+):([0-9]+)\\]\\s(.+)";
 	final String datePattern ="-+\\s([0-9]+).\\s([0-9]+).\\s([0-9]+).\\s.+\\s-+";
 	final Pattern c = Pattern.compile(chatMessagePattern);
@@ -25,52 +37,32 @@ public class DataReaderForTXT {
 		this.TXTData= td;
 	}
 
-	/*public void readTXT() throws IOException {
-		data = parseTXT(TXTFiles);
-		//parseDatetime()
-	}*/
-
+	/**
+	 * parseTXT is the main method in DataReaderForTXT.
+	 * by using chooseParseType method, distinguish the type of string.
+	 * if the type is the 'data', use parseDate method.
+	 * or just 'message,  use parseLine method.
+	 * 
+	 * @return data is the ArrayList which contains parsed string array.
+	 */
 	public ArrayList<String[]> parseTXT() {
 		ArrayList<String[]> data = new ArrayList<String[]>();
 		String[] s;
 		String date= "";
-		String fileName = "outTXT.txt";
-		PrintWriter outputStream = null;
-		System.out.println("Im in parseTXT");
-		System.out.println("TXTData size is "+TXTData.size());
 		
-		try{
-			outputStream = new PrintWriter(fileName);
-			for(String line : TXTData) {
-				//br = new BufferedReader(new InputStreamReader(new FileInputStream(f), "UTF-8"));
-				
-				//System.out.println(line);
-				int kind = chooseParseType(line);
-				//System.out.println("kind : "+kind);
-				if(kind == 1) {
-					date = parseDate(line);
-					//System.out.println(date);
-				}
-				//날짜 라인이면 날짜 미리 parse해놓아야 한다.
-				else if(kind == 2) {
-					s = parseLine(line, date);
-					//time에 date 합치고서 return 하였음.
-					data.add(s);
-					outputStream.println("1) name : " + s[0]);
-					outputStream.println("2) time : " + s[1]);
-					outputStream.println("3) message : " + s[2]);
-				}
-				//else System.out.println("Fail to parse");
+		for(String line : TXTData) {
+			int kind = chooseParseType(line);
+			if(kind == 1) {
+				date = parseDate(line);
+			}
+			else if(kind == 2) {
+				s = parseLine(line, date);
+				data.add(s);
 			}
 
-		} catch (FileNotFoundException e) {
-			System.out.println ("Error writing the file");
-			e.printStackTrace();
-			System.exit(0);
 		} 
 		System.out.println("Finish to output/ TXT");
-		outputStream.close();
-
+		parsedData = data;
 		return data;
 	}
 

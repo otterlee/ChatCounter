@@ -2,7 +2,6 @@ package edu.handong.csee.java.hw3;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -10,23 +9,34 @@ import org.apache.commons.lang3.StringUtils;
  * In this class, When get the path of the input files, read the files there. 
  * if it is a CSV file, put that file to ArrayList 'CSVFiles'. Or if it is a TXT file, put that file to ArrayList 'TXTFiles'.
  * Open files in different formats and put the string in the ArrayList 'messages' one after the other in order. 
+ * About Instance variables,
+ * 'messages' is ArrayList containing strings of messages.
+ * 'CSVFiles' and 'TXTFiles' are ArrayList containing files of each format.
+ * 'CSVData' and 'TXTData' are ArrayList containing strings from messages for each format.
  * 
- * ArrayList<String> messages is containing one line of messages.
-	
- * @author suagu
+ * @author sua
  *
  */
 
 
 public class DataReader {
 	//class that reads file. In this class, instantiate DataReaderForCSV or DataReaderForTXT by file type.
-	ArrayList<String> messages;
+	
 	ArrayList<File> CSVFiles;
 	ArrayList<File> TXTFiles;
 	ArrayList<String> CSVdata;
 	ArrayList<String> TXTdata;
 
-
+	/**
+	 * GetData is the main method in DataReader class.
+	 * By using getDirectory, obtain file directory.
+	 * And use getListOfFilesFromDirectory to get file arrayList.
+	 * and by reaFiles method, set the CSVData and TXT data.
+	 * 
+	 * @param strDir is came from ChatMessageCounter class which is main class.
+	 * strDir is path of input files. 
+	 * 
+	 */
 	public void getData(String strDir){
 		File myDir = getDirectory(strDir);
 		getListOfFilesFromDirectory(myDir);
@@ -71,8 +81,6 @@ public class DataReader {
 
 				while ((line = br.readLine()) != null) {
 					if(f.getName().contains(".csv")) {
-						//if(!line.endsWith("\"")) continue;
-						//if(line.contains("김석진")) System.out.println(line);
 						int count = StringUtils.countMatches(line, "\"");
 						if(!line.contains("\"")) continue;
 						if(count == 1) continue;
@@ -80,7 +88,6 @@ public class DataReader {
 						data.add(line);
 					}
 					else if(f.getName().contains(".txt")){
-						//if(line.contains("김석진")) System.out.println(line);
 						data.add(line);
 					}
 				}

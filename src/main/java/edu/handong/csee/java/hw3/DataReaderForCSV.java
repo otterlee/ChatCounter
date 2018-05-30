@@ -12,6 +12,18 @@ import java.io.PrintWriter;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import com.opencsv.*;
+
+/**
+ * DataReaderForCSV class is the class that parse the strings from csv file and put to CSVData ArrayList.
+ * @author suagu
+ * 
+ * CSVData is the raw data from DataReader class.
+ * parsedData is parsed data from parseCSV method.
+ * pattern is the pattern type of string from csv file.
+ * Pattern p is for parsing. 
+ * 
+ */
+
 public class DataReaderForCSV {
 	ArrayList<String> CSVData;
 	ArrayList<String[]> data;
@@ -23,39 +35,31 @@ public class DataReaderForCSV {
 		this.CSVData = csvData;
 	}
 
+	/**
+	 * ParseCSV method is the main method in this class.
+	 * Use method mergeDatetime to make date and time easy to compare in check redundancy).
+	 * put parsed data into string array and put string array to data which is arrayList which contains parsed data.
+	 * 
+	 * @return data is the parsed data.
+	 */
+
 	public ArrayList<String[]> parseCSV() {
 		this.data = new ArrayList<String[]>();
-		String fileName = "outCSV.txt";
-		PrintWriter outputStream = null;
 
-		System.out.println ("Those lines were written to " + fileName);
-		try {
-			outputStream = new PrintWriter(fileName);
-			for(String line : CSVData) {
-				Matcher matcher = p.matcher(line);
+		for(String line : CSVData) {
+			Matcher matcher = p.matcher(line);
 
-				if(matcher.find()) {
-					if(matcher.group(1).equals("Data")) {
-						continue;
-					}
-					//System.out.println(line);
-					String timeData = mergeDatetime(matcher.group(1));
-					String []m = {matcher.group(2), timeData, matcher.group(3)};
-					outputStream.println("1) name : " + m[0]);
-					//System.out.println(m[0]);
-					outputStream.println("2) time : " + m[1]);
-					outputStream.println("3) message : " + m[2]);
-					data.add(m);
+			if(matcher.find()) {
+				if(matcher.group(1).equals("Data")) {
+					continue;
 				}
+				String timeData = mergeDatetime(matcher.group(1));
+				String []m = {matcher.group(2), timeData, matcher.group(3)};
+				data.add(m);
 			}
 
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-			System.exit(0);
-		}
-		System.out.println("Finish to output/ CSV");
-		
-		outputStream.close();
+		} 
+
 		return data;
 	}
 

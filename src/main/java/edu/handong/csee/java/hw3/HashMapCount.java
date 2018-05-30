@@ -1,45 +1,31 @@
 package edu.handong.csee.java.hw3;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
 
 public class HashMapCount extends HashMap<String, Integer> {
-
-	public void run() {
-		//List<Student> list = new ArrayList<Student>();
-		/*Collections.sort(list, new Comparator<HashMap>() {
-			@Override
-			public int compare(HashMapCount.get(name), HashMapCount h2) {
-				if (h1.getCount() < 2.getCount()) {
-					return -1;
-				} else if (s1.getcount() > s2.getcount()) {
-					return 1;
-				}
-				return 0;
-			}
-		});
-
-		 for (Student s : list) {
-			 System.out.println(s.getcount());
-		 }*/
-	}
-}
-
-class HashMapCount2 {
 	String name;
-	int count;
+	String count;
 
-	public HashMapCount2(String name, int count) {
-		this.name = name;
-		this.count = count;
-	}
+	public List sortByCount(HashMap map) {
+		List<String> list = new ArrayList();
+		list.addAll(map.keySet());
 
-	public String getName() {
-		return this.name;
-	}
+		Collections.sort(list,new Comparator() {
 
-	public int getCount() {
-		return this.count;
+			public int compare(Object o1,Object o2) {
+				Object v1 = map.get(o1);
+				Object v2 = map.get(o2);
+
+				return ((Comparable) v2).compareTo(v1);
+			}
+
+		});
+		return list;
 	}
 }
+
 

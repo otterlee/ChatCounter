@@ -4,10 +4,18 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class MessageFilter implements Comparable<MessageFilter>{
+/**
+ * MessageFilet is the class that check redundancy and count the chat count for each users. 
+ * 
+ * @author suagu
+ *
+ */
+
+public class MessageFilter {
 	ArrayList<String[]> dataList;
 	HashMap<String, ArrayList<String[]>> filteredChatDataList;
 	HashMap<String, Integer> chatCount;
@@ -15,16 +23,31 @@ public class MessageFilter implements Comparable<MessageFilter>{
 	MessageFilter(ArrayList<String[]> dataList){
 		this.dataList = dataList;
 	}
+	/**
+	 * filterData is the main method.
+	 * In this method, use createHashMap method to create HashMap which value is message list from dataList..
+	 * and call checkRedundancy method to check redundancy and remove that message.
+	 * and call createCountList to create hashmap which value is chat count.
+	 */
 
 	public void filterData() {
 		filteredChatDataList = createHashMap();
 		checkRedundancy(filteredChatDataList);
 		chatCount = createCountList(filteredChatDataList);
 		//chatCount = sortHashMap(chatCount);
+
+		Iterator iterator = chatCount.keySet().iterator();
+
+		//Iterator it = sortByValue(catDataList).iterator();
+		while(iterator.hasNext()) {
+			String temp = (String)iterator.next();
+			System.out.println(temp + " = " + chatCount.get(temp));
+		}
+
 	}
 
 	private void checkRedundancy(HashMap<String, ArrayList<String[]>> messageSets){
-		
+
 		for(String name : messageSets.keySet()) {
 			ArrayList<String[]> allMessages = messageSets.get(name);
 			ArrayList<String[]> resultList = new ArrayList<String[]>();
@@ -50,9 +73,7 @@ public class MessageFilter implements Comparable<MessageFilter>{
 	}
 
 	private boolean checkPhotoRedundancy(ArrayList<String[]> arrayList, String[] arr) {
-		//System.out.println("\narr[0] // arr[1]"+ arr[0] +" // "+arr[1]);
 		for(String s[] : arrayList) {
-			//System.out.println("s[0] // s[1]"+ s[0] +" // "+s[1]);
 			if(s[0].equals(arr[0])&&(s[1].equals("Photo") && arr[1].equals("사진")) 
 					|| (s[1].equals("사진") && arr[1].equals("Photo"))) return true;
 
@@ -91,41 +112,6 @@ public class MessageFilter implements Comparable<MessageFilter>{
 		return messageSet;
 	}
 
-	private HashMap<String, Integer> sortHashMap(HashMap<String, Integer> originalHashMap){
-		HashMap<String, Integer> copiedHashMap = originalHashMap;
-		System.out.println("복사 잘 됐다");
-		HashMap<String, Integer> sortedHashMap = new HashMap<String, Integer>();
-		int max = 0;
-		String maxCountUser = "";
 
-		int count = 1;
-		for(int i= 0; i< copiedHashMap.size(); i++) {
-			for(String nameInnerLoop : copiedHashMap.keySet()) {
-				if(originalHashMap.get(nameInnerLoop) > max) {
-					max = originalHashMap.get(nameInnerLoop);
-					maxCountUser = nameInnerLoop;
-					System.out.println("max 찾았다.");
-					System.out.println(maxCountUser);
-					System.out.println(count);
-					count++;
-				}
-			}
-			sortedHashMap.put(maxCountUser, originalHashMap.get(maxCountUser));
-			copiedHashMap.remove(maxCountUser);
-		}
-
-		for(String name : sortedHashMap.keySet()) {
-			System.out.println("key = "+name+" value = "+sortedHashMap.get(name));
-		}
-
-		return sortedHashMap;
-
-	}
-
-	@Override
-	public int compareTo(MessageFilter arg0) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 }
 
