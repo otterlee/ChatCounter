@@ -6,9 +6,8 @@ import java.util.HashMap;
 public class HashMapCount extends HashMap<String, Integer> {
 
 	public void run() {
-		List<Student> list = new ArrayList<Student>();
-		HashMapCount 
-		Collections.sort(list, new Comparator<Student>() {
+		//List<Student> list = new ArrayList<Student>();
+		/*Collections.sort(list, new Comparator<HashMap>() {
 			@Override
 			public int compare(HashMapCount.get(name), HashMapCount h2) {
 				if (h1.getCount() < 2.getCount()) {
@@ -22,15 +21,15 @@ public class HashMapCount extends HashMap<String, Integer> {
 
 		 for (Student s : list) {
 			 System.out.println(s.getcount());
-		 }
+		 }*/
 	}
 }
 
-class HashMapCount {
+class HashMapCount2 {
 	String name;
 	int count;
 
-	public HashMapCount(String name, int count) {
+	public HashMapCount2(String name, int count) {
 		this.name = name;
 		this.count = count;
 	}

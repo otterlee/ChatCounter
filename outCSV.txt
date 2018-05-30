@@ -1,0 +1,6123 @@
+1) name : 남재창
+2) time : 201803230903
+3) message : Good morning everyone. Today is clean and sunny. Hope to see you soon!
+1) name : 권현우
+2) time : 201803230913
+3) message : good morning :)
+1) name : 채지혜
+2) time : 201803230913
+3) message : Good morning :) See you soon~~~~
+1) name : Sovan Chhaya
+2) time : 201803230935
+3) message : Morning
+1) name : 권현우
+2) time : 201803230939
+3) message : min/2
+1) name : 채지혜
+2) time : 201803230950
+3) message : month
+1) name : 명진
+2) time : 201803251600
+3) message : Professor JC, for the hw1, im having a problem making a javadoc for my main class. the comments wont appear in my javadoc for my main class even if i wrote the comments correctly
+1) name : 권현우
+2) time : 201803251602
+3) message : I had similar problem too.
+1) name : 권현우
+2) time : 201803251603
+3) message : In some classes it won't even appear, and for a pair of classes(Calculator, Calculator main) only one comment appeared
+1) name : 권현우
+2) time : 201803251603
+3) message : but anyway javadoc was made(some without a single comment).
+1) name : 남재창
+2) time : 201803251617
+3) message : 명진 can you send me an email with your code for the class
+1) name : 남재창
+2) time : 201803251617
+3) message : ?
+1) name : 명진
+2) time : 201803251622
+3) message : i sended the codes to your email JC
+1) name : 남재창
+2) time : 201803251629
+3) message : Got it and replied. Javadoc must be put right before the class/method/fileld.
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Excuse me JC it is how to summit the Homework...?
+1) name : 남재창
+2) time : 201803252017
+3) message : Yes you've done HW1-2.
+1) name : Sovan Chhaya
+2) time : 201803252018
+3) message : That right JC ...?
+1) name : 남재창
+2) time : 201803252018
+3) message : Yeap
+1) name : Sovan Chhaya
+2) time : 201803252018
+3) message : Thank you JC
+1) name : 남재창
+2) time : 201803252019
+3) message : Press 전송
+1) name : Sovan Chhaya
+2) time : 201803252019
+3) message : Finished JC
+1) name : 남재창
+2) time : 201803252041
+3) message : Ok good!
+1) name : 이준섭
+2) time : 201803261704
+3) message : hello professor I seem to get error while trying to create archieve file and i tried giving permission to access this .zip file but its not working
+1) name : 이준섭
+2) time : 201803261704
+3) message : Photo
+1) name : 남재창
+2) time : 201803261710
+3) message : Could you try to export to another directoy such as just C:\? Where did you install Eclipse? Close your Eclipse and Put your eclipse installed directory into C:\Program Files and then try again. If you can't solve the problem, make an appointment with me and stop by. Also check your path to export includes any Korean chracters and space.
+1) name : 이준섭
+2) time : 201803261719
+3) message : it worked!! thank you so much professor :D
+1) name : 남재창
+2) time : 201803261719
+3) message : What was the problem?
+1) name : 이준섭
+2) time : 201803261720
+3) message : i think it was bcas i was writing to the file in desktop and also my eclipse.exe was outside C:\Program Files
+1) name : 남재창
+2) time : 201803261720
+3) message : OK, got it. Thanks~
+1) name : 이준섭
+2) time : 201803261720
+3) message : i did both and it worked ^^
+1) name : 이준섭
+2) time : 201803261720
+3) message : thank you :D
+1) name : 남재창
+2) time : 201803261955
+3) message : HW1-1 due is approaching in about two hours. Hope you are ready to submit!
+1) name : 권현우
+2) time : 201803271002
+3) message : since git is for a team project mainly
+1) name : 권현우
+2) time : 201803271030
+3) message : Cesco?
+1) name : 한별
+2) time : 201803271033
+3) message : Fkiller
+1) name : 한상민
+2) time : 201803271034
+3) message : could you tell me one more why we should use void type?
+1) name : 한상민
+2) time : 201803271036
+3) message : OK!
+1) name : 영인
+2) time : 201803271049
+3) message : main
+1) name : NYB☆
+2) time : 201803271124
+3) message : Is there any student that still stay in classroom? TT
+1) name : 남재창
+2) time : 201803271126
+3) message : I'm here
+1) name : 남재창
+2) time : 201803271126
+3) message : Why
+1) name : NYB☆
+2) time : 201803271128
+3) message : Ah, nono. I think I solve it! Thank you :)
+1) name : 정승영
+2) time : 201803271141
+3) message : Photo
+1) name : 정승영
+2) time : 201803271142
+3) message : Can somebody help me solve this prob? TT
+1) name : 권현우
+2) time : 201803271144
+3) message : maybe your system variable directory is not valid...?
+1) name : 권현우
+2) time : 201803271144
+3) message : from previous lab, installing jdk
+1) name : 남재창
+2) time : 201803271153
+3) message : Check 파일탐색기 if there is c:\Program Files\Java\jdk-9.0.4
+1) name : 권현우
+2) time : 201803271314
+3) message : for the ""Project root directory"", does it need a specific directory or just putting anywhere would be ok?
+1) name : 권현우
+2) time : 201803271314
+3) message : Photo
+1) name : 남재창
+2) time : 201803271316
+3) message : Anyware would be fine. But Eclipse are not good at dealing wiht Korean chracters and space in path so do not create the directory under any path with Korean characters and space.
+1) name : 남재창
+2) time : 201803271317
+3) message : For that figure, you must create it before import.
+1) name : 권현우
+2) time : 201803271320
+3) message : I imported it and there is no below folders except the gradle folder itself.. would it be ok?
+1) name : 권현우
+2) time : 201803271320
+3) message : Photo
+1) name : 권현우
+2) time : 201803271320
+3) message : in the lab slides, there were bunch of folders below. but mine has nothing.
+1) name : 남재창
+2) time : 201803271320
+3) message : how could you init gradle?
+1) name : 권현우
+2) time : 201803271321
+3) message : init gradle?
+1) name : 권현우
+2) time : 201803271321
+3) message : by cmd?
+1) name : 남재창
+2) time : 201803271322
+3) message : Check Task (2) in Lab06 slide
+1) name : 남재창
+2) time : 201803271322
+3) message : Create an empty Gradle Java project in the directory where you created a local project git repository. (Learned in Lecture 09)
+1) name : 권현우
+2) time : 201803271323
+3) message : Thank you JC :)
+1) name : 남재창
+2) time : 201803271324
+3) message : No problem. Follow the steps one by one as in Task (1) and Task (2) in Lab06 slides. You will repate this for each lab or HW. Cheers!
+1) name : 윤종욱
+2) time : 201803271331
+3) message : JC I made lab06 package in src/main/java, is it right? 
+1) name : 윤종욱
+2) time : 201803271331
+3) message : Photo
+1) name : 남재창
+2) time : 201803271333
+3) message : Yes right
+1) name : 남재창
+2) time : 201803271334
+3) message : Do not add to index for bin and doc directory. You can ignore them by pop-menu >> Team >> ignore.
+1) name : 권현우
+2) time : 201803271335
+3) message : Um, hope it would be the last question, but for the gradle I made a new Path in 시스템 환경 변수, and the previous Path for jdk is gone.
+1) name : 권현우
+2) time : 201803271335
+3) message : Seems like in Windows7 I only can make one Path in 시스템 변수.
+1) name : 윤종욱
+2) time : 201803271335
+3) message : Thank you JC(굿)
+1) name : 남재창
+2) time : 201803271336
+3) message : It seems ou accidently deleted it. paths can be concatenated with "";"" path1;path2;path3;
+1) name : 남재창
+2) time : 201803271337
+3) message : C:\Program Files\Java\jdk-9.0.4\bin;C:\Gradle\gradle4.0.6\bin;.....
+1) name : 권현우
+2) time : 201803271337
+3) message : Oh then I just need to add at the end of previous directory
+1) name : 남재창
+2) time : 201803271337
+3) message : Yes
+1) name : 권현우
+2) time : 201803271338
+3) message : Thank you.....
+1) name : 남재창
+2) time : 201803271338
+3) message : No problem!
+1) name : 정승영
+2) time : 201803271452
+3) message : do we have the specific name for the repository that we need to do for this lab?
+1) name : 남재창
+2) time : 201803271811
+3) message : Yes. Check the slided. There is a specific name.
+1) name : 남재창
+2) time : 201803291646
+3) message :  If you have difficulties to initiate git and gradle, check this slides. This is the easiest way I found until now.
+1) name : 남재창
+2) time : 201803291646
+3) message : https://docs.google.com/presentation/d/1A_ozTjvcMzZM-0P9pXK3Ucyyi-LgYgpunwrZrhwwMHY/edit
+1) name : 서남진
+2) time : 201803292119
+3) message : JC, I imported gradle java project in eclipse
+1) name : 서남진
+2) time : 201803292120
+3) message : Photo
+1) name : 남재창
+2) time : 201803292125
+3) message : Which command did you use to init Gradle?
+1) name : 남재창
+2) time : 201803292126
+3) message : In cmd, can you run javac -version?
+1) name : 서남진
+2) time : 201803292131
+3) message : I use this command grandle init --type java-library
+1) name : 서남진
+2) time : 201803292132
+3) message : and i can run javac -version
+1) name : 남재창
+2) time : 201803292132
+3) message : What java version do you use?
+1) name : 서남진
+2) time : 201803292132
+3) message : javac 9.0.4
+1) name : 남재창
+2) time : 201803292133
+3) message : Do you use mac?
+1) name : 남재창
+2) time : 201803292133
+3) message : or windows?
+1) name : 서남진
+2) time : 201803292133
+3) message : I use windows
+1) name : 남재창
+2) time : 201803292135
+3) message : You project has ! sign in your project. There is Problems tab under the editor. Check the error message there and let me know the error message.
+1) name : 서남진
+2) time : 201803292138
+3) message : Photo
+1) name : 서남진
+2) time : 201803292139
+3) message : is this the error you mentioned?? not quite sure -
+1) name : 서남진
+2) time : 201803292139
+3) message : :(
+1) name : 남재창
+2) time : 201803292139
+3) message : That is the erro
+1) name : 남재창
+2) time : 201803292139
+3) message : r.
+1) name : 남재창
+2) time : 201803292139
+3) message : your javac is version 9 but jre seems version 10.
+1) name : 남재창
+2) time : 201803292140
+3) message : in cmd, check java -version (not javac bug java)
+1) name : 남재창
+2) time : 201803292140
+3) message : (bug-> but)
+1) name : 서남진
+2) time : 201803292141
+3) message : You're right my java version is 10
+1) name : 남재창
+2) time : 201803292141
+3) message : That is the issue.
+1) name : 남재창
+2) time : 201803292141
+3) message : Cany you set your jre path to java 9??
+1) name : 남재창
+2) time : 201803292144
+3) message : Try this : ""Go to Eclipse -> Preferences, under Java select ""Installed JREs"" and check one of the boxes to specify a default JRE. Click OK and then go back to your project's properties. Go to the ""Java Build Path"" section and choose the ""Libraries"" tab. Remove the unbound System Default library, then click the ""Add Library"" button. Select ""JRE System Library"" and you should be good to go!""
+1) name : 남재창
+2) time : 201803292144
+3) message : That is from : https://stackoverflow.com/questions/2083461/unbound-classpath-container-in-eclipse?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+1) name : 남재창
+2) time : 201803292145
+3) message : It is an old post but you may get some answer.
+1) name : 서남진
+2) time : 201803292146
+3) message : Thanks JC! I will try it and let you know. thanks alot 
+1) name : 명진
+2) time : 201803292149
+3) message : what do we need to sumbit after we are done the hw
+1) name : 남재창
+2) time : 201803292150
+3) message : Nothing. TA's will check your source code snapshot right that are commited right before the deadline.
+1) name : 남재창
+2) time : 201803292150
+3) message : I may give some comments directly on your remote git repos in GitHub before the deadline.
+1) name : 남재창
+2) time : 201803292151
+3) message : So, if you push your code in Github, You've done.
+1) name : 명진
+2) time : 201803292151
+3) message : then since the due date is on saterday, will the TAs contact us??
+1) name : 남재창
+2) time : 201803292151
+3) message : We may leave some comments.
+1) name : 남재창
+2) time : 201803292158
+3) message : I just put some comments for your code. Check them out.
+1) name : 정진혁
+2) time : 201803292201
+3) message : Professor, I am doing the homework 3 step by step. I am now trying to commit and push my implementation to the repository, but as you see under [Team], I don't see [Add to index]..
+1) name : 정진혁
+2) time : 201803292201
+3) message : Photo
+1) name : 남재창
+2) time : 201803292202
+3) message : It seems you did not initiate git in your project directory.
+1) name : 남재창
+2) time : 201803292202
+3) message : I made slides for the easiest way to init git, gradle, github. You may try these slides. https://docs.google.com/presentation/d/1A_ozTjvcMzZM-0P9pXK3Ucyyi-LgYgpunwrZrhwwMHY/edit
+1) name : 정진혁
+2) time : 201803292203
+3) message : thanks!!
+1) name : 권현우
+2) time : 201803292300
+3) message : JC, I cannot execute ""git clone"" in cmd. I followed previous steps but when I type git clone and my address, it says 'git' 은 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다. this.
+1) name : 남재창
+2) time : 201803292307
+3) message : did you install git? https://docs.google.com/presentation/d/1gBkrNSednTSyCyy2qkJprPHoK9LXydoB2sAW9M_fGv4/edit#slide=id.g324afad0ea_0_90
+1) name : 남재창
+2) time : 201803292308
+3) message : Check from the first page of the slides
+1) name : 권현우
+2) time : 201803292308
+3) message : sure I did
+1) name : 권현우
+2) time : 201803292309
+3) message : should I do all the cmd things in Git Cmd?
+1) name : 남재창
+2) time : 201803292309
+3) message : So git is working in Git cmd?
+1) name : 권현우
+2) time : 201803292310
+3) message : Yeap
+1) name : 권현우
+2) time : 201803292310
+3) message : until the ""clone"" code, everything is working fine
+1) name : 남재창
+2) time : 201803292310
+3) message : Then, use it. It  works like cmd.
+1) name : 남재창
+2) time : 201803292310
+3) message : But it is quite weired you can't run git in cmd.
+1) name : 권현우
+2) time : 201803292311
+3) message : Photo
+1) name : 권현우
+2) time : 201803292311
+3) message : I'll try using git CMD
+1) name : 남재창
+2) time : 201803292312
+3) message : yeap, try it.
+1) name : 남재창
+2) time : 201803292314
+3) message : or you may close CMD, open again and try git clone again.
+1) name : 권현우
+2) time : 201803292314
+3) message : Magic.
+1) name : 권현우
+2) time : 201803292314
+3) message : In git cmd it works.
+1) name : 권현우
+2) time : 201803292314
+3) message : Sorry for my ignorance .. JC....
+1) name : 남재창
+2) time : 201803292316
+3) message : No problem. You are doing great. Computers are sensitive. We should understand it. It always has reasons though.
+1) name : 권현우
+2) time : 201803292318
+3) message : That' right.
+1) name : Yeun
+2) time : 201803300036
+3) message : Yeun joined this chatroom.
+1) name : 정진혁
+2) time : 201803300240
+3) message : Professor, I did not use method except the main method.
+1) name : 정진혁
+2) time : 201803300241
+3) message : I did all of the work step by step and the program displays right values.
+1) name : 정진혁
+2) time : 201803300242
+3) message : Do I lose points if I do not use methods?
+1) name : 남재창
+2) time : 201803300634
+3) message : No, you don't lose points.
+1) name : 남재창
+2) time : 201803300903
+3) message : But at least you will use a main method, won't you?
+1) name : 정진혁
+2) time : 201803300925
+3) message : yes. thank you sir!
+1) name : 한상민
+2) time : 201803301000
+3) message : what is skip?
+1) name : 한상민
+2) time : 201803301009
+3) message : in continue
+1) name : 한상민
+2) time : 201803301011
+3) message : yes!
+1) name : 한상민
+2) time : 201803301049
+3) message : could you upload source code of HW1?
+1) name : 한상민
+2) time : 201803301050
+3) message : 1-1
+1) name : 한상민
+2) time : 201803301051
+3) message : I wanna know how should we do single line comment
+1) name : 남재창
+2) time : 201803301221
+3) message : Add single-line comments for variable definitions and all other statements. For class and method definitions you need only javadoc.
+1) name : 정진혁
+2) time : 201803301227
+3) message : Professor how can I submit the HW 1-3?
+1) name : 남재창
+2) time : 201803301230
+3) message : If you comit and push all code github, that is all.
+1) name : 정진혁
+2) time : 201803301232
+3) message : okay, thanks!
+1) name : 남재창
+2) time : 201803301301
+3) message :  If you are struggling to init git, github, gradle, please see the slides I made yesterday (check the lecture note). Initiating git, github, gradle just takes several minutes. If your HW1-3 is mess becuase of git, github, and gradle, then back up only your code and start HW1-3 from the scratch by initiating git,github, gradle by following the slides. That could be easier and you can save your precious time.
+1) name : 남재창
+2) time : 201803301306
+3) message : Always read slides carefully!
+1) name : 조정훈
+2) time : 201803301412
+3) message : JC, which shortcut key shows all variables I defined?
+1) name : 남재창
+2) time : 201803301412
+3) message : In Eclipse?
+1) name : 조정훈
+2) time : 201803301416
+3) message : yes
+1) name : 남재창
+2) time : 201803301420
+3) message : Do you mean outline view?
+1) name : 남재창
+2) time : 201803230903
+3) message : Good morning everyone. Today is clean and sunny. Hope to see you soon!
+1) name : 권현우
+2) time : 201803230913
+3) message : good morning :)
+1) name : 채지혜
+2) time : 201803230913
+3) message : Good morning :) See you soon~~~~
+1) name : Sovan Chhaya
+2) time : 201803230935
+3) message : Morning
+1) name : 권현우
+2) time : 201803230939
+3) message : min/2
+1) name : 채지혜
+2) time : 201803230950
+3) message : month
+1) name : 명진
+2) time : 201803251600
+3) message : Professor JC, for the hw1, im having a problem making a javadoc for my main class. the comments wont appear in my javadoc for my main class even if i wrote the comments correctly
+1) name : 권현우
+2) time : 201803251602
+3) message : I had similar problem too.
+1) name : 권현우
+2) time : 201803251603
+3) message : In some classes it won't even appear, and for a pair of classes(Calculator, Calculator main) only one comment appeared
+1) name : 권현우
+2) time : 201803251603
+3) message : but anyway javadoc was made(some without a single comment).
+1) name : 남재창
+2) time : 201803251617
+3) message : 명진 can you send me an email with your code for the class
+1) name : 남재창
+2) time : 201803251617
+3) message : ?
+1) name : 명진
+2) time : 201803251622
+3) message : i sended the codes to your email JC
+1) name : 남재창
+2) time : 201803251629
+3) message : Got it and replied. Javadoc must be put right before the class/method/fileld.
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Excuse me JC it is how to summit the Homework...?
+1) name : 남재창
+2) time : 201803252017
+3) message : Yes you've done HW1-2.
+1) name : Sovan Chhaya
+2) time : 201803252018
+3) message : That right JC ...?
+1) name : 남재창
+2) time : 201803252018
+3) message : Yeap
+1) name : Sovan Chhaya
+2) time : 201803252018
+3) message : Thank you JC
+1) name : 남재창
+2) time : 201803252019
+3) message : Press 전송
+1) name : Sovan Chhaya
+2) time : 201803252019
+3) message : Finished JC
+1) name : 남재창
+2) time : 201803252041
+3) message : Ok good!
+1) name : 이준섭
+2) time : 201803261704
+3) message : hello professor I seem to get error while trying to create archieve file and i tried giving permission to access this .zip file but its not working
+1) name : 이준섭
+2) time : 201803261704
+3) message : Photo
+1) name : 남재창
+2) time : 201803261710
+3) message : Could you try to export to another directoy such as just C:\? Where did you install Eclipse? Close your Eclipse and Put your eclipse installed directory into C:\Program Files and then try again. If you can't solve the problem, make an appointment with me and stop by. Also check your path to export includes any Korean chracters and space.
+1) name : 이준섭
+2) time : 201803261719
+3) message : it worked!! thank you so much professor :D
+1) name : 남재창
+2) time : 201803261719
+3) message : What was the problem?
+1) name : 이준섭
+2) time : 201803261720
+3) message : i think it was bcas i was writing to the file in desktop and also my eclipse.exe was outside C:\Program Files
+1) name : 남재창
+2) time : 201803261720
+3) message : OK, got it. Thanks~
+1) name : 이준섭
+2) time : 201803261720
+3) message : i did both and it worked ^^
+1) name : 이준섭
+2) time : 201803261720
+3) message : thank you :D
+1) name : 남재창
+2) time : 201803261955
+3) message : HW1-1 due is approaching in about two hours. Hope you are ready to submit!
+1) name : 권현우
+2) time : 201803271002
+3) message : since git is for a team project mainly
+1) name : 권현우
+2) time : 201803271030
+3) message : Cesco?
+1) name : 한별
+2) time : 201803271033
+3) message : Fkiller
+1) name : 한상민
+2) time : 201803271034
+3) message : could you tell me one more why we should use void type?
+1) name : 한상민
+2) time : 201803271036
+3) message : OK!
+1) name : 영인
+2) time : 201803271049
+3) message : main
+1) name : NYB☆
+2) time : 201803271124
+3) message : Is there any student that still stay in classroom? TT
+1) name : 남재창
+2) time : 201803271126
+3) message : I'm here
+1) name : 남재창
+2) time : 201803271126
+3) message : Why
+1) name : NYB☆
+2) time : 201803271128
+3) message : Ah, nono. I think I solve it! Thank you :)
+1) name : 정승영
+2) time : 201803271141
+3) message : Photo
+1) name : 정승영
+2) time : 201803271142
+3) message : Can somebody help me solve this prob? TT
+1) name : 권현우
+2) time : 201803271144
+3) message : maybe your system variable directory is not valid...?
+1) name : 권현우
+2) time : 201803271144
+3) message : from previous lab, installing jdk
+1) name : 남재창
+2) time : 201803271153
+3) message : Check 파일탐색기 if there is c:\Program Files\Java\jdk-9.0.4
+1) name : 권현우
+2) time : 201803271314
+3) message : for the ""Project root directory"", does it need a specific directory or just putting anywhere would be ok?
+1) name : 권현우
+2) time : 201803271314
+3) message : Photo
+1) name : 남재창
+2) time : 201803271316
+3) message : Anyware would be fine. But Eclipse are not good at dealing wiht Korean chracters and space in path so do not create the directory under any path with Korean characters and space.
+1) name : 남재창
+2) time : 201803271317
+3) message : For that figure, you must create it before import.
+1) name : 권현우
+2) time : 201803271320
+3) message : I imported it and there is no below folders except the gradle folder itself.. would it be ok?
+1) name : 권현우
+2) time : 201803271320
+3) message : Photo
+1) name : 권현우
+2) time : 201803271320
+3) message : in the lab slides, there were bunch of folders below. but mine has nothing.
+1) name : 남재창
+2) time : 201803271320
+3) message : how could you init gradle?
+1) name : 권현우
+2) time : 201803271321
+3) message : init gradle?
+1) name : 권현우
+2) time : 201803271321
+3) message : by cmd?
+1) name : 남재창
+2) time : 201803271322
+3) message : Check Task (2) in Lab06 slide
+1) name : 남재창
+2) time : 201803271322
+3) message : Create an empty Gradle Java project in the directory where you created a local project git repository. (Learned in Lecture 09)
+1) name : 권현우
+2) time : 201803271323
+3) message : Thank you JC :)
+1) name : 남재창
+2) time : 201803271324
+3) message : No problem. Follow the steps one by one as in Task (1) and Task (2) in Lab06 slides. You will repate this for each lab or HW. Cheers!
+1) name : 윤종욱
+2) time : 201803271331
+3) message : JC I made lab06 package in src/main/java, is it right? 
+1) name : 윤종욱
+2) time : 201803271331
+3) message : Photo
+1) name : 남재창
+2) time : 201803271333
+3) message : Yes right
+1) name : 남재창
+2) time : 201803271334
+3) message : Do not add to index for bin and doc directory. You can ignore them by pop-menu >> Team >> ignore.
+1) name : 권현우
+2) time : 201803271335
+3) message : Um, hope it would be the last question, but for the gradle I made a new Path in 시스템 환경 변수, and the previous Path for jdk is gone.
+1) name : 권현우
+2) time : 201803271335
+3) message : Seems like in Windows7 I only can make one Path in 시스템 변수.
+1) name : 윤종욱
+2) time : 201803271335
+3) message : Thank you JC(굿)
+1) name : 남재창
+2) time : 201803271336
+3) message : It seems ou accidently deleted it. paths can be concatenated with "";"" path1;path2;path3;
+1) name : 남재창
+2) time : 201803271337
+3) message : C:\Program Files\Java\jdk-9.0.4\bin;C:\Gradle\gradle4.0.6\bin;.....
+1) name : 권현우
+2) time : 201803271337
+3) message : Oh then I just need to add at the end of previous directory
+1) name : 남재창
+2) time : 201803271337
+3) message : Yes
+1) name : 권현우
+2) time : 201803271338
+3) message : Thank you.....
+1) name : 남재창
+2) time : 201803271338
+3) message : No problem!
+1) name : 정승영
+2) time : 201803271452
+3) message : do we have the specific name for the repository that we need to do for this lab?
+1) name : 남재창
+2) time : 201803271811
+3) message : Yes. Check the slided. There is a specific name.
+1) name : 남재창
+2) time : 201803291646
+3) message :  If you have difficulties to initiate git and gradle, check this slides. This is the easiest way I found until now.
+1) name : 남재창
+2) time : 201803291646
+3) message : https://docs.google.com/presentation/d/1A_ozTjvcMzZM-0P9pXK3Ucyyi-LgYgpunwrZrhwwMHY/edit
+1) name : 서남진
+2) time : 201803292119
+3) message : JC, I imported gradle java project in eclipse
+1) name : 서남진
+2) time : 201803292120
+3) message : Photo
+1) name : 남재창
+2) time : 201803292125
+3) message : Which command did you use to init Gradle?
+1) name : 남재창
+2) time : 201803292126
+3) message : In cmd, can you run javac -version?
+1) name : 서남진
+2) time : 201803292131
+3) message : I use this command grandle init --type java-library
+1) name : 서남진
+2) time : 201803292132
+3) message : and i can run javac -version
+1) name : 남재창
+2) time : 201803292132
+3) message : What java version do you use?
+1) name : 서남진
+2) time : 201803292132
+3) message : javac 9.0.4
+1) name : 남재창
+2) time : 201803292133
+3) message : Do you use mac?
+1) name : 남재창
+2) time : 201803292133
+3) message : or windows?
+1) name : 서남진
+2) time : 201803292133
+3) message : I use windows
+1) name : 남재창
+2) time : 201803292135
+3) message : You project has ! sign in your project. There is Problems tab under the editor. Check the error message there and let me know the error message.
+1) name : 서남진
+2) time : 201803292138
+3) message : Photo
+1) name : 서남진
+2) time : 201803292139
+3) message : is this the error you mentioned?? not quite sure -
+1) name : 서남진
+2) time : 201803292139
+3) message : :(
+1) name : 남재창
+2) time : 201803292139
+3) message : That is the erro
+1) name : 남재창
+2) time : 201803292139
+3) message : r.
+1) name : 남재창
+2) time : 201803292139
+3) message : your javac is version 9 but jre seems version 10.
+1) name : 남재창
+2) time : 201803292140
+3) message : in cmd, check java -version (not javac bug java)
+1) name : 남재창
+2) time : 201803292140
+3) message : (bug-> but)
+1) name : 서남진
+2) time : 201803292141
+3) message : You're right my java version is 10
+1) name : 남재창
+2) time : 201803292141
+3) message : That is the issue.
+1) name : 남재창
+2) time : 201803292141
+3) message : Cany you set your jre path to java 9??
+1) name : 남재창
+2) time : 201803292144
+3) message : Try this : ""Go to Eclipse -> Preferences, under Java select ""Installed JREs"" and check one of the boxes to specify a default JRE. Click OK and then go back to your project's properties. Go to the ""Java Build Path"" section and choose the ""Libraries"" tab. Remove the unbound System Default library, then click the ""Add Library"" button. Select ""JRE System Library"" and you should be good to go!""
+1) name : 남재창
+2) time : 201803292144
+3) message : That is from : https://stackoverflow.com/questions/2083461/unbound-classpath-container-in-eclipse?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+1) name : 남재창
+2) time : 201803292145
+3) message : It is an old post but you may get some answer.
+1) name : 서남진
+2) time : 201803292146
+3) message : Thanks JC! I will try it and let you know. thanks alot 
+1) name : 명진
+2) time : 201803292149
+3) message : what do we need to sumbit after we are done the hw
+1) name : 남재창
+2) time : 201803292150
+3) message : Nothing. TA's will check your source code snapshot right that are commited right before the deadline.
+1) name : 남재창
+2) time : 201803292150
+3) message : I may give some comments directly on your remote git repos in GitHub before the deadline.
+1) name : 남재창
+2) time : 201803292151
+3) message : So, if you push your code in Github, You've done.
+1) name : 명진
+2) time : 201803292151
+3) message : then since the due date is on saterday, will the TAs contact us??
+1) name : 남재창
+2) time : 201803292151
+3) message : We may leave some comments.
+1) name : 남재창
+2) time : 201803292158
+3) message : I just put some comments for your code. Check them out.
+1) name : 정진혁
+2) time : 201803292201
+3) message : Professor, I am doing the homework 3 step by step. I am now trying to commit and push my implementation to the repository, but as you see under [Team], I don't see [Add to index]..
+1) name : 정진혁
+2) time : 201803292201
+3) message : Photo
+1) name : 남재창
+2) time : 201803292202
+3) message : It seems you did not initiate git in your project directory.
+1) name : 남재창
+2) time : 201803292202
+3) message : I made slides for the easiest way to init git, gradle, github. You may try these slides. https://docs.google.com/presentation/d/1A_ozTjvcMzZM-0P9pXK3Ucyyi-LgYgpunwrZrhwwMHY/edit
+1) name : 정진혁
+2) time : 201803292203
+3) message : thanks!!
+1) name : 권현우
+2) time : 201803292300
+3) message : JC, I cannot execute ""git clone"" in cmd. I followed previous steps but when I type git clone and my address, it says 'git' 은 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다. this.
+1) name : 남재창
+2) time : 201803292307
+3) message : did you install git? https://docs.google.com/presentation/d/1gBkrNSednTSyCyy2qkJprPHoK9LXydoB2sAW9M_fGv4/edit#slide=id.g324afad0ea_0_90
+1) name : 남재창
+2) time : 201803292308
+3) message : Check from the first page of the slides
+1) name : 권현우
+2) time : 201803292308
+3) message : sure I did
+1) name : 권현우
+2) time : 201803292309
+3) message : should I do all the cmd things in Git Cmd?
+1) name : 남재창
+2) time : 201803292309
+3) message : So git is working in Git cmd?
+1) name : 권현우
+2) time : 201803292310
+3) message : Yeap
+1) name : 권현우
+2) time : 201803292310
+3) message : until the ""clone"" code, everything is working fine
+1) name : 남재창
+2) time : 201803292310
+3) message : Then, use it. It  works like cmd.
+1) name : 남재창
+2) time : 201803292310
+3) message : But it is quite weired you can't run git in cmd.
+1) name : 권현우
+2) time : 201803292311
+3) message : Photo
+1) name : 권현우
+2) time : 201803292311
+3) message : I'll try using git CMD
+1) name : 남재창
+2) time : 201803292312
+3) message : yeap, try it.
+1) name : 남재창
+2) time : 201803292314
+3) message : or you may close CMD, open again and try git clone again.
+1) name : 권현우
+2) time : 201803292314
+3) message : Magic.
+1) name : 권현우
+2) time : 201803292314
+3) message : In git cmd it works.
+1) name : 권현우
+2) time : 201803292314
+3) message : Sorry for my ignorance .. JC....
+1) name : 남재창
+2) time : 201803292316
+3) message : No problem. You are doing great. Computers are sensitive. We should understand it. It always has reasons though.
+1) name : 권현우
+2) time : 201803292318
+3) message : That' right.
+1) name : Yeun
+2) time : 201803300036
+3) message : Yeun joined this chatroom.
+1) name : 정진혁
+2) time : 201803300240
+3) message : Professor, I did not use method except the main method.
+1) name : 정진혁
+2) time : 201803300241
+3) message : I did all of the work step by step and the program displays right values.
+1) name : 정진혁
+2) time : 201803300242
+3) message : Do I lose points if I do not use methods?
+1) name : 남재창
+2) time : 201803300634
+3) message : No, you don't lose points.
+1) name : 남재창
+2) time : 201803300903
+3) message : But at least you will use a main method, won't you?
+1) name : 정진혁
+2) time : 201803300925
+3) message : yes. thank you sir!
+1) name : 한상민
+2) time : 201803301000
+3) message : what is skip?
+1) name : 한상민
+2) time : 201803301009
+3) message : in continue
+1) name : 한상민
+2) time : 201803301011
+3) message : yes!
+1) name : 한상민
+2) time : 201803301049
+3) message : could you upload source code of HW1?
+1) name : 한상민
+2) time : 201803301050
+3) message : 1-1
+1) name : 한상민
+2) time : 201803301051
+3) message : I wanna know how should we do single line comment
+1) name : 남재창
+2) time : 201803301221
+3) message : Add single-line comments for variable definitions and all other statements. For class and method definitions you need only javadoc.
+1) name : 정진혁
+2) time : 201803301227
+3) message : Professor how can I submit the HW 1-3?
+1) name : 남재창
+2) time : 201803301230
+3) message : If you comit and push all code github, that is all.
+1) name : 정진혁
+2) time : 201803301232
+3) message : okay, thanks!
+1) name : 남재창
+2) time : 201803301301
+3) message :  If you are struggling to init git, github, gradle, please see the slides I made yesterday (check the lecture note). Initiating git, github, gradle just takes several minutes. If your HW1-3 is mess becuase of git, github, and gradle, then back up only your code and start HW1-3 from the scratch by initiating git,github, gradle by following the slides. That could be easier and you can save your precious time.
+1) name : 남재창
+2) time : 201803301306
+3) message : Always read slides carefully!
+1) name : 조정훈
+2) time : 201803301412
+3) message : JC, which shortcut key shows all variables I defined?
+1) name : 남재창
+2) time : 201803301412
+3) message : In Eclipse?
+1) name : 조정훈
+2) time : 201803301416
+3) message : yes
+1) name : 남재창
+2) time : 201803301420
+3) message : Do you mean outline view?
+1) name : 조정훈
+2) time : 201803301530
+3) message : umm.. By the shortcut key, I can see all the variables which are already defined. So, I can write the variable just by clicking the variable in the list. You showed it when programming about bug infestation.
+1) name : 김기철
+2) time : 201803301546
+3) message : why my repository have no source code? there is only package and class name.TT
+1) name : 김기철
+2) time : 201803301547
+3) message : Photo
+1) name : 남재창
+2) time : 201803301551
+3) message : The shortcut is Ctrl + space, maybe.
+1) name : 조정훈
+2) time : 201803301557
+3) message : oh that's right thanks!!!!!
+1) name : 남재창
+2) time : 201803310915
+3) message : What file did you try to commit?
+1) name : 심준석
+2) time : 201803310920
+3) message : I tried BugInfestation but there is no reaction  
+1) name : 남재창
+2) time : 201803310925
+3) message : What is icon for that file?
+1) name : 심준석
+2) time : 201803310926
+3) message : I solved this problem
+1) name : 심준석
+2) time : 201803310927
+3) message : thanks for help professor
+1) name : 남재창
+2) time : 201803310928
+3) message : Great.
+1) name : Sovan Chhaya
+2) time : 201803310951
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803310952
+3) message : Excuse me JC.  why it doesn't work
+1) name : 한별
+2) time : 201803311009
+3) message : totalBugvolume variable writes twice....
+1) name : Sovan Chhaya
+2) time : 201803311011
+3) message : Oh really thank
+1) name : Sovan Chhaya
+2) time : 201803311015
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803311015
+3) message : Does it correct?
+1) name : 한별
+2) time : 201803311029
+3) message : my result same
+1) name : Sovan Chhaya
+2) time : 201803311032
+3) message : Thank you
+1) name : 남재창
+2) time : 201803311033
+3) message : Thanks 한별
+1) name : 한별
+2) time : 201803311034
+3) message : Have a good Weekend!
+1) name : 남재창
+2) time : 201803311227
+3) message : Hi Sovan. You can cast population as int. Also print out texts baes on lecture slides.
+1) name : Sovan Chhaya
+2) time : 201803311247
+3) message : Thank you JC i did it
+1) name : Sovan Chhaya
+2) time : 201803311545
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803311545
+3) message : That is done for Homework lab06 ? JC
+1) name : 남재창
+2) time : 201803311548
+3) message : I checked your code. Your javadoc position is wrong. And you missed javadoc for method.
+1) name : Sovan Chhaya
+2) time : 201803311549
+3) message : Oh I see I'll check again
+1) name : Sovan Chhaya
+2) time : 201803311550
+3) message : Can you command something in it
+1) name : Sovan Chhaya
+2) time : 201803311551
+3) message : Comment
+1) name : 남재창
+2) time : 201803311554
+3) message : I don't understand your question.
+1) name : Sovan Chhaya
+2) time : 201803311556
+3) message : Oh sorry , I mean can you commented something below my code
+1) name : Sovan Chhaya
+2) time : 201803311558
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803311558
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803311558
+3) message : Actually this java doc
+1) name : Sovan Chhaya
+2) time : 201803311558
+3) message : So to corrects it
+1) name : 남재창
+2) time : 201803311602
+3) message : Find what is wrong by your self. Answer is already in this chat room.
+1) name : 남재창
+2) time : 201803311606
+3) message : You should export javadoc if they are correct.
+1) name : 권현우
+2) time : 201803311629
+3) message : Javadoc must be put right before the class/method/field!
+1) name : 권현우
+2) time : 201803311630
+3) message : I had same problem before
+1) name : 권현우
+2) time : 201803311630
+3) message : so put it there and try to export again
+1) name : Sovan Chhaya
+2) time : 201803311631
+3) message : Yes I trying now
+1) name : 최우림
+2) time : 201803311634
+3) message : Photo
+1) name : 최우림
+2) time : 201803311634
+3) message : JC, can I ignore this warning?
+1) name : 남재창
+2) time : 201803311644
+3) message : Yes
+1) name : Sovan Chhaya
+2) time : 201803311649
+3) message : Can you check mine again it still have one error java doc can not export
+1) name : Sovan Chhaya
+2) time : 201803311650
+3) message : JC
+1) name : 최우림
+2) time : 201803311724
+3) message : Photo
+1) name : 최우림
+2) time : 201803311724
+3) message : JC, I can't click the finish. What's wrong this situation.
+1) name : 남재창
+2) time : 201803311817
+3) message : Please install Gradle plugin. Check slide in lecture note about Gradle.
+1) name : Yeun
+2) time : 201803311822
+3) message : Yeun left this chatroom.
+1) name : Sovan Chhaya
+2) time : 201803312132
+3) message : My javadoc it not inside the the doc folder , it outside the folder, I did it.
+1) name : 남재창
+2) time : 201803312200
+3) message : That is not a problem as you correctly put java doc in your java source code.
+1) name : Sovan Chhaya
+2) time : 201803312219
+3) message : Thank you JC
+1) name : 한상민
+2) time : 201804010105
+3) message : In hw1-4, i thought i should make a local repository by using cmd and link it with remote repasitory.
+1) name : 남재창
+2) time : 201804010711
+3) message : Did you do Gradle init?
+1) name : 한상민
+2) time : 201804011015
+3) message : Yes i did. I submitted HW1-3 with 5 commit.
+1) name : 남재창
+2) time : 201804011111
+3) message : Follow the steps from the recent slides using git clone.
+1) name : 권현우
+2) time : 201804030936
+3) message : overly loaded
+1) name : 이준섭
+2) time : 201804031008
+3) message : so overloaded methods are only called based on parameters right? not depending on return type
+1) name : 윤종욱
+2) time : 201804031505
+3) message : JC, in Lab07, Prob3 has no sample run(console). Do I just print “I’m sorry, <<name>>. You failed this course”? or like your code? 
+1) name : 조정훈
+2) time : 201804032115
+3) message : Photo
+1) name : 조정훈
+2) time : 201804032115
+3) message : JC, I create two javadocs for two classes in one package, but there is only one javadoc... where is another one?
+1) name : 조정훈
+2) time : 201804032234
+3) message : Also, when defining getter method, should I 'return' something? Can I just print values?
+1) name : 남재창
+2) time : 201804032235
+3) message : @종욱 just print “I’m sorry, <<name>>. You failed this course” For other parts,  you can follow the example code or other proper sentences.
+1) name : 남재창
+2) time : 201804032236
+3) message : @정훈 One javadoc has a package name in index.html. Then, click the package name and you will see two classes.
+1) name : 윤종욱
+2) time : 201804032236
+3) message : Thank you! 
+1) name : 남재창
+2) time : 201804032237
+3) message : For getter, you must return something and print it where it is called if necesary. Check getter examples from slides.
+1) name : 조정훈
+2) time : 201804032238
+3) message : okay thanks!
+1) name : 이준섭
+2) time : 201804042349
+3) message : Professor for prob3, can I use Math.random() or is it compulsary to use java.util.Random?
+1) name : 남재창
+2) time : 201804042357
+3) message : You can use any random method if your program generates correct output.
+1) name : 이준섭
+2) time : 201804042357
+3) message : Oh okay thank you ^.^
+1) name : 정진혁
+2) time : 201804050351
+3) message : Professor, Is it okay not to write Javadoc for constructors?
+1) name : 남재창
+2) time : 201804050639
+3) message : Constructor is a kind of method.
+1) name : 정진혁
+2) time : 201804050808
+3) message : oh i was confused. thanks professor!!
+1) name : 남재창
+2) time : 201804050833
+3) message : No problem ;)
+1) name : 정진혁
+2) time : 201804051122
+3) message : Photo
+1) name : 정진혁
+2) time : 201804051123
+3) message : Professor I got another question! How can I javadoc the constructor in the main class?
+1) name : 남재창
+2) time : 201804051205
+3) message : You can define javadoc like method but thiere is no return type. In your example, you can define like public Main_YTC() {  …. }
+1) name : 정진혁
+2) time : 201804051209
+3) message : right. I did define public Main_YTC. Then, can I leave the constructor description empty?
+1) name : 남재창
+2) time : 201804051210
+3) message : If you do not have any statements in your contrcutor, do not define it.
+1) name : 남재창
+2) time : 201804051211
+3) message : You just need to take care of only constructors that have any statements and parameters. No need to add javadoc for the emepty default contrructor.
+1) name : 정진혁
+2) time : 201804051215
+3) message : oh I got it!! Thank you so much!!
+1) name : 심준석
+2) time : 201804051710
+3) message : Professor JC . When I was trying to check indentation , there is no change even if I click correct identation button
+1) name : 이수현
+2) time : 201804051710
+3) message : 이수현 left this chatroom.
+1) name : 심준석
+2) time : 201804051711
+3) message : *identation  -> indentaion
+1) name : 심준석
+2) time : 201804051711
+3) message : How can I sovle this problem?
+1) name : 권현우
+2) time : 201804051712
+3) message : then yours is already perfect
+1) name : 권현우
+2) time : 201804051712
+3) message : no need to fix
+1) name : 심준석
+2) time : 201804051716
+3) message : Thanks for answering!  Yes I know like that before, but professor gave me comment that I have to check indentation again
+1) name : 권현우
+2) time : 201804051717
+3) message : that's right...
+1) name : 남재창
+2) time : 201804051805
+3) message : Ctrl+ a and then Ctrl +i for the indetation.
+1) name : 남재창
+2) time : 201804051806
+3) message : 심준석 try this. You will see indentation applies.
+1) name : 심준석
+2) time : 201804051811
+3) message : I did it and commit again .
+1) name : 한상민
+2) time : 201804052020
+3) message : Photo
+1) name : 한상민
+2) time : 201804052028
+3) message : 1.Do I must initialize in Java?
+1) name : 남재창
+2) time : 201804052119
+3) message : 1. what 'initilize' do you mean? 
+1) name : 남재창
+2) time : 201804052120
+3) message : 2. this means 'this class'. So this.variables are actuall class-level variables (instance varialbes.)
+1) name : 남재창
+2) time : 201804052121
+3) message : The reason using 'this' is to distinghish it with local varialbes. For example this.name = name.
+1) name : 남재창
+2) time : 201804052121
+3) message : local variable name is assigned to instance varialbe 'name'.
+1) name : 남재창
+2) time : 201804052122
+3) message : So, in case instance varialbe name is same as local variable, we must use 'this' for the instance variables in the same method.
+1) name : 한상민
+2) time : 201804052208
+3) message : 1. I mean... Does initialization of variable is must done?   
+1) name : 한상민
+2) time : 201804052208
+3) message : in Java?
+1) name : 한상민
+2) time : 201804052214
+3) message : It is really hard to me. I think even if I do not use this., I can distinguish. Should we distinguish for ""whom""? for machine? for other user of class? 
+1) name : 남재창
+2) time : 201804052222
+3) message : 1. to use a variable, we have to initialize it. The reason we define a variable is to hold some value. Initilization means assigning a value to a variable at very first.
+1) name : 이준섭
+2) time : 201804052223
+3) message : I think initializing is necessary for just every programming language just to be safe without errors but i mean of course you don't have to since its an option
+1) name : 이준섭
+2) time : 201804052224
+3) message : if you are talking about the initial value for the empty constructor its because when you create an object without a parameter there should be a default value
+1) name : 남재창
+2) time : 201804052224
+3) message : you don't need to use 'this.' in case instance variable name and local name is different. However, sometimes developers like to define the same names for both instance variable and local verable. For this reason, we may need to use ""this."" to distingiush instanve variable and local variable with same name.
+1) name : 한상민
+2) time : 201804052342
+3) message : @준섭, are you TA? Thank you! It is perfect answer for me.
+1) name : 남재창
+2) time : 201804060001
+3) message : 준섭 is one of classmates taking this course. I'm happy because of you guys with active discussions. Hope other students learn something from this chat room. Cheers!
+1) name : 권현우
+2) time : 201804060931
+3) message : tired
+1) name : 한상민
+2) time : 201804060938
+3) message : Is there any thing, when I changed a method?
+1) name : 한상민
+2) time : 201804060939
+3) message : same word in class
+1) name : 한상민
+2) time : 201804060939
+3) message : same words
+1) name : 한상민
+2) time : 201804060939
+3) message : a variable used in many where
+1) name : 한상민
+2) time : 201804060939
+3) message : ㅜ ㅜ
+1) name : 한상민
+2) time : 201804060940
+3) message : change at once
+1) name : 한상민
+2) time : 201804060941
+3) message : F2 rename?
+1) name : 권현우
+2) time : 201804060944
+3) message : Why do we use constructor?
+1) name : 정진혁
+2) time : 201804060945
+3) message : builder?
+1) name : 정진혁
+2) time : 201804060945
+3) message : not clear
+1) name : 영인
+2) time : 201804060956
+3) message : private
+1) name : 한별
+2) time : 201804060958
+3) message : Yes
+1) name : 김기철
+2) time : 201804061003
+3) message : Is there format for writing doc??
+1) name : 정진혁
+2) time : 201804061011
+3) message : Can we leave the index blacket empty for the array?
+1) name : 정진혁
+2) time : 201804061014
+3) message : bracket
+1) name : 정진혁
+2) time : 201804061016
+3) message : use for loop
+1) name : 정진혁
+2) time : 201804061020
+3) message : i+1
+1) name : 정진혁
+2) time : 201804061025
+3) message : array
+1) name : 정진혁
+2) time : 201804061025
+3) message : i
+1) name : 정진혁
+2) time : 201804061028
+3) message : in the field?
+1) name : 조정훈
+2) time : 201804061037
+3) message : Is it okay the three Saleman objects have same name(mySalesman)?
+1) name : 명진
+2) time : 201804061042
+3) message : numOfSalesman - 1
+1) name : 채지혜
+2) time : 201804061110
+3) message : Can anyone send the code which JC made?
+1) name : 채지혜
+2) time : 201804061115
+3) message : *some code...
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : 채지혜
+2) time : 201804061131
+3) message : (Emoticon) Thank you so much!
+1) name : samer
+2) time : 201804061131
+3) message : NP
+1) name : 김석진
+2) time : 201804061132
+3) message : Thanks!
+1) name : 권현우
+2) time : 201804100939
+3) message : Bubble sort?
+1) name : 영인
+2) time : 201804100939
+3) message : merge sort
+1) name : 영인
+2) time : 201804100939
+3) message : heap sort
+1) name : 한상민
+2) time : 201804100939
+3) message : quick sort
+1) name : 이준섭
+2) time : 201804100939
+3) message : Insertion sort
+1) name : 한상민
+2) time : 201804100939
+3) message : quick?
+1) name : 영인
+2) time : 201804100939
+3) message : quick sort???
+1) name : 이준섭
+2) time : 201804100939
+3) message : Quick sort?
+1) name : 영인
+2) time : 201804100940
+3) message : nlogn??
+1) name : 정진혁
+2) time : 201804100941
+3) message : find the smallest
+1) name : 권현우
+2) time : 201804100942
+3) message : 3
+1) name : 영인
+2) time : 201804100942
+3) message : 2
+1) name : 영인
+2) time : 201804100948
+3) message : Sorting1
+1) name : 조정훈
+2) time : 201804100950
+3) message : sorter
+1) name : 조정훈
+2) time : 201804100951
+3) message : new
+1) name : 한상민
+2) time : 201804100952
+3) message : Sorter MySorter = new Sorter;
+1) name : 이준섭
+2) time : 201804100952
+3) message : Array
+1) name : 조정훈
+2) time : 201804100954
+3) message : compare 
+1) name : 영인
+2) time : 201804100956
+3) message : length of array
+1) name : 영인
+2) time : 201804101001
+3) message : count
+1) name : 이준섭
+2) time : 201804101002
+3) message : Space character?
+1) name : Jonathan
+2) time : 201804101003
+3) message : Because we didn't declare the length of the array
+1) name : 조정훈
+2) time : 201804101018
+3) message : why the starting index isn't 0?
+1) name : Jonathan
+2) time : 201804101023
+3) message : What if index[0] is the smallest number?
+1) name : 이준섭
+2) time : 201804101208
+3) message : Im so sorry professor but I forgot to tell you i was tardy today!!
+1) name : 이준섭
+2) time : 201804101208
+3) message : I dont want to risk getting an absence T.T so sorry to tell you late
+1) name : 남재창
+2) time : 201804101209
+3) message : Ok, got it. Marked as tardy
+1) name : 이준섭
+2) time : 201804101209
+3) message : Thank you so much ^.^
+1) name : 남재창
+2) time : 201804101341
+3) message : After the today's class, one of students discussed about his HW score. If you think you are the guy, please send me an email.
+1) name : 정진혁
+2) time : 201804112009
+3) message : Professor I have a question from the last lab! I changed my branch to ReuseLoop and committed the changes. I see that I pushed a branch named ReuseLoop in Github. Do I have to change my branch to master?
+1) name : 한상민
+2) time : 201804112024
+3) message : It is also curious to me
+1) name : 남재창
+2) time : 201804112031
+3) message : You can't change your ReuseLoop branch into master but you can merge it if you like your current change. If you don't like the ReuseLoop brach, you can delete it. Do you want to learn how to merge?
+1) name : 정진혁
+2) time : 201804112032
+3) message : Oh then why can't I change my branch?
+1) name : 남재창
+2) time : 201804112032
+3) message : which branch?
+1) name : 남재창
+2) time : 201804112032
+3) message : in where?
+1) name : 정진혁
+2) time : 201804112032
+3) message : In eclipse!
+1) name : 남재창
+2) time : 201804112033
+3) message : Do you want to switch your branch from ReuseLoop to master?
+1) name : 정진혁
+2) time : 201804112036
+3) message : Um.. I am curious about the differenece between pushing with ReuseLoop and with master.
+1) name : 남재창
+2) time : 201804112038
+3) message : You can just keep two source code in git. You can unlimited variations of your program. You can implement experimental features of your program and if you like it you can merge the branch with master. In this way, your program can be improved. This is how developers work with git branches.
+1) name : 남재창
+2) time : 201804112038
+3) message : multiples developers work for different features in different branches and then we can merge all the branches so that we can complete our program together.
+1) name : 정진혁
+2) time : 201804112044
+3) message : Oh, so programmers can make their own branches which are like copies of the source code. When they modify the code and commit changes with the branches, the code editor decides whether to merge or not. And if we work with the master branch and commit the changes, there is no need to merge because it is the master branch.
+1) name : 정진혁
+2) time : 201804112044
+3) message : Do I understand correctly?
+1) name : 남재창
+2) time : 201804112045
+3) message : Yes.
+1) name : 정진혁
+2) time : 201804112046
+3) message : Oh I get it! Thank you so much, sir!
+1) name : 남재창
+2) time : 201804112046
+3) message : You may read this article. http://nvie.com/posts/a-successful-git-branching-model/
+1) name : 정진혁
+2) time : 201804112144
+3) message : Oh good source to read! Thanks professor:)
+1) name : 조정훈
+2) time : 201804112234
+3) message : Photo
+1) name : 조정훈
+2) time : 201804112234
+3) message : when I run the code, I cannot enter the name on console  
+1) name : 조정훈
+2) time : 201804112235
+3) message : Photo
+1) name : 조정훈
+2) time : 201804112235
+3) message : Like this... Help me~~~
+1) name : 영인
+2) time : 201804112237
+3) message : You need to put println instead of print
+1) name : 조정훈
+2) time : 201804112241
+3) message : Photo
+1) name : 김수현
+2) time : 201804112241
+3) message : Or write one more that line like getchar() in C
+1) name : 조정훈
+2) time : 201804112241
+3) message : I put println....but it's same....
+1) name : 조정훈
+2) time : 201804112244
+3) message : getchar()?? How?? can you explain more?
+1) name : 윤종욱
+2) time : 201804112245
+3) message : I think this code has no problem ... 
+1) name : 조정훈
+2) time : 201804112248
+3) message : I think so too.......(훌쩍)
+1) name : 김수현
+2) time : 201804112248
+3) message : Maybe you pressed enter(=input '₩n') because of setting the size of array. but nextline() reacts '₩n' so it was skipped
+1) name : 영인
+2) time : 201804112249
+3) message : Make 3 Scanner instances might solve problem
+1) name : 김수현
+2) time : 201804112249
+3) message : If you write that line one more, it will be solved.
+1) name : 조정훈
+2) time : 201804112250
+3) message : Oh!! I got it
+1) name : 조정훈
+2) time : 201804112251
+3) message : Photo
+1) name : 조정훈
+2) time : 201804112251
+3) message : Thank you very very much 영인 수현 and 종욱!!
+1) name : 남재창
+2) time : 201804112302
+3) message : Good discussion. Thanks all!
+1) name : 조정훈
+2) time : 201804112314
+3) message : good night(하하)
+1) name : 한상민
+2) time : 201804130933
+3) message : home...
+1) name : 이준섭
+2) time : 201804130937
+3) message : Is the exam going to be usually from what we did in the lab and homework?
+1) name : 이준섭
+2) time : 201804131035
+3) message : Is it a must to provide both int (key) and string if we call Hashmap<integer,String> or will it get a default key?
+1) name : 이준섭
+2) time : 201804131036
+3) message : Yes I am clear ^^
+1) name : 권현우
+2) time : 201804170952
+3) message : Clear
+1) name : 영인
+2) time : 201804170952
+3) message : yes
+1) name : 채지혜
+2) time : 201804170953
+3) message : yes
+1) name : 조정훈
+2) time : 201804170953
+3) message : yes
+1) name : 권현우
+2) time : 201804170958
+3) message : If you override, then you cannot use the original(overrided) method anymore. Is it right?
+1) name : 이준섭
+2) time : 201804170959
+3) message : Can you still access to superclass's method even after overriding?
+1) name : 이준섭
+2) time : 201804170959
+3) message : From the subclass
+1) name : 영인
+2) time : 201804171000
+3) message : constant
+1) name : 권현우
+2) time : 201804171007
+3) message : Can you define methods in child class as final? In order to prevent the children classes of the child class from overriding
+1) name : 영인
+2) time : 201804171010
+3) message : no
+1) name : 이준섭
+2) time : 201804171018
+3) message : When we call super.methodname() from subclass even after overriding that method we can still call the superclass's method right?
+1) name : 이준섭
+2) time : 201804171024
+3) message : Yes
+1) name : 조정훈
+2) time : 201804211656
+3) message : Photo
+1) name : 조정훈
+2) time : 201804211656
+3) message : why don't we put instance name in front of PrintMap method?
+1) name : 조정훈
+2) time : 201804211847
+3) message : I have a question about Hw 1-6. Is it right to include Salesman class in SalesReporter class?
+1) name : 조정훈
+2) time : 201804211848
+3) message : I don't understand why JC delete the Salesman.java file in class....
+1) name : 남재창
+2) time : 201804212011
+3) message : Thanks was for HashMap. For the hw1-6, you must have Salesman.java
+1) name : 남재창
+2) time : 201804212013
+3) message : Thanks--> That
+1) name : 조정훈
+2) time : 201804212019
+3) message : aha okay thanks~~
+1) name : 남재창
+2) time : 201804240855
+3) message : Strong wind today. Be careful!
+1) name : 권현우
+2) time : 201804240917
+3) message : doors are locked ㅠㅠ
+1) name : 남재창
+2) time : 201804240926
+3) message : Opened it. Thanks
+1) name : 권현우
+2) time : 201804240937
+3) message : many?
+1) name : 이준섭
+2) time : 201804240951
+3) message : In terms of execution and compilation whats the difference between static and dynamic binding?
+1) name : 이준섭
+2) time : 201804241000
+3) message : Thank you ^^
+1) name : NYB☆
+2) time : 201804241001
+3) message : we can't use setLevel function but we can assign people[] to undergraduate and save information? I can't understand TT
+1) name : 조정훈
+2) time : 201804241005
+3) message : to communicate with other developers
+1) name : 권현우
+2) time : 201804241006
+3) message : Easy to understand
+1) name : 권현우
+2) time : 201804241007
+3) message : for others?
+1) name : NYB☆
+2) time : 201804241018
+3) message : Thank you!
+1) name : 남재창
+2) time : 201804241101
+3) message : How we can call specific public methods in sub classes that are in Person array.
+1) name : 권현우
+2) time : 201804271039
+3) message : changing the return integer
+1) name : 남재창
+2) time : 201804271108
+3) message : Lab is a part of a class. Students who leave early without finising the lab today will be marked as ""Early Leave."" (조퇴).
+1) name : 윤종욱
+2) time : 201802281831
+3) message : 윤종욱 joined this chatroom.
+1) name : 남재창
+2) time : 201802281901
+3) message : Thanks and Welcome! You are the first guy joining in this chat room :)
+1) name : 최우림
+2) time : 201802281944
+3) message : 최우림 joined this chatroom.
+1) name : Yeun
+2) time : 201802282025
+3) message : Yeun joined this chatroom.
+1) name : LMH
+2) time : 201802282121
+3) message : LMH joined this chatroom.
+1) name : 권현우
+2) time : 201802282123
+3) message : 권현우 joined this chatroom.
+1) name : 정석
+2) time : 201802282225
+3) message : 정석 joined this chatroom.
+1) name : NYB☆
+2) time : 201803010047
+3) message : NYB☆ joined this chatroom.
+1) name : 한별
+2) time : 201803010132
+3) message : 한별 joined this chatroom.
+1) name : 서남진
+2) time : 201803010157
+3) message : 서남진 joined this chatroom.
+1) name : 권현우
+2) time : 201803010620
+3) message : 오늘 수업 있었던걸로 기억하고 있는데, 맞나요?
+1) name : 권현우
+2) time : 201803010620
+3) message : 잘 기억이 안나네요 ㅠㅠ
+1) name : 남재창
+2) time : 201803010622
+3) message : This chat is for the Tuesday/Friday class. So no class today :) Pleae use English as this class is conducted in English.(wink)
+1) name : 권현우
+2) time : 201803010627
+3) message : Oh, I'm sorry. Have a nice holiday!
+1) name : 남재창
+2) time : 201803010953
+3) message : You too (grin)
+1) name : 조완서
+2) time : 201803011302
+3) message : 조완서 joined this chatroom.
+1) name : 오세현
+2) time : 201803011828
+3) message : 오세현 joined this chatroom.
+1) name : 남재창
+2) time : 201803011854
+3) message : In the class, we do labs. So, please bring your laptop. We will install Eclipse and JRE tomorrow.
+1) name : 남재창
+2) time : 201803011939
+3) message : If you have time, please download Java JDK and Eclipse installation files on your laptop in advance. It may take long time if all students download the same files at the same time. You can check how to download the files in the lab1 PPT file in HisNet. Thanks!
+1) name : 조정훈
+2) time : 201803011939
+3) message : 조정훈 joined this chatroom.
+1) name : 조완서
+2) time : 201803011945
+3) message : Thank you professor.
+1) name : 남재창
+2) time : 201803011947
+3) message : You can just call me JC like 'Thank you JC.' :)
+1) name : 조완서
+2) time : 201803011947
+3) message : (굿)(굿)
+1) name : 오세현
+2) time : 201803011948
+3) message : Thank you JC :)
+1) name : 남재창
+2) time : 201803011950
+3) message : (wow)
+1) name : 김유진
+2) time : 201803012007
+3) message : 김유진 joined this chatroom.
+1) name : 백주열
+2) time : 201803012029
+3) message : 백주열 joined this chatroom.
+1) name : Jonathan
+2) time : 201803012138
+3) message : Jonathan joined this chatroom.
+1) name : 이명희
+2) time : 201803012332
+3) message : 이명희 joined this chatroom.
+1) name : 박유경
+2) time : 201803020006
+3) message : 박유경 joined this chatroom.
+1) name : 채지혜
+2) time : 201803020008
+3) message : 채지혜 joined this chatroom.
+1) name : 임수진
+2) time : 201803020049
+3) message : 임수진 joined this chatroom.
+1) name : 김기철
+2) time : 201803020104
+3) message : 김기철 joined this chatroom.
+1) name : 정진혁
+2) time : 201803020329
+3) message : 정진혁 joined this chatroom.
+1) name : 민주
+2) time : 201803020923
+3) message : 민주 joined this chatroom.
+1) name : 한상민
+2) time : 201803020924
+3) message : 한상민 joined this chatroom.
+1) name : 지승윤
+2) time : 201803020929
+3) message : 지승윤 joined this chatroom.
+1) name : 김석진
+2) time : 201803020931
+3) message : 김석진 joined this chatroom.
+1) name : 이수현
+2) time : 201803020937
+3) message : 이수현 joined this chatroom.
+1) name : 권준범
+2) time : 201803020937
+3) message : 권준범 joined this chatroom.
+1) name : 조혜린
+2) time : 201803020937
+3) message : 조혜린 joined this chatroom.
+1) name : 명진
+2) time : 201803020938
+3) message : 명진 joined this chatroom.
+1) name : 이준섭
+2) time : 201803020939
+3) message : 이준섭 joined this chatroom.
+1) name : Yeun
+2) time : 201803020944
+3) message : Hi!
+1) name : 권현우
+2) time : 201803020944
+3) message : hello~
+1) name : Jonathan
+2) time : 201803020944
+3) message : Hello
+1) name : 조정훈
+2) time : 201803020944
+3) message : hi
+1) name : Yeun
+2) time : 201803020944
+3) message : :"")
+1) name : 이준섭
+2) time : 201803020944
+3) message : Hello
+1) name : 김유진
+2) time : 201803020944
+3) message : Hi:))
+1) name : 오세현
+2) time : 201803020944
+3) message : Hi!
+1) name : 조혜린
+2) time : 201803020944
+3) message : hi!
+1) name : 이명희
+2) time : 201803020944
+3) message : hi
+1) name : 민주
+2) time : 201803020944
+3) message : Hi!!
+1) name : 채지혜
+2) time : 201803020944
+3) message : Hi
+1) name : 서남진
+2) time : 201803020944
+3) message : Hello
+1) name : 한별
+2) time : 201803020944
+3) message : Hello
+1) name : 김수현
+2) time : 201803020944
+3) message : 김수현 joined this chatroom.
+1) name : 김기철
+2) time : 201803020945
+3) message : Hello
+1) name : 권현우
+2) time : 201803020945
+3) message : its just fine
+1) name : Jonathan
+2) time : 201803020945
+3) message : It's okay
+1) name : 정진혁
+2) time : 201803020945
+3) message : fine
+1) name : Yeun
+2) time : 201803020945
+3) message : it's fine
+1) name : 정승영
+2) time : 201803020945
+3) message : 정승영 joined this chatroom.
+1) name : 한상민
+2) time : 201803020946
+3) message : ok
+1) name : 정진혁
+2) time : 201803020947
+3) message : Can I get access to your lecture note?
+1) name : Sovan Chhaya
+2) time : 201803020947
+3) message : Sovan Chhaya joined this chatroom.
+1) name : Sovan Chhaya
+2) time : 201803020947
+3) message : Hi
+1) name : 정승영
+2) time : 201803020947
+3) message : any programming language using compiler is mostly HLL
+1) name : 영인
+2) time : 201803020947
+3) message : 영인 joined this chatroom.
+1) name : 권현우
+2) time : 201803020956
+3) message : machines that run java code
+1) name : 정진혁
+2) time : 201803020956
+3) message : similar to a compiler..?
+1) name : 정승영
+2) time : 201803020956
+3) message : not realistic
+1) name : 명진
+2) time : 201803020956
+3) message : a computer inside a computer?
+1) name : 정승영
+2) time : 201803021000
+3) message : don't need to buy additional hardware
+1) name : 권현우
+2) time : 201803021000
+3) message : ad : you can run your code anywhere
+1) name : 조정훈
+2) time : 201803021000
+3) message :  disadvantage : make slow down computer
+1) name : Sovan Chhaya
+2) time : 201803021000
+3) message : Gonna be make your machine slow
+1) name : 권현우
+2) time : 201803021004
+3) message : no
+1) name : 조정훈
+2) time : 201803021004
+3) message : no
+1) name : Yeun
+2) time : 201803021005
+3) message : not yet
+1) name : Sovan Chhaya
+2) time : 201803021005
+3) message : Never
+1) name : 정진혁
+2) time : 201803021005
+3) message : nope
+1) name : 오세현
+2) time : 201803021005
+3) message : no
+1) name : 채지혜
+2) time : 201803021005
+3) message : no
+1) name : 채지혜
+2) time : 201803021005
+3) message : no
+1) name : 윤종욱
+2) time : 201803021005
+3) message : no
+1) name : 권현우
+2) time : 201803021005
+3) message : only windows
+1) name : 권현우
+2) time : 201803021010
+3) message : no questions so far
+1) name : Sovan Chhaya
+2) time : 201803021010
+3) message : Not understand too much in this case
+1) name : 권현우
+2) time : 201803021011
+3) message : 2%
+1) name : 한상민
+2) time : 201803021011
+3) message : 2%
+1) name : Yeun
+2) time : 201803021011
+3) message : not much
+1) name : 조정훈
+2) time : 201803021011
+3) message : java virtual machine part is hard to understand
+1) name : 한상민
+2) time : 201803021014
+3) message : Change your mode to viewer
+1) name : 정진혁
+2) time : 201803021014
+3) message : get
+1) name : 이준섭
+2) time : 201803021014
+3) message : Like include in c?
+1) name : Sovan Chhaya
+2) time : 201803021014
+3) message : Take something inside
+1) name : 영인
+2) time : 201803021020
+3) message : declaration
+1) name : 영인
+2) time : 201803021020
+3) message : type
+1) name : 권현우
+2) time : 201803021021
+3) message : machine
+1) name : 조정훈
+2) time : 201803021021
+3) message : turn on
+1) name : samer
+2) time : 201803021023
+3) message : samer joined this chatroom.
+1) name : NYB☆
+2) time : 201803021025
+3) message : NYB☆ left this chatroom.
+1) name : NYB☆
+2) time : 201803021026
+3) message : NYB☆ joined this chatroom.
+1) name : 조정훈
+2) time : 201803021031
+3) message : cool
+1) name : 정진혁
+2) time : 201803021031
+3) message : not bad
+1) name : 권현우
+2) time : 201803021031
+3) message : looks similar to a C program
+1) name : Sovan Chhaya
+2) time : 201803021031
+3) message : Like c
+1) name : 권현우
+2) time : 201803021031
+3) message : but only using different ways
+1) name : 정진혁
+2) time : 201803021033
+3) message : bytecode?
+1) name : 이준섭
+2) time : 201803021036
+3) message : Isnt bytecode like an intermediate language that looks like assembly language?
+1) name : 남재창
+2) time : 201803021201
+3) message : Thanks, 이준섭 for the interesting question! Bytecode is not assembly lanbuage as I showed the broken text in text edotor when I open OurFirstJavaProgram.class file.
+1) name : 남재창
+2) time : 201803021202
+3) message : However, as I said we can get Assembly code from a class file by using ""javap -c"" command.
+1) name : 남재창
+2) time : 201803021203
+3) message : Thanks all for your attention! How was the today's course style? Could it be good to use Kakao open chat in the class? Please, give your feedback!
+1) name : 윤종욱
+2) time : 201803021211
+3) message : Good!  could you please use a mic?(방긋)
+1) name : 오세현
+2) time : 201803021225
+3) message : I think it's good!
+1) name : 정진혁
+2) time : 201803021226
+3) message : Using this talk is much fun!
+1) name : 권현우
+2) time : 201803021229
+3) message : I agree with 진혁, since I'm a shy guy, it helps me to participate more in the class. I hope we could keep this way more.
+1) name : 권현우
+2) time : 201803021230
+3) message : Thank you for considering us, and for your commitment to the class JC :)
+1) name : 조정훈
+2) time : 201803021304
+3) message : It was good. Thank you for your considering JC
+1) name : 남재창
+2) time : 201803021320
+3) message : OK, 종욱. I'll use a mic in the class. Thanks for the feedback. Using a mic will be helpful for students who have a seat in the back side.  Thanks all who agreed on using the open chat.
+1) name : 남재창
+2) time : 201803021323
+3) message : While you are reviwing Lecture 1-1 and 1-2, put some answers in Exam Questions in the lecture note. By doing that, you can also benenifit other students. I can correct your answers if there are misunderstanding about any concepts we learned! Hope to enjoy the first weekend of this semester.
+1) name : 남재창
+2) time : 201803021323
+3) message : Any qeustions and feedbacks are always welcome!
+1) name : 조정훈
+2) time : 201803021728
+3) message : JC, will you cover the ppts in class? 
+1) name : 남재창
+2) time : 201803021806
+3) message : Yes. I will cover the ppts for the summary purpose whenver each topic ends in the lecture. When we study java code, I'll direct you to the related slides by links in the lecture note. I already put some links for certain topics. There are some contents that are not in ppts as well. Thanks!
+1) name : 조정훈
+2) time : 201803021825
+3) message : okay. Thank you, JC!
+1) name : Sovan Chhaya
+2) time : 201803060923
+3) message : I'm not clear with How java program run on a computer
+1) name : 정진혁
+2) time : 201803060934
+3) message : Good!
+1) name : 조완서
+2) time : 201803060934
+3) message : godd
+1) name : 권현우
+2) time : 201803060934
+3) message : Little sleepy
+1) name : samer
+2) time : 201803060934
+3) message : Good!
+1) name : 조완서
+2) time : 201803060934
+3) message : good
+1) name : 한별
+2) time : 201803060934
+3) message : Not bad
+1) name : 오세현
+2) time : 201803060934
+3) message : tired..
+1) name : 김유진
+2) time : 201803060934
+3) message : so tired...
+1) name : 서남진
+2) time : 201803060934
+3) message : good~~~
+1) name : 이명희
+2) time : 201803060934
+3) message : good
+1) name : 윤종욱
+2) time : 201803060934
+3) message : good
+1) name : Jonathan
+2) time : 201803060937
+3) message : Yes!
+1) name : 정진혁
+2) time : 201803060937
+3) message : Yes:)
+1) name : 오세현
+2) time : 201803060937
+3) message : got it!
+1) name : 조혜린
+2) time : 201803060937
+3) message : yes!
+1) name : 지승윤
+2) time : 201803060937
+3) message : yes
+1) name : 조정훈
+2) time : 201803060937
+3) message : okay
+1) name : 채지혜
+2) time : 201803060937
+3) message : yes
+1) name : 민주
+2) time : 201803060937
+3) message : yes!
+1) name : Sovan Chhaya
+2) time : 201803060937
+3) message : Yes
+1) name : 권현우
+2) time : 201803060937
+3) message : I clicked the hyperlink and it says I'm not authorized. Do I need to get your permission for every links?
+1) name : Sovan Chhaya
+2) time : 201803060943
+3) message : Is Machine languages for that JVM
+1) name : 정진혁
+2) time : 201803060946
+3) message : translates bytecodes into a machine language
+1) name : Sovan Chhaya
+2) time : 201803060946
+3) message : Example Virtualbox
+1) name : 조정훈
+2) time : 201803060951
+3) message : object oriented
+1) name : 서남진
+2) time : 201803060951
+3) message : OOT
+1) name : 조혜린
+2) time : 201803060951
+3) message : object-oriented?
+1) name : 권현우
+2) time : 201803060951
+3) message : Object oriented
+1) name : 김유진
+2) time : 201803060951
+3) message : Object_oriented
+1) name : 조정훈
+2) time : 201803060952
+3) message : turn on
+1) name : samer
+2) time : 201803060953
+3) message : Images
+1) name : 정진혁
+2) time : 201803060953
+3) message : project
+1) name : Jonathan
+2) time : 201803060953
+3) message : Turn off
+1) name : 권현우
+2) time : 201803060953
+3) message : show something
+1) name : 명진
+2) time : 201803060953
+3) message : showing display
+1) name : 영인
+2) time : 201803060953
+3) message : display
+1) name : Sovan Chhaya
+2) time : 201803060953
+3) message : Show the slid
+1) name : 한상민
+2) time : 201803060954
+3) message : turned on
+1) name : 오세현
+2) time : 201803060955
+3) message : connect to computer
+1) name : 한상민
+2) time : 201803060955
+3) message : turned off
+1) name : 정진혁
+2) time : 201803060955
+3) message : showing slides
+1) name : Jonathan
+2) time : 201803060955
+3) message : Projecting state
+1) name : 권현우
+2) time : 201803060955
+3) message : blue light that shows it is turned on
+1) name : 오세현
+2) time : 201803060958
+3) message : computer
+1) name : 정진혁
+2) time : 201803060958
+3) message : electricity
+1) name : 조정훈
+2) time : 201803060958
+3) message : wifi
+1) name : 명진
+2) time : 201803060959
+3) message : detectors?
+1) name : 윤종욱
+2) time : 201803060959
+3) message : router?
+1) name : 권현우
+2) time : 201803060959
+3) message : students?
+1) name : 김기철
+2) time : 201803060959
+3) message : smart phone
+1) name : 오세현
+2) time : 201803060959
+3) message : programs
+1) name : Sovan Chhaya
+2) time : 201803061003
+3) message : What is the disadvantage when we take the package from another?
+1) name : 조정훈
+2) time : 201803061013
+3) message : can you explain again?
+1) name : 조정훈
+2) time : 201803061013
+3) message : about class
+1) name : 권현우
+2) time : 201803061015
+3) message : Is there any difference between instance and Class?
+1) name : 남재창
+2) time : 201803061027
+3) message : Any names!
+1) name : 명진
+2) time : 201803061027
+3) message : JC
+1) name : 권현우
+2) time : 201803061027
+3) message : JC
+1) name : 오세현
+2) time : 201803061027
+3) message : smartclass
+1) name : 채지혜
+2) time : 201803061027
+3) message : JC's smartclass
+1) name : 조정훈
+2) time : 201803061027
+3) message : smartJC
+1) name : 정승영
+2) time : 201803061030
+3) message : is it related to javascript for web?
+1) name : 윤종욱
+2) time : 201803061030
+3) message : in web? 
+1) name : 권현우
+2) time : 201803061030
+3) message : to know where they are come from?
+1) name : Sovan Chhaya
+2) time : 201803061030
+3) message : To identify
+1) name : 조정훈
+2) time : 201803061037
+3) message : screen
+1) name : 영인
+2) time : 201803061040
+3) message : explanation about code
+1) name : 김석진
+2) time : 201803061040
+3) message : //
+1) name : 민주
+2) time : 201803061040
+3) message : /*
+1) name : 채지혜
+2) time : 201803061040
+3) message : to explain 
+1) name : 오세현
+2) time : 201803061041
+3) message : don't affect the program
+1) name : Sovan Chhaya
+2) time : 201803061041
+3) message : Use to explain how  code process to another developer
+1) name : 조정훈
+2) time : 201803061043
+3) message : I dont know
+1) name : 한상민
+2) time : 201803061058
+3) message : there is no index.html
+1) name : samer
+2) time : 201803061217
+3) message : Can any of the TA students help me?
+1) name : 남재창
+2) time : 201803061332
+3) message : If there is an error or no index.html when you generate Javadoc, check your path of your workspace. If your account name of your Windows in Korean, that seems to cause a problem. Eclipse seems not good at proceesing Korean characters. So, when opening Eclipse, change your workspace path without a Korean folder name.
+1) name : 남재창
+2) time : 201803061335
+3) message : Samer you can also contact me. (jcnam@handong.edu)
+1) name : samer
+2) time : 201803061340
+3) message : I done it jc
+1) name : samer
+2) time : 201803061340
+3) message : Thank you for your concern
+1) name : 남재창
+2) time : 201803061341
+3) message : OK, great! Thanks!
+1) name : 남재창
+2) time : 201803061342
+3) message : Is there any body who want to edit the today's lecture note? If you want to do, let me know by an email or put your name in the google sheet (check the annourcement in the lecture note.)
+1) name : 오세현
+2) time : 201803071923
+3) message : 오세현 left this chatroom.
+1) name : Sovan Chhaya
+2) time : 201803072044
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803072045
+3) message : I think about this one but how about number 10?
+1) name : Sovan Chhaya
+2) time : 201803072045
+3) message : can tell me?
+1) name : 남재창
+2) time : 201803072053
+3) message : Manager. Where did you get this? In the class, we may not cover UML.
+1) name : Sovan Chhaya
+2) time : 201803072055
+3) message : Or professor I just learn is but my self but I don't understand too much
+1) name : Sovan Chhaya
+2) time : 201803072055
+3) message : I need your help from you professor
+1) name : 남재창
+2) time : 201803072057
+3) message : You can make an appointment with me. Please, send me an email.
+1) name : Sovan Chhaya
+2) time : 201803072057
+3) message : Yes professor
+1) name : Sovan Chhaya
+2) time : 201803072058
+3) message : Chhormsovanchhaya@gmail.com
+1) name : Sovan Chhaya
+2) time : 201803072100
+3) message : It ok professor ?
+1) name : 남재창
+2) time : 201803072219
+3) message : Hi all I made some slides for your second lab. Please check your Google drive. You must finish lab02 for the next lab if you did not finish on time in the last class.
+1) name : 남재창
+2) time : 201803090927
+3) message : Good morning everyone! How are you today?
+1) name : 한별
+2) time : 201803090927
+3) message : Good!
+1) name : 정승영
+2) time : 201803090928
+3) message : (Emoticon) 
+1) name : 정진혁
+2) time : 201803090928
+3) message : Good morning!!
+1) name : 조완서
+2) time : 201803090928
+3) message : Good!
+1) name : 조완서
+2) time : 201803090928
+3) message : 😆
+1) name : 김유진
+2) time : 201803090928
+3) message : (Emoticon) tired..
+1) name : 이명희
+2) time : 201803090928
+3) message : good
+1) name : 권현우
+2) time : 201803090929
+3) message : happy
+1) name : 명진
+2) time : 201803090929
+3) message : still waking uo
+1) name : 명진
+2) time : 201803090929
+3) message : up
+1) name : 남재창
+2) time : 201803090929
+3) message : Great! :)
+1) name : 윤종욱
+2) time : 201803090929
+3) message : good~~
+1) name : 한상민
+2) time : 201803090931
+3) message : Good morning!
+1) name : 이수아
+2) time : 201803090931
+3) message : 이수아 joined this chatroom.
+1) name : 조혜린
+2) time : 201803090932
+3) message : good!!
+1) name : 권현우
+2) time : 201803090935
+3) message : Class
+1) name : 권현우
+2) time : 201803090935
+3) message : Package
+1) name : 조정훈
+2) time : 201803090935
+3) message : method
+1) name : 서남진
+2) time : 201803090935
+3) message : instance
+1) name : 권현우
+2) time : 201803090935
+3) message : Objects
+1) name : 정진혁
+2) time : 201803090937
+3) message : instance
+1) name : 권현우
+2) time : 201803090937
+3) message : instance
+1) name : 정진혁
+2) time : 201803090937
+3) message : class?
+1) name : 권현우
+2) time : 201803090941
+3) message : to identify where it is from
+1) name : 조정훈
+2) time : 201803090944
+3) message : state
+1) name : 정진혁
+2) time : 201803090944
+3) message : object actions and states
+1) name : 조정훈
+2) time : 201803090944
+3) message : action
+1) name : 김유진
+2) time : 201803090944
+3) message : action and state
+1) name : 채지혜
+2) time : 201803090944
+3) message : state
+1) name : 권현우
+2) time : 201803090955
+3) message : electricity?
+1) name : 조완서
+2) time : 201803090955
+3) message : on and off?
+1) name : 영인
+2) time : 201803090955
+3) message : turn on button
+1) name : 영인
+2) time : 201803090956
+3) message : temperatur
+1) name : 영인
+2) time : 201803090956
+3) message : e
+1) name : 조완서
+2) time : 201803090956
+3) message : size
+1) name : 남재창
+2) time : 201803091234
+3) message : Thanks for your attention today. The last lecture and todays' lecture covers the most important parts of our class. You don't understand what they are and you could not do the labs until this week. This course might not be your course. In that case, I recommend you to drop the course. Please, serioulsy consider my advise. But dont' panic and meet me by an appointment if you need my help.
+1) name : 남재창
+2) time : 201803091240
+3) message : In Korean: 수업 듣느라 고생했어요. 지난 수업과 오늘 수업은 앞으로의 자바 수업을 위해 반드시 이해하고 할 수 있어야 합니다. 만약에 오늘한 게 뭔지 이해가 안가면, 앞으로 수업을 따라올 수 없으니, 수강철회 하기를 부탁합니다. 만약에 공부를 따라가고 싶은데, 어려워서 도움이 필요하면, 연락주고 찾아오면 됩니다. 이번 주까지 지난번 랩 오늘 랩 완성 못하면, 이 수업은 내 수업이 아니다 생각하고, 전산전자는 내 학부가 아니다 생각하고 진로에 대해서 고민을 좀 했으면 합니다 (수강철회 및 전과에 대한 고민). 하고싶은데 어려운거면 제게 도움을 요청하세요! 성심성의껏 도와 줄게요. 그럼 좋은 주말!
+1) name : 조정훈
+2) time : 201803091256
+3) message : Have a nice weekend JC(씨익)(씨익)
+1) name : 조정훈
+2) time : 201803091304
+3) message : JC, how can I solve this error?
+1) name : 조정훈
+2) time : 201803091304
+3) message : Photo
+1) name : 정승영
+2) time : 201803091316
+3) message : public class control
+1) name : 정승영
+2) time : 201803091316
+3) message : should be declared first
+1) name : 정승영
+2) time : 201803091317
+3) message : and then
+1) name : 정승영
+2) time : 201803091317
+3) message : and you typed ""Controller"" at where should be ""Control""
+1) name : 권현우
+2) time : 201803091325
+3) message : I think control is package name
+1) name : 조정훈
+2) time : 201803091325
+3) message : yes..
+1) name : 권현우
+2) time : 201803091325
+3) message : then you should leave the control as it is
+1) name : 조정훈
+2) time : 201803091326
+3) message : aha~
+1) name : 권현우
+2) time : 201803091326
+3) message : try typing Controller MyRemoteControl = new Controller();
+1) name : 권현우
+2) time : 201803091327
+3) message : Controller MyRemoteControl = new Controller(); << just this part
+1) name : 권현우
+2) time : 201803091327
+3) message : in the main method
+1) name : 권현우
+2) time : 201803091329
+3) message : oh I mean in the class
+1) name : 권현우
+2) time : 201803091330
+3) message : between the last two parenthesis in your image
+1) name : 조정훈
+2) time : 201803091333
+3) message : you're right!!! Thank you
+1) name : 조정훈
+2) time : 201803091334
+3) message : Photo
+1) name : 권현우
+2) time : 201803091334
+3) message : it's 승영 who tried to help you first, so thank him, not me :)
+1) name : 권현우
+2) time : 201803091334
+3) message : have a good weekend!
+1) name : 조정훈
+2) time : 201803091336
+3) message : 승영 thanks too!!(하하)(씨익)
+1) name : 남재창
+2) time : 201803092023
+3) message : Wow, this is great! Helping each others via this chat room! I'm proud of you guys! Have a great weekend!
+1) name : 남재창
+2) time : 201803100922
+3) message : Hi all. I've put my code for the smar classroom project here. https://github.com/lifove/sclass
+1) name : 남재창
+2) time : 201803100922
+3) message : Go to the 'src' folder to see the java files.
+1) name : 남재창
+2) time : 201803100923
+3) message : I did not put any comments and javadoc. To study the code, you type by yourself and add your explnation for each line by using comments or javadoc comments.
+1) name : 남재창
+2) time : 201803100927
+3) message : By using this code, understand how we instantiate objects/classes and how we use object's data (instance variable) and actions (methods). Put what you understood in your code as comments.
+1) name : 심준석
+2) time : 201803121658
+3) message : 심준석 joined this chatroom.
+1) name : 남재창
+2) time : 201803130901
+3) message : Good mirnig everyone. Hope to see you soon!
+1) name : 권현우
+2) time : 201803130904
+3) message : good morning!
+1) name : 윤종욱
+2) time : 201803130904
+3) message : (굿)
+1) name : 한상민
+2) time : 201803130915
+3) message : (Emoticon) 
+1) name : 민주
+2) time : 201803130927
+3) message : good morning~~
+1) name : 채지혜
+2) time : 201803130931
+3) message : good morning~~~~
+1) name : 이준섭
+2) time : 201803130931
+3) message : Morning~
+1) name : Sovan Chhaya
+2) time : 201803130932
+3) message : Good morning
+1) name : 정승영
+2) time : 201803130953
+3) message : i got one!
+1) name : Sovan Chhaya
+2) time : 201803130954
+3) message : Not clear
+1) name : 영인
+2) time : 201803131018
+3) message : What is difference between local variable and instance variable?
+1) name : 영인
+2) time : 201803131034
+3) message : Then, can instance variable access same value with method?
+1) name : 한상민
+2) time : 201803131034
+3) message : Can you make a 1page image about levels of those things?
+1) name : 한상민
+2) time : 201803131045
+3) message : yes!
+1) name : Sovan Chhaya
+2) time : 201803131115
+3) message : I Get a point
+1) name : 남재창
+2) time : 201803160856
+3) message : Strong wind today! Pleaes, be safe. See you soon ;)
+1) name : Sovan Chhaya
+2) time : 201803160857
+3) message : Take care thank you professor
+1) name : 남재창
+2) time : 201803160857
+3) message : Just call me JC :)
+1) name : Sovan Chhaya
+2) time : 201803160858
+3) message : Ok JC
+1) name : 남재창
+2) time : 201803160858
+3) message : Great!
+1) name : 영인
+2) time : 201803160939
+3) message : maybe
+1) name : 이명희
+2) time : 201803160940
+3) message : each variable and action can access?
+1) name : 영인
+2) time : 201803160940
+3) message : you can access to vaue of data anywhere
+1) name : 권현우
+2) time : 201803160943
+3) message : Can we access the static variables from other classes?
+1) name : 영인
+2) time : 201803160945
+3) message : method
+1) name : 권현우
+2) time : 201803160945
+3) message : isn't ""out"" a form of system call ?
+1) name : 권현우
+2) time : 201803161014
+3) message : Fuel
+1) name : 명진
+2) time : 201803161014
+3) message : size
+1) name : 이준섭
+2) time : 201803161014
+3) message : No.of passengers?
+1) name : 이준섭
+2) time : 201803161014
+3) message : Max number*
+1) name : 민주
+2) time : 201803161015
+3) message : weight
+1) name : 권현우
+2) time : 201803161017
+3) message : propel?
+1) name : 명진
+2) time : 201803161017
+3) message : carrying capacity
+1) name : 권현우
+2) time : 201803161018
+3) message : sending signals
+1) name : samer
+2) time : 201803161018
+3) message : Isn't capacity as the max n of passengers?
+1) name : 조정훈
+2) time : 201803161020
+3) message : turn left
+1) name : 권현우
+2) time : 201803161020
+3) message : horns?
+1) name : 권현우
+2) time : 201803161020
+3) message : making sounds
+1) name : 권현우
+2) time : 201803161020
+3) message : supplying electricity
+1) name : 한상민
+2) time : 201803161021
+3) message : carry in?
+1) name : 권현우
+2) time : 201803161021
+3) message : locking some cabins in case of sinkage
+1) name : 임수진
+2) time : 201803161021
+3) message : engine on off
+1) name : samer
+2) time : 201803161022
+3) message : Propels/fan?
+1) name : Sovan Chhaya
+2) time : 201803161056
+3) message : Return
+1) name : 권현우
+2) time : 201803200836
+3) message : Are we having our class at OH402 today?
+1) name : 남재창
+2) time : 201803200912
+3) message : No, NTH413. Is there any annoucement I do not know?
+1) name : 권현우
+2) time : 201803200913
+3) message : No but on the whiteboard someone wrote ""Java Programming 강의실 변경 OH402""
+1) name : 남재창
+2) time : 201803200914
+3) message : Please, delete it. Maybe it is for another Java programming section ;)
+1) name : 한상민
+2) time : 201803200937
+3) message : local
+1) name : 영인
+2) time : 201803200937
+3) message : local
+1) name : 조정훈
+2) time : 201803200937
+3) message : class
+1) name : 한상민
+2) time : 201803200937
+3) message : static
+1) name : 영인
+2) time : 201803200937
+3) message : static
+1) name : 권현우
+2) time : 201803200938
+3) message : Instacne variable
+1) name : 정석
+2) time : 201803200938
+3) message : instance
+1) name : 정석
+2) time : 201803200938
+3) message : parameter
+1) name : 명진
+2) time : 201803200938
+3) message : method?
+1) name : 채지혜
+2) time : 201803200938
+3) message : global
+1) name : 한상민
+2) time : 201803200943
+3) message : Does interface and javadoc are different?
+1) name : 권현우
+2) time : 201803200945
+3) message : Isn't Encapsulation something that is done naturally?
+1) name : 권현우
+2) time : 201803200947
+3) message : for the local variables, you don't have to make it public
+1) name : 권현우
+2) time : 201803200948
+3) message : is there an opposite concept of Encapsulation then? like opening up all your source codes of your methods, letting others to customize them
+1) name : 한상민
+2) time : 201803200953
+3) message : thank you
+1) name : 권현우
+2) time : 201803201031
+3) message : static?
+1) name : Sovan Chhaya
+2) time : 201803201036
+3) message : I don't understand prob 3
+1) name : Yeun
+2) time : 201803201104
+3) message : Yeun joined this chatroom.
+1) name : 남재창
+2) time : 201803201140
+3) message : Thanks for your attention. For HW1-1, put javadoc and comments carefully. It is like traslating the code in your own words. For the single line, do your best to put all the terms and cencepts your leared in class such as instance variable, local veraible, modifiers, instanace, instantiation, and so on! Cheers!
+1) name : Sovan Chhaya
+2) time : 201803201141
+3) message : Thank  JC  i'll try it.
+1) name : 남재창
+2) time : 201803230903
+3) message : Good morning everyone. Today is clean and sunny. Hope to see you soon!
+1) name : 권현우
+2) time : 201803230913
+3) message : good morning :)
+1) name : 채지혜
+2) time : 201803230913
+3) message : Good morning :) See you soon~~~~
+1) name : Sovan Chhaya
+2) time : 201803230935
+3) message : Morning
+1) name : 권현우
+2) time : 201803230939
+3) message : min/2
+1) name : 채지혜
+2) time : 201803230950
+3) message : month
+1) name : Sovan Chhaya
+2) time : 201803232153
+3) message : I don't know how to summit homework 02 , can you tell me ?
+1) name : Sovan Chhaya
+2) time : 201803232154
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803232154
+3) message : Should I just copy this address and past in HISNet?
+1) name : Sovan Chhaya
+2) time : 201803232155
+3) message : Help me please!
+1) name : 권현우
+2) time : 201803232157
+3) message : Just copy the address and submit it
+1) name : 권현우
+2) time : 201803232157
+3) message : I think that's all
+1) name : 권현우
+2) time : 201803232157
+3) message : for HW2
+1) name : Sovan Chhaya
+2) time : 201803232157
+3) message : This address?
+1) name : 권현우
+2) time : 201803232157
+3) message : yeap
+1) name : Sovan Chhaya
+2) time : 201803232158
+3) message : ok really thank
+1) name : 권현우
+2) time : 201803232158
+3) message : no problem :)
+1) name : Yeun
+2) time : 201803232200
+3) message : Yeun left this chatroom.
+1) name : 명진
+2) time : 201803241619
+3) message : Photo
+1) name : 명진
+2) time : 201803241619
+3) message : professor JC do we have to make two classes for each problems in our first assignment like this?
+1) name : 남재창
+2) time : 201803241623
+3) message : It's up to you! It's your design and your choice.
+1) name : 명진
+2) time : 201803241624
+3) message : oh then do i have to make 2 javadoc files for each problems if i have 2 classes for each problems??
+1) name : 남재창
+2) time : 201803241636
+3) message : Yes
+1) name : 명진
+2) time : 201803241637
+3) message : thanks JC :)
+1) name : 남재창
+2) time : 201803241637
+3) message : No problem. Cheer!
+1) name : 이준섭
+2) time : 201803241645
+3) message : Professor for the homework we have to just compare right with the code you gave us after we finish ours and not change ours. Am I right?
+1) name : 남재창
+2) time : 201803241729
+3) message : It's also up to you. You can submit your own code with javadoc and comments. Or, you can change yours based on the candidate answer with javadoc and comments. The important part is comments and javadoc. If you submit your own code, your code must work correctly.
+1) name : 남재창
+2) time : 201803241730
+3) message : But I prefer to see your own code, so that I may give you some helpful advices.
+1) name : 이준섭
+2) time : 201803241810
+3) message : Thank you ^^
+1) name : 정진혁
+2) time : 201803241822
+3) message : professor for the second assignment, I did mkdir, and I got a message that says permission is denied. How can I solve this issue?
+1) name : 정진혁
+2) time : 201803241823
+3) message : Photo
+1) name : 정진혁
+2) time : 201803241823
+3) message : Photo
+1) name : 정진혁
+2) time : 201803241824
+3) message : sorry for bothering you this weekend!! Thank you sir:)
+1) name : 윤종욱
+2) time : 201803241825
+3) message : Run as administrator
+1) name : 남재창
+2) time : 201803241827
+3) message : Some directories requires permission. You can create a directory in just C:\
+1) name : 정진혁
+2) time : 201803241828
+3) message : thank you so much!!
+1) name : 남재창
+2) time : 201803241828
+3) message : Type pwd. Let me know the path. I just wonder where you create a directory.
+1) name : 정진혁
+2) time : 201803241843
+3) message : Photo
+1) name : 정진혁
+2) time : 201803241843
+3) message : it says i am at /
+1) name : 남재창
+2) time : 201803241852
+3) message : Can you use cmd but not git bash. Or, you can run git bash   by choosing Run as administrator on pop-up menu on the git bash icon as 종석 said.
+1) name : 정진혁
+2) time : 201803242030
+3) message : thank you sir!! I will try and see what happens when I get the dorm!
+1) name : 남재창
+2) time : 201803242236
+3) message : When you submit your first homework, please follow the guideline to make a correct zip file. Please, check the lab04 slide. If you do not follow it, you will lose your mark, 0.1point.
+1) name : 남재창
+2) time : 201803242248
+3) message : Javadoc must be written for both classes and methods.
+1) name : 남재창
+2) time : 201803242249
+3) message : Also don't forget to add a single line comment even for the import statement.
+1) name : 명진
+2) time : 201803251600
+3) message : Professor JC, for the hw1, im having a problem making a javadoc for my main class. the comments wont appear in my javadoc for my main class even if i wrote the comments correctly
+1) name : 권현우
+2) time : 201803251602
+3) message : I had similar problem too.
+1) name : 권현우
+2) time : 201803251603
+3) message : In some classes it won't even appear, and for a pair of classes(Calculator, Calculator main) only one comment appeared
+1) name : 권현우
+2) time : 201803251603
+3) message : but anyway javadoc was made(some without a single comment).
+1) name : 남재창
+2) time : 201803251617
+3) message : 명진 can you send me an email with your code for the class
+1) name : 남재창
+2) time : 201803251617
+3) message : ?
+1) name : 명진
+2) time : 201803251622
+3) message : i sended the codes to your email JC
+1) name : 남재창
+2) time : 201803251629
+3) message : Got it and replied. Javadoc must be put right before the class/method/fileld.
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Excuse me JC it is how to summit the Homework...?
+1) name : 남재창
+2) time : 201803252017
+3) message : Yes you've done HW1-2.
+1) name : Sovan Chhaya
+2) time : 201803252018
+3) message : That right JC ...?
+1) name : 남재창
+2) time : 201803252018
+3) message : Yeap
+1) name : Sovan Chhaya
+2) time : 201803252018
+3) message : Thank you JC
+1) name : 남재창
+2) time : 201803252019
+3) message : Press 전송
+1) name : Sovan Chhaya
+2) time : 201803252019
+3) message : Finished JC
+1) name : 남재창
+2) time : 201803252041
+3) message : Ok good!
+1) name : 이준섭
+2) time : 201803261704
+3) message : hello professor I seem to get error while trying to create archieve file and i tried giving permission to access this .zip file but its not working
+1) name : 이준섭
+2) time : 201803261704
+3) message : Photo
+1) name : 남재창
+2) time : 201803261710
+3) message : Could you try to export to another directoy such as just C:\? Where did you install Eclipse? Close your Eclipse and Put your eclipse installed directory into C:\Program Files and then try again. If you can't solve the problem, make an appointment with me and stop by. Also check your path to export includes any Korean chracters and space.
+1) name : 이준섭
+2) time : 201803261719
+3) message : it worked!! thank you so much professor :D
+1) name : 남재창
+2) time : 201803261719
+3) message : What was the problem?
+1) name : 이준섭
+2) time : 201803261720
+3) message : i think it was bcas i was writing to the file in desktop and also my eclipse.exe was outside C:\Program Files
+1) name : 남재창
+2) time : 201803261720
+3) message : OK, got it. Thanks~
+1) name : 이준섭
+2) time : 201803261720
+3) message : i did both and it worked ^^
+1) name : 이준섭
+2) time : 201803261720
+3) message : thank you :D
+1) name : 남재창
+2) time : 201803261955
+3) message : HW1-1 due is approaching in about two hours. Hope you are ready to submit!
+1) name : 권현우
+2) time : 201803271002
+3) message : since git is for a team project mainly
+1) name : 권현우
+2) time : 201803271030
+3) message : Cesco?
+1) name : 한별
+2) time : 201803271033
+3) message : Fkiller
+1) name : 한상민
+2) time : 201803271034
+3) message : could you tell me one more why we should use void type?
+1) name : 한상민
+2) time : 201803271036
+3) message : OK!
+1) name : 영인
+2) time : 201803271049
+3) message : main
+1) name : NYB☆
+2) time : 201803271124
+3) message : Is there any student that still stay in classroom? TT
+1) name : 남재창
+2) time : 201803271126
+3) message : I'm here
+1) name : 남재창
+2) time : 201803271126
+3) message : Why
+1) name : NYB☆
+2) time : 201803271128
+3) message : Ah, nono. I think I solve it! Thank you :)
+1) name : 정승영
+2) time : 201803271141
+3) message : Photo
+1) name : 정승영
+2) time : 201803271142
+3) message : Can somebody help me solve this prob? TT
+1) name : 권현우
+2) time : 201803271144
+3) message : maybe your system variable directory is not valid...?
+1) name : 권현우
+2) time : 201803271144
+3) message : from previous lab, installing jdk
+1) name : 남재창
+2) time : 201803271153
+3) message : Check 파일탐색기 if there is c:\Program Files\Java\jdk-9.0.4
+1) name : 권현우
+2) time : 201803271314
+3) message : for the ""Project root directory"", does it need a specific directory or just putting anywhere would be ok?
+1) name : 권현우
+2) time : 201803271314
+3) message : Photo
+1) name : 남재창
+2) time : 201803271316
+3) message : Anyware would be fine. But Eclipse are not good at dealing wiht Korean chracters and space in path so do not create the directory under any path with Korean characters and space.
+1) name : 남재창
+2) time : 201803271317
+3) message : For that figure, you must create it before import.
+1) name : 권현우
+2) time : 201803271320
+3) message : I imported it and there is no below folders except the gradle folder itself.. would it be ok?
+1) name : 권현우
+2) time : 201803271320
+3) message : Photo
+1) name : 권현우
+2) time : 201803271320
+3) message : in the lab slides, there were bunch of folders below. but mine has nothing.
+1) name : 남재창
+2) time : 201803271320
+3) message : how could you init gradle?
+1) name : 권현우
+2) time : 201803271321
+3) message : init gradle?
+1) name : 권현우
+2) time : 201803271321
+3) message : by cmd?
+1) name : 남재창
+2) time : 201803271322
+3) message : Check Task (2) in Lab06 slide
+1) name : 남재창
+2) time : 201803271322
+3) message : Create an empty Gradle Java project in the directory where you created a local project git repository. (Learned in Lecture 09)
+1) name : 권현우
+2) time : 201803271323
+3) message : Thank you JC :)
+1) name : 남재창
+2) time : 201803271324
+3) message : No problem. Follow the steps one by one as in Task (1) and Task (2) in Lab06 slides. You will repate this for each lab or HW. Cheers!
+1) name : 윤종욱
+2) time : 201803271331
+3) message : JC I made lab06 package in src/main/java, is it right? 
+1) name : 윤종욱
+2) time : 201803271331
+3) message : Photo
+1) name : 남재창
+2) time : 201803271333
+3) message : Yes right
+1) name : 남재창
+2) time : 201803271334
+3) message : Do not add to index for bin and doc directory. You can ignore them by pop-menu >> Team >> ignore.
+1) name : 권현우
+2) time : 201803271335
+3) message : Um, hope it would be the last question, but for the gradle I made a new Path in 시스템 환경 변수, and the previous Path for jdk is gone.
+1) name : 권현우
+2) time : 201803271335
+3) message : Seems like in Windows7 I only can make one Path in 시스템 변수.
+1) name : 윤종욱
+2) time : 201803271335
+3) message : Thank you JC(굿)
+1) name : 남재창
+2) time : 201803271336
+3) message : It seems ou accidently deleted it. paths can be concatenated with "";"" path1;path2;path3;
+1) name : 남재창
+2) time : 201803271337
+3) message : C:\Program Files\Java\jdk-9.0.4\bin;C:\Gradle\gradle4.0.6\bin;.....
+1) name : 권현우
+2) time : 201803271337
+3) message : Oh then I just need to add at the end of previous directory
+1) name : 남재창
+2) time : 201803271337
+3) message : Yes
+1) name : 권현우
+2) time : 201803271338
+3) message : Thank you.....
+1) name : 남재창
+2) time : 201803271338
+3) message : No problem!
+1) name : 정승영
+2) time : 201803271452
+3) message : do we have the specific name for the repository that we need to do for this lab?
+1) name : 남재창
+2) time : 201803271811
+3) message : Yes. Check the slided. There is a specific name.
+1) name : 남재창
+2) time : 201803291646
+3) message :  If you have difficulties to initiate git and gradle, check this slides. This is the easiest way I found until now.
+1) name : 남재창
+2) time : 201803291646
+3) message : https://docs.google.com/presentation/d/1A_ozTjvcMzZM-0P9pXK3Ucyyi-LgYgpunwrZrhwwMHY/edit
+1) name : 서남진
+2) time : 201803292119
+3) message : JC, I imported gradle java project in eclipse
+1) name : 서남진
+2) time : 201803292120
+3) message : Photo
+1) name : 남재창
+2) time : 201803292125
+3) message : Which command did you use to init Gradle?
+1) name : 남재창
+2) time : 201803292126
+3) message : In cmd, can you run javac -version?
+1) name : 서남진
+2) time : 201803292131
+3) message : I use this command grandle init --type java-library
+1) name : 서남진
+2) time : 201803292132
+3) message : and i can run javac -version
+1) name : 남재창
+2) time : 201803292132
+3) message : What java version do you use?
+1) name : 서남진
+2) time : 201803292132
+3) message : javac 9.0.4
+1) name : 남재창
+2) time : 201803292133
+3) message : Do you use mac?
+1) name : 남재창
+2) time : 201803292133
+3) message : or windows?
+1) name : 서남진
+2) time : 201803292133
+3) message : I use windows
+1) name : 남재창
+2) time : 201803292135
+3) message : You project has ! sign in your project. There is Problems tab under the editor. Check the error message there and let me know the error message.
+1) name : 서남진
+2) time : 201803292138
+3) message : Photo
+1) name : 서남진
+2) time : 201803292139
+3) message : is this the error you mentioned?? not quite sure -
+1) name : 서남진
+2) time : 201803292139
+3) message : :(
+1) name : 남재창
+2) time : 201803292139
+3) message : That is the erro
+1) name : 남재창
+2) time : 201803292139
+3) message : r.
+1) name : 남재창
+2) time : 201803292139
+3) message : your javac is version 9 but jre seems version 10.
+1) name : 남재창
+2) time : 201803292140
+3) message : in cmd, check java -version (not javac bug java)
+1) name : 남재창
+2) time : 201803292140
+3) message : (bug-> but)
+1) name : 서남진
+2) time : 201803292141
+3) message : You're right my java version is 10
+1) name : 남재창
+2) time : 201803292141
+3) message : That is the issue.
+1) name : 남재창
+2) time : 201803292141
+3) message : Cany you set your jre path to java 9??
+1) name : 남재창
+2) time : 201803292144
+3) message : Try this : ""Go to Eclipse -> Preferences, under Java select ""Installed JREs"" and check one of the boxes to specify a default JRE. Click OK and then go back to your project's properties. Go to the ""Java Build Path"" section and choose the ""Libraries"" tab. Remove the unbound System Default library, then click the ""Add Library"" button. Select ""JRE System Library"" and you should be good to go!""
+1) name : 남재창
+2) time : 201803292144
+3) message : That is from : https://stackoverflow.com/questions/2083461/unbound-classpath-container-in-eclipse?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+1) name : 남재창
+2) time : 201803292145
+3) message : It is an old post but you may get some answer.
+1) name : 서남진
+2) time : 201803292146
+3) message : Thanks JC! I will try it and let you know. thanks alot 
+1) name : 명진
+2) time : 201803292149
+3) message : what do we need to sumbit after we are done the hw
+1) name : 남재창
+2) time : 201803292150
+3) message : Nothing. TA's will check your source code snapshot right that are commited right before the deadline.
+1) name : 남재창
+2) time : 201803292150
+3) message : I may give some comments directly on your remote git repos in GitHub before the deadline.
+1) name : 남재창
+2) time : 201803292151
+3) message : So, if you push your code in Github, You've done.
+1) name : 명진
+2) time : 201803292151
+3) message : then since the due date is on saterday, will the TAs contact us??
+1) name : 남재창
+2) time : 201803292151
+3) message : We may leave some comments.
+1) name : 남재창
+2) time : 201803292158
+3) message : I just put some comments for your code. Check them out.
+1) name : 정진혁
+2) time : 201803292201
+3) message : Professor, I am doing the homework 3 step by step. I am now trying to commit and push my implementation to the repository, but as you see under [Team], I don't see [Add to index]..
+1) name : 정진혁
+2) time : 201803292201
+3) message : Photo
+1) name : 남재창
+2) time : 201803292202
+3) message : It seems you did not initiate git in your project directory.
+1) name : 남재창
+2) time : 201803292202
+3) message : I made slides for the easiest way to init git, gradle, github. You may try these slides. https://docs.google.com/presentation/d/1A_ozTjvcMzZM-0P9pXK3Ucyyi-LgYgpunwrZrhwwMHY/edit
+1) name : 정진혁
+2) time : 201803292203
+3) message : thanks!!
+1) name : 권현우
+2) time : 201803292300
+3) message : JC, I cannot execute ""git clone"" in cmd. I followed previous steps but when I type git clone and my address, it says 'git' 은 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다. this.
+1) name : 남재창
+2) time : 201803292307
+3) message : did you install git? https://docs.google.com/presentation/d/1gBkrNSednTSyCyy2qkJprPHoK9LXydoB2sAW9M_fGv4/edit#slide=id.g324afad0ea_0_90
+1) name : 남재창
+2) time : 201803292308
+3) message : Check from the first page of the slides
+1) name : 권현우
+2) time : 201803292308
+3) message : sure I did
+1) name : 권현우
+2) time : 201803292309
+3) message : should I do all the cmd things in Git Cmd?
+1) name : 남재창
+2) time : 201803292309
+3) message : So git is working in Git cmd?
+1) name : 권현우
+2) time : 201803292310
+3) message : Yeap
+1) name : 권현우
+2) time : 201803292310
+3) message : until the ""clone"" code, everything is working fine
+1) name : 남재창
+2) time : 201803292310
+3) message : Then, use it. It  works like cmd.
+1) name : 남재창
+2) time : 201803292310
+3) message : But it is quite weired you can't run git in cmd.
+1) name : 권현우
+2) time : 201803292311
+3) message : Photo
+1) name : 권현우
+2) time : 201803292311
+3) message : I'll try using git CMD
+1) name : 남재창
+2) time : 201803292312
+3) message : yeap, try it.
+1) name : 남재창
+2) time : 201803292314
+3) message : or you may close CMD, open again and try git clone again.
+1) name : 권현우
+2) time : 201803292314
+3) message : Magic.
+1) name : 권현우
+2) time : 201803292314
+3) message : In git cmd it works.
+1) name : 권현우
+2) time : 201803292314
+3) message : Sorry for my ignorance .. JC....
+1) name : 남재창
+2) time : 201803292316
+3) message : No problem. You are doing great. Computers are sensitive. We should understand it. It always has reasons though.
+1) name : 권현우
+2) time : 201803292318
+3) message : That' right.
+1) name : Yeun
+2) time : 201803300036
+3) message : Yeun joined this chatroom.
+1) name : 정진혁
+2) time : 201803300240
+3) message : Professor, I did not use method except the main method.
+1) name : 정진혁
+2) time : 201803300241
+3) message : I did all of the work step by step and the program displays right values.
+1) name : 정진혁
+2) time : 201803300242
+3) message : Do I lose points if I do not use methods?
+1) name : 남재창
+2) time : 201803300634
+3) message : No, you don't lose points.
+1) name : 남재창
+2) time : 201803300903
+3) message : But at least you will use a main method, won't you?
+1) name : 정진혁
+2) time : 201803300925
+3) message : yes. thank you sir!
+1) name : 한상민
+2) time : 201803301000
+3) message : what is skip?
+1) name : 한상민
+2) time : 201803301009
+3) message : in continue
+1) name : 한상민
+2) time : 201803301011
+3) message : yes!
+1) name : 한상민
+2) time : 201803301049
+3) message : could you upload source code of HW1?
+1) name : 한상민
+2) time : 201803301050
+3) message : 1-1
+1) name : 한상민
+2) time : 201803301051
+3) message : I wanna know how should we do single line comment
+1) name : 남재창
+2) time : 201803301221
+3) message : Add single-line comments for variable definitions and all other statements. For class and method definitions you need only javadoc.
+1) name : 정진혁
+2) time : 201803301227
+3) message : Professor how can I submit the HW 1-3?
+1) name : 남재창
+2) time : 201803301230
+3) message : If you comit and push all code github, that is all.
+1) name : 정진혁
+2) time : 201803301232
+3) message : okay, thanks!
+1) name : 남재창
+2) time : 201803301301
+3) message :  If you are struggling to init git, github, gradle, please see the slides I made yesterday (check the lecture note). Initiating git, github, gradle just takes several minutes. If your HW1-3 is mess becuase of git, github, and gradle, then back up only your code and start HW1-3 from the scratch by initiating git,github, gradle by following the slides. That could be easier and you can save your precious time.
+1) name : 남재창
+2) time : 201803301306
+3) message : Always read slides carefully!
+1) name : 조정훈
+2) time : 201803301412
+3) message : JC, which shortcut key shows all variables I defined?
+1) name : 남재창
+2) time : 201803301412
+3) message : In Eclipse?
+1) name : 조정훈
+2) time : 201803301416
+3) message : yes
+1) name : 남재창
+2) time : 201803301420
+3) message : Do you mean outline view?
+1) name : 조정훈
+2) time : 201803301530
+3) message : umm.. By the shortcut key, I can see all the variables which are already defined. So, I can write the variable just by clicking the variable in the list. You showed it when programming about bug infestation.
+1) name : 김기철
+2) time : 201803301546
+3) message : why my repository have no source code? there is only package and class name.TT
+1) name : 김기철
+2) time : 201803301547
+3) message : Photo
+1) name : 남재창
+2) time : 201803301551
+3) message : The shortcut is Ctrl + space, maybe.
+1) name : 조정훈
+2) time : 201803301557
+3) message : oh that's right thanks!!!!!
+1) name : 조정훈
+2) time : 201803301635
+3) message : JC do we have to write Javadoc comments for main method?
+1) name : 남재창
+2) time : 201803301943
+3) message : Yes
+1) name : 조정훈
+2) time : 201803302001
+3) message : Photo
+1) name : 조정훈
+2) time : 201803302001
+3) message : okay JC, is remote git name BugInfestation? 
+1) name : 남재창
+2) time : 201803302021
+3) message : Yes
+1) name : 조정훈
+2) time : 201803302025
+3) message : then my project name is also BugInfestation??
+1) name : 조정훈
+2) time : 201803302025
+3) message : or Lab06?
+1) name : 남재창
+2) time : 201803302026
+3) message : BugInfestation
+1) name : 남재창
+2) time : 201803302026
+3) message : 김기철 did you commit and push your code?
+1) name : 조정훈
+2) time : 201803302027
+3) message : thank you!! Have a nice weekend JC
+1) name : 김기철
+2) time : 201803302044
+3) message : Photo
+1) name : 김기철
+2) time : 201803302045
+3) message : yes! I did
+1) name : 남재창
+2) time : 201803302100
+3) message : So what is your problem?
+1) name : 김기철
+2) time : 201803302128
+3) message : No problem!!! sorry to bothering
+1) name : 남재창
+2) time : 201803302131
+3) message : Ok good!
+1) name : 조정훈
+2) time : 201803302211
+3) message : Photo
+1) name : 조정훈
+2) time : 201803302211
+3) message : JC  if I committed like this, can I get extra point? 
+1) name : 조정훈
+2) time : 201803302212
+3) message : This is because I saw ""Extra Point (1)"" when I already committed my whole project..... 
+1) name : 남재창
+2) time : 201803302233
+3) message : NP. But use meaningful messages next time.
+1) name : 조정훈
+2) time : 201803302256
+3) message : Okay thanks:)
+1) name : 심준석
+2) time : 201803310832
+3) message : When I trying to add to index some of files cannot be added 
+1) name : 심준석
+2) time : 201803310832
+3) message : Photo
+1) name : 심준석
+2) time : 201803310833
+3) message : How can I solve this problem?
+1) name : 남재창
+2) time : 201803310838
+3) message : * means you already added them to index but the changes are not committed. So this is not a problem. Just commit with proper message and push.
+1) name : 심준석
+2) time : 201803310841
+3) message : But when I trying to commit it, there is no reaction even if I click commit buttion
+1) name : 남재창
+2) time : 201803310915
+3) message : What file did you try to commit?
+1) name : 심준석
+2) time : 201803310920
+3) message : I tried BugInfestation but there is no reaction  
+1) name : 남재창
+2) time : 201803310925
+3) message : What is icon for that file?
+1) name : 심준석
+2) time : 201803310926
+3) message : I solved this problem
+1) name : 심준석
+2) time : 201803310927
+3) message : thanks for help professor
+1) name : 남재창
+2) time : 201803310928
+3) message : Great.
+1) name : Sovan Chhaya
+2) time : 201803310951
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803310952
+3) message : Excuse me JC.  why it doesn't work
+1) name : 한별
+2) time : 201803311009
+3) message : totalBugvolume variable writes twice....
+1) name : Sovan Chhaya
+2) time : 201803311011
+3) message : Oh really thank
+1) name : Sovan Chhaya
+2) time : 201803311015
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803311015
+3) message : Does it correct?
+1) name : 한별
+2) time : 201803311029
+3) message : my result same
+1) name : Sovan Chhaya
+2) time : 201803311032
+3) message : Thank you
+1) name : 남재창
+2) time : 201803311033
+3) message : Thanks 한별
+1) name : 한별
+2) time : 201803311034
+3) message : Have a good Weekend!
+1) name : 남재창
+2) time : 201803311227
+3) message : Hi Sovan. You can cast population as int. Also print out texts baes on lecture slides.
+1) name : Sovan Chhaya
+2) time : 201803311247
+3) message : Thank you JC i did it
+1) name : Sovan Chhaya
+2) time : 201803311545
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803311545
+3) message : That is done for Homework lab06 ? JC
+1) name : 남재창
+2) time : 201803311548
+3) message : I checked your code. Your javadoc position is wrong. And you missed javadoc for method.
+1) name : Sovan Chhaya
+2) time : 201803311549
+3) message : Oh I see I'll check again
+1) name : Sovan Chhaya
+2) time : 201803311550
+3) message : Can you command something in it
+1) name : Sovan Chhaya
+2) time : 201803311551
+3) message : Comment
+1) name : 남재창
+2) time : 201803311554
+3) message : I don't understand your question.
+1) name : Sovan Chhaya
+2) time : 201803311556
+3) message : Oh sorry , I mean can you commented something below my code
+1) name : Sovan Chhaya
+2) time : 201803311558
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803311558
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803311558
+3) message : Actually this java doc
+1) name : Sovan Chhaya
+2) time : 201803311558
+3) message : So to corrects it
+1) name : 남재창
+2) time : 201803311602
+3) message : Find what is wrong by your self. Answer is already in this chat room.
+1) name : 남재창
+2) time : 201803311606
+3) message : You should export javadoc if they are correct.
+1) name : 권현우
+2) time : 201803311629
+3) message : Javadoc must be put right before the class/method/field!
+1) name : 권현우
+2) time : 201803311630
+3) message : I had same problem before
+1) name : 권현우
+2) time : 201803311630
+3) message : so put it there and try to export again
+1) name : Sovan Chhaya
+2) time : 201803311631
+3) message : Yes I trying now
+1) name : 최우림
+2) time : 201803311634
+3) message : Photo
+1) name : 최우림
+2) time : 201803311634
+3) message : JC, can I ignore this warning?
+1) name : 남재창
+2) time : 201803311644
+3) message : Yes
+1) name : Sovan Chhaya
+2) time : 201803311649
+3) message : Can you check mine again it still have one error java doc can not export
+1) name : Sovan Chhaya
+2) time : 201803311650
+3) message : JC
+1) name : 최우림
+2) time : 201803311724
+3) message : Photo
+1) name : 최우림
+2) time : 201803311724
+3) message : JC, I can't click the finish. What's wrong this situation.
+1) name : 남재창
+2) time : 201803311817
+3) message : Please install Gradle plugin. Check slide in lecture note about Gradle.
+1) name : Yeun
+2) time : 201803311822
+3) message : Yeun left this chatroom.
+1) name : Sovan Chhaya
+2) time : 201803312132
+3) message : My javadoc it not inside the the doc folder , it outside the folder, I did it.
+1) name : 남재창
+2) time : 201803312200
+3) message : That is not a problem as you correctly put java doc in your java source code.
+1) name : Sovan Chhaya
+2) time : 201803312219
+3) message : Thank you JC
+1) name : 한상민
+2) time : 201804010105
+3) message : In hw1-4, i thought i should make a local repository by using cmd and link it with remote repasitory.
+1) name : 남재창
+2) time : 201804010711
+3) message : Did you do Gradle init?
+1) name : 한상민
+2) time : 201804011015
+3) message : Yes i did. I submitted HW1-3 with 5 commit.
+1) name : 남재창
+2) time : 201804011111
+3) message : Follow the steps from the recent slides using git clone.
+1) name : 권현우
+2) time : 201804030936
+3) message : overly loaded
+1) name : 이준섭
+2) time : 201804031008
+3) message : so overloaded methods are only called based on parameters right? not depending on return type
+1) name : 윤종욱
+2) time : 201804031505
+3) message : JC, in Lab07, Prob3 has no sample run(console). Do I just print “I’m sorry, <<name>>. You failed this course”? or like your code? 
+1) name : 조정훈
+2) time : 201804032115
+3) message : Photo
+1) name : 조정훈
+2) time : 201804032115
+3) message : JC, I create two javadocs for two classes in one package, but there is only one javadoc... where is another one?
+1) name : 조정훈
+2) time : 201804032234
+3) message : Also, when defining getter method, should I 'return' something? Can I just print values?
+1) name : 남재창
+2) time : 201804032235
+3) message : @종욱 just print “I’m sorry, <<name>>. You failed this course” For other parts,  you can follow the example code or other proper sentences.
+1) name : 남재창
+2) time : 201804032236
+3) message : @정훈 One javadoc has a package name in index.html. Then, click the package name and you will see two classes.
+1) name : 윤종욱
+2) time : 201804032236
+3) message : Thank you! 
+1) name : 남재창
+2) time : 201804032237
+3) message : For getter, you must return something and print it where it is called if necesary. Check getter examples from slides.
+1) name : 조정훈
+2) time : 201804032238
+3) message : okay thanks!
+1) name : 이준섭
+2) time : 201804042349
+3) message : Professor for prob3, can I use Math.random() or is it compulsary to use java.util.Random?
+1) name : 남재창
+2) time : 201804042357
+3) message : You can use any random method if your program generates correct output.
+1) name : 이준섭
+2) time : 201804042357
+3) message : Oh okay thank you ^.^
+1) name : 정진혁
+2) time : 201804050351
+3) message : Professor, Is it okay not to write Javadoc for constructors?
+1) name : 남재창
+2) time : 201804050639
+3) message : Constructor is a kind of method.
+1) name : 정진혁
+2) time : 201804050808
+3) message : oh i was confused. thanks professor!!
+1) name : 남재창
+2) time : 201804050833
+3) message : No problem ;)
+1) name : 정진혁
+2) time : 201804051122
+3) message : Photo
+1) name : 정진혁
+2) time : 201804051123
+3) message : Professor I got another question! How can I javadoc the constructor in the main class?
+1) name : 남재창
+2) time : 201804051205
+3) message : You can define javadoc like method but thiere is no return type. In your example, you can define like public Main_YTC() {  …. }
+1) name : 정진혁
+2) time : 201804051209
+3) message : right. I did define public Main_YTC. Then, can I leave the constructor description empty?
+1) name : 남재창
+2) time : 201804051210
+3) message : If you do not have any statements in your contrcutor, do not define it.
+1) name : 남재창
+2) time : 201804051211
+3) message : You just need to take care of only constructors that have any statements and parameters. No need to add javadoc for the emepty default contrructor.
+1) name : 정진혁
+2) time : 201804051215
+3) message : oh I got it!! Thank you so much!!
+1) name : 심준석
+2) time : 201804051710
+3) message : Professor JC . When I was trying to check indentation , there is no change even if I click correct identation button
+1) name : 이수현
+2) time : 201804051710
+3) message : 이수현 left this chatroom.
+1) name : 심준석
+2) time : 201804051711
+3) message : *identation  -> indentaion
+1) name : 심준석
+2) time : 201804051711
+3) message : How can I sovle this problem?
+1) name : 권현우
+2) time : 201804051712
+3) message : then yours is already perfect
+1) name : 권현우
+2) time : 201804051712
+3) message : no need to fix
+1) name : 심준석
+2) time : 201804051716
+3) message : Thanks for answering!  Yes I know like that before, but professor gave me comment that I have to check indentation again
+1) name : 권현우
+2) time : 201804051717
+3) message : that's right...
+1) name : 남재창
+2) time : 201804051805
+3) message : Ctrl+ a and then Ctrl +i for the indetation.
+1) name : 남재창
+2) time : 201804051806
+3) message : 심준석 try this. You will see indentation applies.
+1) name : 심준석
+2) time : 201804051811
+3) message : I did it and commit again .
+1) name : 한상민
+2) time : 201804052020
+3) message : Photo
+1) name : 한상민
+2) time : 201804052028
+3) message : 1.Do I must initialize in Java?
+1) name : 남재창
+2) time : 201804052119
+3) message : 1. what 'initilize' do you mean? 
+1) name : 남재창
+2) time : 201804052120
+3) message : 2. this means 'this class'. So this.variables are actuall class-level variables (instance varialbes.)
+1) name : 남재창
+2) time : 201804052121
+3) message : The reason using 'this' is to distinghish it with local varialbes. For example this.name = name.
+1) name : 남재창
+2) time : 201804052121
+3) message : local variable name is assigned to instance varialbe 'name'.
+1) name : 남재창
+2) time : 201804052122
+3) message : So, in case instance varialbe name is same as local variable, we must use 'this' for the instance variables in the same method.
+1) name : 한상민
+2) time : 201804052208
+3) message : 1. I mean... Does initialization of variable is must done?   
+1) name : 한상민
+2) time : 201804052208
+3) message : in Java?
+1) name : 한상민
+2) time : 201804052214
+3) message : It is really hard to me. I think even if I do not use this., I can distinguish. Should we distinguish for ""whom""? for machine? for other user of class? 
+1) name : 남재창
+2) time : 201804052222
+3) message : 1. to use a variable, we have to initialize it. The reason we define a variable is to hold some value. Initilization means assigning a value to a variable at very first.
+1) name : 이준섭
+2) time : 201804052223
+3) message : I think initializing is necessary for just every programming language just to be safe without errors but i mean of course you don't have to since its an option
+1) name : 이준섭
+2) time : 201804052224
+3) message : if you are talking about the initial value for the empty constructor its because when you create an object without a parameter there should be a default value
+1) name : 남재창
+2) time : 201804052224
+3) message : you don't need to use 'this.' in case instance variable name and local name is different. However, sometimes developers like to define the same names for both instance variable and local verable. For this reason, we may need to use ""this."" to distingiush instanve variable and local variable with same name.
+1) name : 한상민
+2) time : 201804052342
+3) message : @준섭, are you TA? Thank you! It is perfect answer for me.
+1) name : 남재창
+2) time : 201804060001
+3) message : 준섭 is one of classmates taking this course. I'm happy because of you guys with active discussions. Hope other students learn something from this chat room. Cheers!
+1) name : 권현우
+2) time : 201804060931
+3) message : tired
+1) name : 한상민
+2) time : 201804060938
+3) message : Is there any thing, when I changed a method?
+1) name : 한상민
+2) time : 201804060939
+3) message : same word in class
+1) name : 한상민
+2) time : 201804060939
+3) message : same words
+1) name : 한상민
+2) time : 201804060939
+3) message : a variable used in many where
+1) name : 한상민
+2) time : 201804060939
+3) message : ㅜ ㅜ
+1) name : 한상민
+2) time : 201804060940
+3) message : change at once
+1) name : 한상민
+2) time : 201804060941
+3) message : F2 rename?
+1) name : 권현우
+2) time : 201804060944
+3) message : Why do we use constructor?
+1) name : 정진혁
+2) time : 201804060945
+3) message : builder?
+1) name : 정진혁
+2) time : 201804060945
+3) message : not clear
+1) name : 영인
+2) time : 201804060956
+3) message : private
+1) name : 한별
+2) time : 201804060958
+3) message : Yes
+1) name : 김기철
+2) time : 201804061003
+3) message : Is there format for writing doc??
+1) name : 정진혁
+2) time : 201804061011
+3) message : Can we leave the index blacket empty for the array?
+1) name : 정진혁
+2) time : 201804061014
+3) message : bracket
+1) name : 정진혁
+2) time : 201804061016
+3) message : use for loop
+1) name : 정진혁
+2) time : 201804061020
+3) message : i+1
+1) name : 정진혁
+2) time : 201804061025
+3) message : array
+1) name : 정진혁
+2) time : 201804061025
+3) message : i
+1) name : 정진혁
+2) time : 201804061028
+3) message : in the field?
+1) name : 조정훈
+2) time : 201804061037
+3) message : Is it okay the three Saleman objects have same name(mySalesman)?
+1) name : 명진
+2) time : 201804061042
+3) message : numOfSalesman - 1
+1) name : 채지혜
+2) time : 201804061110
+3) message : Can anyone send the code which JC made?
+1) name : 채지혜
+2) time : 201804061115
+3) message : *some code...
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : samer
+2) time : 201804061129
+3) message : Photo
+1) name : 채지혜
+2) time : 201804061131
+3) message : (Emoticon) Thank you so much!
+1) name : samer
+2) time : 201804061131
+3) message : NP
+1) name : 김석진
+2) time : 201804061132
+3) message : Thanks!
+1) name : 권현우
+2) time : 201804100939
+3) message : Bubble sort?
+1) name : 영인
+2) time : 201804100939
+3) message : merge sort
+1) name : 영인
+2) time : 201804100939
+3) message : heap sort
+1) name : 한상민
+2) time : 201804100939
+3) message : quick sort
+1) name : 이준섭
+2) time : 201804100939
+3) message : Insertion sort
+1) name : 한상민
+2) time : 201804100939
+3) message : quick?
+1) name : 영인
+2) time : 201804100939
+3) message : quick sort???
+1) name : 이준섭
+2) time : 201804100939
+3) message : Quick sort?
+1) name : 영인
+2) time : 201804100940
+3) message : nlogn??
+1) name : 정진혁
+2) time : 201804100941
+3) message : find the smallest
+1) name : 권현우
+2) time : 201804100942
+3) message : 3
+1) name : 영인
+2) time : 201804100942
+3) message : 2
+1) name : 영인
+2) time : 201804100948
+3) message : Sorting1
+1) name : 조정훈
+2) time : 201804100950
+3) message : sorter
+1) name : 조정훈
+2) time : 201804100951
+3) message : new
+1) name : 한상민
+2) time : 201804100952
+3) message : Sorter MySorter = new Sorter;
+1) name : 이준섭
+2) time : 201804100952
+3) message : Array
+1) name : 조정훈
+2) time : 201804100954
+3) message : compare 
+1) name : 영인
+2) time : 201804100956
+3) message : length of array
+1) name : 영인
+2) time : 201804101001
+3) message : count
+1) name : 이준섭
+2) time : 201804101002
+3) message : Space character?
+1) name : Jonathan
+2) time : 201804101003
+3) message : Because we didn't declare the length of the array
+1) name : 조정훈
+2) time : 201804101018
+3) message : why the starting index isn't 0?
+1) name : Jonathan
+2) time : 201804101023
+3) message : What if index[0] is the smallest number?
+1) name : 이준섭
+2) time : 201804101208
+3) message : Im so sorry professor but I forgot to tell you i was tardy today!!
+1) name : 이준섭
+2) time : 201804101208
+3) message : I dont want to risk getting an absence T.T so sorry to tell you late
+1) name : 남재창
+2) time : 201804101209
+3) message : Ok, got it. Marked as tardy
+1) name : 이준섭
+2) time : 201804101209
+3) message : Thank you so much ^.^
+1) name : 남재창
+2) time : 201804101341
+3) message : After the today's class, one of students discussed about his HW score. If you think you are the guy, please send me an email.
+1) name : 정진혁
+2) time : 201804112009
+3) message : Professor I have a question from the last lab! I changed my branch to ReuseLoop and committed the changes. I see that I pushed a branch named ReuseLoop in Github. Do I have to change my branch to master?
+1) name : 한상민
+2) time : 201804112024
+3) message : It is also curious to me
+1) name : 남재창
+2) time : 201804112031
+3) message : You can't change your ReuseLoop branch into master but you can merge it if you like your current change. If you don't like the ReuseLoop brach, you can delete it. Do you want to learn how to merge?
+1) name : 정진혁
+2) time : 201804112032
+3) message : Oh then why can't I change my branch?
+1) name : 남재창
+2) time : 201804112032
+3) message : which branch?
+1) name : 남재창
+2) time : 201804112032
+3) message : in where?
+1) name : 정진혁
+2) time : 201804112032
+3) message : In eclipse!
+1) name : 남재창
+2) time : 201804112033
+3) message : Do you want to switch your branch from ReuseLoop to master?
+1) name : 정진혁
+2) time : 201804112036
+3) message : Um.. I am curious about the differenece between pushing with ReuseLoop and with master.
+1) name : 남재창
+2) time : 201804112038
+3) message : You can just keep two source code in git. You can unlimited variations of your program. You can implement experimental features of your program and if you like it you can merge the branch with master. In this way, your program can be improved. This is how developers work with git branches.
+1) name : 남재창
+2) time : 201804112038
+3) message : multiples developers work for different features in different branches and then we can merge all the branches so that we can complete our program together.
+1) name : 정진혁
+2) time : 201804112044
+3) message : Oh, so programmers can make their own branches which are like copies of the source code. When they modify the code and commit changes with the branches, the code editor decides whether to merge or not. And if we work with the master branch and commit the changes, there is no need to merge because it is the master branch.
+1) name : 정진혁
+2) time : 201804112044
+3) message : Do I understand correctly?
+1) name : 남재창
+2) time : 201804112045
+3) message : Yes.
+1) name : 정진혁
+2) time : 201804112046
+3) message : Oh I get it! Thank you so much, sir!
+1) name : 남재창
+2) time : 201804112046
+3) message : You may read this article. http://nvie.com/posts/a-successful-git-branching-model/
+1) name : 정진혁
+2) time : 201804112144
+3) message : Oh good source to read! Thanks professor:)
+1) name : 조정훈
+2) time : 201804112234
+3) message : Photo
+1) name : 조정훈
+2) time : 201804112234
+3) message : when I run the code, I cannot enter the name on console  
+1) name : 조정훈
+2) time : 201804112235
+3) message : Photo
+1) name : 조정훈
+2) time : 201804112235
+3) message : Like this... Help me~~~
+1) name : 영인
+2) time : 201804112237
+3) message : You need to put println instead of print
+1) name : 조정훈
+2) time : 201804112241
+3) message : Photo
+1) name : 김수현
+2) time : 201804112241
+3) message : Or write one more that line like getchar() in C
+1) name : 조정훈
+2) time : 201804112241
+3) message : I put println....but it's same....
+1) name : 조정훈
+2) time : 201804112244
+3) message : getchar()?? How?? can you explain more?
+1) name : 윤종욱
+2) time : 201804112245
+3) message : I think this code has no problem ... 
+1) name : 조정훈
+2) time : 201804112248
+3) message : I think so too.......(훌쩍)
+1) name : 김수현
+2) time : 201804112248
+3) message : Maybe you pressed enter(=input '₩n') because of setting the size of array. but nextline() reacts '₩n' so it was skipped
+1) name : 영인
+2) time : 201804112249
+3) message : Make 3 Scanner instances might solve problem
+1) name : 김수현
+2) time : 201804112249
+3) message : If you write that line one more, it will be solved.
+1) name : 조정훈
+2) time : 201804112250
+3) message : Oh!! I got it
+1) name : 조정훈
+2) time : 201804112251
+3) message : Photo
+1) name : 조정훈
+2) time : 201804112251
+3) message : Thank you very very much 영인 수현 and 종욱!!
+1) name : 남재창
+2) time : 201804112302
+3) message : Good discussion. Thanks all!
+1) name : 조정훈
+2) time : 201804112314
+3) message : good night(하하)
+1) name : 한상민
+2) time : 201804130933
+3) message : home...
+1) name : 이준섭
+2) time : 201804130937
+3) message : Is the exam going to be usually from what we did in the lab and homework?
+1) name : 이준섭
+2) time : 201804131035
+3) message : Is it a must to provide both int (key) and string if we call Hashmap<integer,String> or will it get a default key?
+1) name : 이준섭
+2) time : 201804131036
+3) message : Yes I am clear ^^
+1) name : 한별
+2) time : 201804132012
+3) message : Professor. In HW1-6,  Should I change the javadoc?
+1) name : 남재창
+2) time : 201804132028
+3) message : Not necessary if you did not mention about array in javadoc.
+1) name : 남재창
+2) time : 201804132029
+3) message : But you must update single line comments for the changed lines.
+1) name : 한별
+2) time : 201804132034
+3) message : Thanks. Have a good weekend!
+1) name : 영인
+2) time : 201804132049
+3) message : Do I need to make a new repository in a git hub for the SalesReporter using HashMap?? If I do, is the repository name Lab11??
+1) name : 이준섭
+2) time : 201804132050
+3) message : I dont think hashmap is the assignment too! Professor just demonstrated us that we can use it too
+1) name : 영인
+2) time : 201804132051
+3) message : Oh.. then is there any other assignment given in today's class?
+1) name : 이준섭
+2) time : 201804132051
+3) message : Its just implementing ArrayList instead of size defined array
+1) name : 이준섭
+2) time : 201804132052
+3) message : Yep that should be the assignment ^^
+1) name : 권현우
+2) time : 201804132057
+3) message : You guys are so kind.
+1) name : 남재창
+2) time : 201804132109
+3) message : Check the lecture note and slides for HW1-6.
+1) name : 영인
+2) time : 201804132110
+3) message : Thank you 준섭 and JC!
+1) name : 권현우
+2) time : 201804170952
+3) message : Clear
+1) name : 영인
+2) time : 201804170952
+3) message : yes
+1) name : 채지혜
+2) time : 201804170953
+3) message : yes
+1) name : 조정훈
+2) time : 201804170953
+3) message : yes
+1) name : 권현우
+2) time : 201804170958
+3) message : If you override, then you cannot use the original(overrided) method anymore. Is it right?
+1) name : 이준섭
+2) time : 201804170959
+3) message : Can you still access to superclass's method even after overriding?
+1) name : 이준섭
+2) time : 201804170959
+3) message : From the subclass
+1) name : 영인
+2) time : 201804171000
+3) message : constant
+1) name : 권현우
+2) time : 201804171007
+3) message : Can you define methods in child class as final? In order to prevent the children classes of the child class from overriding
+1) name : 영인
+2) time : 201804171010
+3) message : no
+1) name : 이준섭
+2) time : 201804171018
+3) message : When we call super.methodname() from subclass even after overriding that method we can still call the superclass's method right?
+1) name : 이준섭
+2) time : 201804171024
+3) message : Yes
+1) name : NYB☆
+2) time : 201804200143
+3) message : In exam question, Problem 2 is missing. Is it correct??
+1) name : 영인
+2) time : 201804200149
+3) message : I think someone accidentally erased the question.
+1) name : 영인
+2) time : 201804200150
+3) message : Problem 2. Explain how Java source code file is finally executed in our computer?
+1) name : 조정훈
+2) time : 201804200154
+3) message : thanks!
+1) name : 남재창
+2) time : 201804200227
+3) message : 이승용 removed it. Recovered it now.
+1) name : 조정훈
+2) time : 201804200236
+3) message : Isn't it same with problem 5..?
+1) name : 남재창
+2) time : 201804200238
+3) message : Yes. It seems he removed it as they are same.
+1) name : 최우림
+2) time : 201804200240
+3) message : JC mid-term exam answer is only english??
+1) name : 남재창
+2) time : 201804200241
+3) message : Definitely yes. Korean answers will not be marked.
+1) name : 남재창
+2) time : 201804200252
+3) message : Please, share the answers in the google doc. Help other students. Do not compete but study together. Focus on study but not grade. Everybody in this class have to learn something about Java.
+1) name : 이준섭
+2) time : 201804200737
+3) message : Professor we have exam at 9:30am not 8:30am right?
+1) name : 조정훈
+2) time : 201804200740
+3) message : Photo
+1) name : 조정훈
+2) time : 201804200740
+3) message : announcement from google doc!
+1) name : 이준섭
+2) time : 201804200741
+3) message : Thank you so much! ^^ @조정훈
+1) name : 조정훈
+2) time : 201804200741
+3) message : welcome!
+1) name : NYB☆
+2) time : 201804200746
+3) message : bytecode and machine language are machine language
+1) name : NYB☆
+2) time : 201804200746
+3) message : ??
+1) name : NYB☆
+2) time : 201804200746
+3) message : I mean, are both two machine language??
+1) name : NYB☆
+2) time : 201804200748
+3) message : in process of java program compling
+1) name : 권현우
+2) time : 201804200748
+3) message : Bytecode is not a machine language I guess
+1) name : 권현우
+2) time : 201804200748
+3) message : machine language is somethins like 10100020101
+1) name : 권현우
+2) time : 201804200748
+3) message : bytecode looks different
+1) name : 권현우
+2) time : 201804200749
+3) message : I put 2 accidentally,
+1) name : 권현우
+2) time : 201804200750
+3) message : machine language consists of only 0 and 1
+1) name : 남재창
+2) time : 201804200750
+3) message : Byte code is a vitual machine language. That is written in byte which is consits of series of 0 and 1.
+1) name : 권현우
+2) time : 201804200750
+3) message : Oh really?
+1) name : 권현우
+2) time : 201804200751
+3) message : Then bytecode is not assembly language?
+1) name : 남재창
+2) time : 201804200751
+3) message : Yeap. When you open the class filie, what you see is the intepreed code as an assembly language.
+1) name : 권현우
+2) time : 201804200752
+3) message : Oh I got the point
+1) name : 권현우
+2) time : 201804200752
+3) message : didn't know that until the morning of exam day 
+1) name : 남재창
+2) time : 201804200753
+3) message : Actually I replied to your comments in the doc.
+1) name : 권현우
+2) time : 201804200753
+3) message : Now I saw it
+1) name : 남재창
+2) time : 201804200754
+3) message : Ok good.
+1) name : 권현우
+2) time : 201804200754
+3) message : Thank you for the comment!
+1) name : 남재창
+2) time : 201804200754
+3) message : No problem.
+1) name : 남재창
+2) time : 201804200756
+3) message : Thanks for those who share your knowledge in the doc for  other students! Hope you guys get full mark!
+1) name : 정진혁
+2) time : 201804201623
+3) message : Professor, for the HW 1-6, as we have to receive two types of data, name and sales, do I have to make two arraylist? 
+1) name : 이준섭
+2) time : 201804201713
+3) message : From what I understood I think you should make an arraylist with salesman type :- ArrayList<salesman> team
+1) name : 이준섭
+2) time : 201804201714
+3) message : Oops Salesman first letter should be captial!
+1) name : 남재창
+2) time : 201804201719
+3) message : Thanks! 준섭. He has a right answer.
+1) name : 정진혁
+2) time : 201804201831
+3) message : oh I got it thank you!!!
+1) name : 조정훈
+2) time : 201804211656
+3) message : Photo
+1) name : 조정훈
+2) time : 201804211656
+3) message : why don't we put instance name in front of PrintMap method?
+1) name : 조정훈
+2) time : 201804211847
+3) message : I have a question about Hw 1-6. Is it right to include Salesman class in SalesReporter class?
+1) name : 조정훈
+2) time : 201804211848
+3) message : I don't understand why JC delete the Salesman.java file in class....
+1) name : 남재창
+2) time : 201804212011
+3) message : Thanks was for HashMap. For the hw1-6, you must have Salesman.java
+1) name : 남재창
+2) time : 201804212013
+3) message : Thanks--> That
+1) name : 조정훈
+2) time : 201804212019
+3) message : aha okay thanks~~
+1) name : 남재창
+2) time : 201804240855
+3) message : Strong wind today. Be careful!
+1) name : 권현우
+2) time : 201804240917
+3) message : doors are locked ㅠㅠ
+1) name : 남재창
+2) time : 201804240926
+3) message : Opened it. Thanks
+1) name : 권현우
+2) time : 201804240937
+3) message : many?
+1) name : 이준섭
+2) time : 201804240951
+3) message : In terms of execution and compilation whats the difference between static and dynamic binding?
+1) name : 이준섭
+2) time : 201804241000
+3) message : Thank you ^^
+1) name : NYB☆
+2) time : 201804241001
+3) message : we can't use setLevel function but we can assign people[] to undergraduate and save information? I can't understand TT
+1) name : 조정훈
+2) time : 201804241005
+3) message : to communicate with other developers
+1) name : 권현우
+2) time : 201804241006
+3) message : Easy to understand
+1) name : 권현우
+2) time : 201804241007
+3) message : for others?
+1) name : NYB☆
+2) time : 201804241018
+3) message : Thank you!
+1) name : 남재창
+2) time : 201804241101
+3) message : How we can call specific public methods in sub classes that are in Person array.
+1) name : 권현우
+2) time : 201804271039
+3) message : changing the return integer
+1) name : 남재창
+2) time : 201804271108
+3) message : Lab is a part of a class. Students who leave early without finising the lab today will be marked as ""Early Leave."" (조퇴).
+1) name : 권현우
+2) time : 201804290652
+3) message : When we use 'super' to call a constructor(with some private variables) from superclass, does the constructor create another private variable instances in the memory space that is different from superclass' instances?
+1) name : 조완서
+2) time : 201804290716
+3) message : Yes I think so..
+1) name : 남재창
+2) time : 201804290824
+3) message : Yes, I think so too. Private variables are created when we call super. But I'm not sure if two instances are created. Some developer said that one instance is created. https://stackoverflow.com/questions/9005851/does-an-instance-of-superclass-get-created-when-we-instantiate-an-object?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa but I think two instances are created but they are directly connected. Instance of subclass can't directly access private members in superclass. You may write some code to check it. It's interesting discussion. Thanks!
+1) name : 권현우
+2) time : 201804290831
+3) message : oh, I didn't expect the answers to come this early. Thought maybe in Monday or so. Sorry for bothering JC and 완서 in weekend.
+1) name : 권현우
+2) time : 201804290832
+3) message : Thank you so much for the answers! :)
+1) name : 남재창
+2) time : 201804290834
+3) message : Love is not make your people wait ;) I love you guys~
+1) name : 권현우
+2) time : 201804290835
+3) message : (굿)
+1) name : 남재창
+2) time : 201804291459
+3) message : In HW1-7, Prob3 requires knowledge about abtract class which we wil learn on this Tuesday.  So you study abtract class in advance by doing prob3 or may solve other problems first. One of students suggested to provide detailed descriptions for each problem. Sorry for any inconvenience caused. But you can solve with creativity if you can get corret output. From HW2-2, detailed descriptions will be given but without candiate answer code. In additon, current code is not perfect in terms of namaing. You should fix all names if they are not following convetions. So be carefull and do not lose your mark becaseof that. (Hint: For prob1, WhatFriend() is not a proper method name. Check all others.)
+1) name : 조완서
+2) time : 201804291523
+3) message : Ok! thank you JC
+1) name : 조정훈
+2) time : 201804292342
+3) message : Photo
+1) name : 조정훈
+2) time : 201804292342
+3) message : do we use 'this' to refer to current object??
+1) name : 남재창
+2) time : 201804292344
+3) message : since there is no local variable with the same name, 'this' keyword is optional.
+1) name : 조정훈
+2) time : 201804292344
+3) message : okay thanks!!!
+1) name : 조정훈
+2) time : 201804292355
+3) message : Photo
+1) name : 조정훈
+2) time : 201804292355
+3) message : Also , we can use Student type parameter otherStudent for hasSameName method, because Student is a Person, right??
+1) name : 조정훈
+2) time : 201804292356
+3) message : Photo
+1) name : 남재창
+2) time : 201804292358
+3) message : Yeap, Student is a subclass of Person.
+1) name : 조정훈
+2) time : 201804292359
+3) message : Thank you so much(감동)(감동)
+1) name : 남재창
+2) time : 201804300000
+3) message : No problem~
+1) name : 조정훈
+2) time : 201804301036
+3) message : Photo
+1) name : 조정훈
+2) time : 201804301037
+3) message : Can we get the otherPerson's ""name"" data which is private like that? 
+1) name : 조정훈
+2) time : 201804301039
+3) message : I think we always get private data by calling getter method..
+1) name : 조정훈
+2) time : 201804301041
+3) message : Oh in this case, the hasSameName method is in Student class, so we don't need to call getter method?
+1) name : 조정훈
+2) time : 201804301043
+3) message : *Student > Person
+1) name : 조정훈
+2) time : 201804301057
+3) message : I think I got the answer(하하)
+1) name : 조정훈
+2) time : 201804301057
+3) message : Photo
+1) name : 남재창
+2) time : 201804301228
+3) message : Ok, good self-study. These are always confusing. Now you learnd it :)
+1) name : 조정훈
+2) time : 201804301239
+3) message : Yeap(하하)
+1) name : 남재창
+2) time : 201805010030
+3) message : Midterm exam scores are shared in the google sheet where I shared your homework scores before. If you think you get better or lower scores than you expected, stop by my office (check my calendar in my homepage and make an appoinment for one of empty slots in my calendar.) One student got full mark (FYI no students got full mark in Java class conducted in Korean.) The lowest score is 13.5.
+1) name : 남재창
+2) time : 201805010031
+3) message : Do not ask me average and std.
+1) name : 권현우
+2) time : 201805010945
+3) message : What's the difference between Abstract class and interface?
+1) name : 한별
+2) time : 201805010947
+3) message : When do we use to the abstract class??
+1) name : Sovan Chhaya
+2) time : 201805010947
+3) message : Thank
+1) name : 한별
+2) time : 201805010952
+3) message : Clear
+1) name : 권현우
+2) time : 201805011012
+3) message : What's the reason for using exceptions?
+1) name : 남재창
+2) time : 201805021850
+3) message : HW dealdine is extended (two hours, tha is 23:59 on the same day)
+1) name : Jonathan
+2) time : 201805021851
+3) message : Thank you professor!!
+1) name : 명진
+2) time : 201805021951
+3) message : then the deadline is still friday professor??
+1) name : 남재창
+2) time : 201805021952
+3) message : It's tomorrow (Thursday).
+1) name : 남재창
+2) time : 201805021953
+3) message : May 3. HW1-7
+1) name : 명진
+2) time : 201805021953
+3) message : oh sorry thanks professor
+1) name : 김기철
+2) time : 201805021953
+3) message : Professor,You're a very gentleman.!! thank you
+1) name : 남재창
+2) time : 201805021955
+3) message : No electricity for two hours. That's why the deadline is extended.
+1) name : 김기철
+2) time : 201805021957
+3) message : Thank you JC~ 
+1) name : samer
+2) time : 201805022003
+3) message : thanks JC!
+1) name : 조정훈
+2) time : 201805030826
+3) message : 좋은하루 보내세욤~~
+1) name : 조정훈
+2) time : 201805030826
+3) message : Sorry..
+1) name : 남재창
+2) time : 201805030829
+3) message : Why sorry. You blessed us :) Have a great day all!
+1) name : 조정훈
+2) time : 201805030830
+3) message : (하하)
+1) name : 조정훈
+2) time : 201805030830
+3) message : You too JC
+1) name : 조완서
+2) time : 201805031010
+3) message : Hahaha Have a nice day XD
+1) name : 정진혁
+2) time : 201805031420
+3) message : Professor, do we have slides for gradle installation for Mac?
+1) name : 남재창
+2) time : 201805031423
+3) message : No slide but you can check here: https://gradle.org/install/#manually
+1) name : 정진혁
+2) time : 201805031429
+3) message : I tried with the package manager way and the manual way. Both caused errors. I will try more though! Thank you Professor!!
+1) name : 남재창
+2) time : 201805031430
+3) message : Yeap, try again and follow steps carefully. If your system is already messed up, it might not be easy. Good luck!
+1) name : 김석진
+2) time : 201805032146
+3) message : Photo
+1) name : 김석진
+2) time : 201805032147
+3) message : I followed all these steps
+1) name : 김석진
+2) time : 201805032147
+3) message : Photo
+1) name : 김석진
+2) time : 201805032147
+3) message : but 'Lab13' is not java project
+1) name : 김석진
+2) time : 201805032148
+3) message : anyone who can solve this? :~(
+1) name : 한별
+2) time : 201805032148
+3) message : Did you initiate the github?
+1) name : 한별
+2) time : 201805032148
+3) message : Oh sorry. git!
+1) name : 김석진
+2) time : 201805032150
+3) message : Photo
+1) name : 김석진
+2) time : 201805032150
+3) message : Photo
+1) name : 김석진
+2) time : 201805032150
+3) message : these two steps?
+1) name : 한별
+2) time : 201805032151
+3) message : Yes
+1) name : 김석진
+2) time : 201805032151
+3) message : I did
+1) name : 권현우
+2) time : 201805032159
+3) message : that's maybe
+1) name : 권현우
+2) time : 201805032200
+3) message : did you gradle init?
+1) name : 권현우
+2) time : 201805032200
+3) message : before you gradle init, you don't have anything in the lab13 I guess
+1) name : 권현우
+2) time : 201805032201
+3) message : cd lab13
+1) name : 권현우
+2) time : 201805032201
+3) message : and gradle init --type java-library
+1) name : 권현우
+2) time : 201805032201
+3) message : and in the eclipse import the lab13
+1) name : 김석진
+2) time : 201805032203
+3) message : wow
+1) name : 김석진
+2) time : 201805032204
+3) message : perfectly right!
+1) name : 김석진
+2) time : 201805032204
+3) message : thanks 현우!
+1) name : 권현우
+2) time : 201805032205
+3) message : Great
+1) name : 권현우
+2) time : 201805032205
+3) message : have a nice day with the homework(?)
+1) name : 권현우
+2) time : 201805032205
+3) message : :)
+1) name : 권현우
+2) time : 201805040937
+3) message : flowing water?
+1) name : 권현우
+2) time : 201805041006
+3) message : 3 lines are added at the end
+1) name : 한상민
+2) time : 201805041007
+3) message : How can I find out.txt?
+1) name : 권현우
+2) time : 201805041045
+3) message : What is the meaning of  Integer.parseInt() ?
+1) name : 한별
+2) time : 201805041726
+3) message : What is the meaning of 'throw'?
+1) name : 남재창
+2) time : 201805041805
+3) message : Exception is object. Java considers exception/error object. So if exception is thrown, it must be catched and processes by our Java code. (공을 던지면Throw 공을 받듯이catch 에러를 객체로 만들어서 마치 공처럼 던지면 누군가 받아서 그 공을 처리한다는 개념으로 exeception을 처리한다고 이해하면 됨.)
+1) name : 한별
+2) time : 201805041811
+3) message : Oh, I see
+1) name : 한별
+2) time : 201805041811
+3) message : Thanks JC! Have a nice weekend!
+1) name : 권현우
+2) time : 201805081033
+3) message : The arraylist
+1) name : 권현우
+2) time : 201805081033
+3) message : of doubled numbers?
+1) name : 정진혁
+2) time : 201805081034
+3) message : doubled numbers
+1) name : 권현우
+2) time : 201805081034
+3) message : doubledNumbers
+1) name : 한별
+2) time : 201805081035
+3) message : doubleIntNumbers
+1) name : 남재창
+2) time : 201805081245
+3) message :  Please, do this survey to decide the class plan. Thanks! https://goo.gl/forms/6MkM1JeDObMgRefI3 
+1) name : 남재창
+2) time : 201805082212
+3) message : please, participate for the survey. Only 17 students answered for it. Thanks!
+1) name : 남재창
+2) time : 201805082342
+3) message : About 10 students did not answer for the survey. Please, do your survey. Based on the survey results, I'll decide the plan option that is voted by the more number of students than other options.
+1) name : Sovan Chhaya
+2) time : 201805082345
+3) message : I didn't get the permission yet JC
+1) name : 남재창
+2) time : 201805082347
+3) message : you can login with [your_student_id]@handing.edu and password is 'hgu000000' 000000 is your birthday yymmdd. Try it.
+1) name : 남재창
+2) time : 201805082347
+3) message : [your_student_id]@handong.edu
+1) name : 윤종욱
+2) time : 201805101303
+3) message : JC, I have a question. Can I use '_'(underscore) in class name? If it is possible, what is the right class name? (Apple_Seller or Apple_seller) 
+1) name : 남재창
+2) time : 201805101304
+3) message : You can use underscore but not recommended. So do not use it. Not using it is convention usually accepted.
+1) name : 윤종욱
+2) time : 201805101305
+3) message : Thank you JC 
+1) name : NYB☆
+2) time : 201805101754
+3) message : Prob3 says the try-catch is within the main, that means I can't put try-catch block to run() or any other method but just main method??
+1) name : 남재창
+2) time : 201805110855
+3) message : Sorry for the late reply. You can put try-catch anwhyere in which statemnets that can cause exeptions exist.
+1) name : 권현우
+2) time : 201805110938
+3) message : How to make a loop which breaks when no exception is found?
+1) name : 권현우
+2) time : 201805110940
+3) message : Is it okay to put the try-catch block in a infinite loop?
+1) name : 권현우
+2) time : 201805110941
+3) message : what is an end condition for the loop, then?
+1) name : 남재창
+2) time : 201805111006
+3) message : If no exception is foond, you don't have to make infinite loop.
+1) name : 남재창
+2) time : 201805111007
+3) message : It is not good idea to add nested try-catch. Sometimes it is trick to come up with a good loop condition. You need some creativity to catch the idea.
+1) name : 권현우
+2) time : 201805111018
+3) message : hmm...
+1) name : 권현우
+2) time : 201805111019
+3) message : for a command-line system program(interacting program), if user typed something wrong, then the system needs to ask agian. In this case, exception handling is not usually used?
+1) name : 남재창
+2) time : 201805111045
+3) message : Usually, we can provide limited-trials (e.g., three-trials) for users. No infinite loop is applied usually.
+1) name : 권현우
+2) time : 201805111046
+3) message : Thank you for the answers! :)
+1) name : 남재창
+2) time : 201805111159
+3) message : Install Eclipse for mac pro users.
+1) name : 남재창
+2) time : 201805111159
+3) message : https://docs.google.com/presentation/d/1RFAlJ07aYyQOPhMH5IqZ-yOREOtZBIqa4ECwi4_yvi8/edit#slide=id.p
+1) name : 조완서
+2) time : 201805111337
+3) message : wow thank you JC!
+1) name : 심준석
+2) time : 201805111918
+3) message : Professor JC , I have a question . When I tried to run my class files , there are no reactions even if I clicked running button . Then how can I solve this problem? 
+1) name : 정승영
+2) time : 201805111924
+3) message : if that class file has no main method, that situation occurs.
+1) name : 남재창
+2) time : 201805111939
+3) message : Run your program by opening the popup menu on the java file that has a main method, ""Run as"" —> ""Java Application"" for sure.
+1) name : 심준석
+2) time : 201805111941
+3) message : I already checked out that there is main method. But still occured same problems
+1) name : 남재창
+2) time : 201805111942
+3) message : Is your program waiting for some keyboard input on your console??
+1) name : 심준석
+2) time : 201805111955
+3) message : No, I cannot find any reactions
+1) name : 남재창
+2) time : 201805111959
+3) message : Push your code
+1) name : 남재창
+2) time : 201805111959
+3) message : I can check it.
+1) name : 남재창
+2) time : 201805112000
+3) message : Then, let me know the prob #
+1) name : 남재창
+2) time : 201805112002
+3) message : If you can't see your console, then click Wondow menu >> show view >> console.
+1) name : 심준석
+2) time : 201805112032
+3) message : I pushed professor! , and in prob 3, 5  I experienced that problems
+1) name : 남재창
+2) time : 201805112051
+3) message : Your program is working. Your program is just waiting for keyboard input.
+1) name : 남재창
+2) time : 201805112053
+3) message : You should type something in your console. Then you can see your program is actually working.
+1) name : 심준석
+2) time : 201805112104
+3) message : I understand it ! Thanks for help Professor
+1) name : 윤종욱
+2) time : 201805171554
+3) message : JC, I have a question. CSV files and TXT files are not in same format. How can we make them in same format? 
+1) name : 남재창
+2) time : 201805171556
+3) message : You can parse each messges with three data: user name, datetiem, and message.
+1) name : 남재창
+2) time : 201805171557
+3) message : Then you can save them by using the same class type that has three instance variables for the user name, datetime, and message. 
+1) name : 권현우
+2) time : 201805180943
+3) message : assigning problem?
+1) name : 권현우
+2) time : 201805181020
+3) message : in the iteration, first link is
+1) name : 권현우
+2) time : 201805181021
+3) message : for a linked list for only one node, parent becomes the current node, but in other cases i think this works
+1) name : 정진혁
+2) time : 201805181454
+3) message : Professor, do we have to consider the case that a txt file and a csv file have same chat?
+1) name : 정진혁
+2) time : 201805181457
+3) message : Is it needed to parse two different data type into the same format?
+1) name : 남재창
+2) time : 201805181941
+3) message : No, you must deal with all messages as the same data type. Otherwise, your code will be complicated.
+1) name : 남재창
+2) time : 201805182106
+3) message : there might be encoding issue when reading csv files in Windows. In that case, you need to set encoding for your Scanner. For example, new Scanner(file,""UTF-8"")
+1) name : 윤종욱
+2) time : 201803021211
+3) message : Good!  could you please use a mic?(방긋)
+1) name : 오세현
+2) time : 201803021225
+3) message : I think it's good!
+1) name : 정진혁
+2) time : 201803021226
+3) message : Using this talk is much fun!
+1) name : 권현우
+2) time : 201803021229
+3) message : I agree with 진혁, since I'm a shy guy, it helps me to participate more in the class. I hope we could keep this way more.
+1) name : 권현우
+2) time : 201803021230
+3) message : Thank you for considering us, and for your commitment to the class JC :)
+1) name : 조정훈
+2) time : 201803021304
+3) message : It was good. Thank you for your considering JC
+1) name : 남재창
+2) time : 201803021320
+3) message : OK, 종욱. I'll use a mic in the class. Thanks for the feedback. Using a mic will be helpful for students who have a seat in the back side.  Thanks all who agreed on using the open chat.
+1) name : 남재창
+2) time : 201803021323
+3) message : While you are reviwing Lecture 1-1 and 1-2, put some answers in Exam Questions in the lecture note. By doing that, you can also benenifit other students. I can correct your answers if there are misunderstanding about any concepts we learned! Hope to enjoy the first weekend of this semester.
+1) name : 남재창
+2) time : 201803021323
+3) message : Any qeustions and feedbacks are always welcome!
+1) name : 조정훈
+2) time : 201803021728
+3) message : JC, will you cover the ppts in class? 
+1) name : 남재창
+2) time : 201803021806
+3) message : Yes. I will cover the ppts for the summary purpose whenver each topic ends in the lecture. When we study java code, I'll direct you to the related slides by links in the lecture note. I already put some links for certain topics. There are some contents that are not in ppts as well. Thanks!
+1) name : Sovan Chhaya
+2) time : 201803060923
+3) message : I'm not clear with How java program run on a computer
+1) name : 정진혁
+2) time : 201803060934
+3) message : Good!
+1) name : 조완서
+2) time : 201803060934
+3) message : godd
+1) name : 권현우
+2) time : 201803060934
+3) message : Little sleepy
+1) name : samer
+2) time : 201803060934
+3) message : Good!
+1) name : 조완서
+2) time : 201803060934
+3) message : good
+1) name : 한별
+2) time : 201803060934
+3) message : Not bad
+1) name : 오세현
+2) time : 201803060934
+3) message : tired..
+1) name : 김유진
+2) time : 201803060934
+3) message : so tired...
+1) name : 서남진
+2) time : 201803060934
+3) message : good~~~
+1) name : 이명희
+2) time : 201803060934
+3) message : good
+1) name : 윤종욱
+2) time : 201803060934
+3) message : good
+1) name : Jonathan
+2) time : 201803060937
+3) message : Yes!
+1) name : 정진혁
+2) time : 201803060937
+3) message : Yes:)
+1) name : 오세현
+2) time : 201803060937
+3) message : got it!
+1) name : 조혜린
+2) time : 201803060937
+3) message : yes!
+1) name : 지승윤
+2) time : 201803060937
+3) message : yes
+1) name : 조정훈
+2) time : 201803060937
+3) message : okay
+1) name : 채지혜
+2) time : 201803060937
+3) message : yes
+1) name : 민주
+2) time : 201803060937
+3) message : yes!
+1) name : Sovan Chhaya
+2) time : 201803060937
+3) message : Yes
+1) name : 권현우
+2) time : 201803060937
+3) message : I clicked the hyperlink and it says I'm not authorized. Do I need to get your permission for every links?
+1) name : Sovan Chhaya
+2) time : 201803060943
+3) message : Is Machine languages for that JVM
+1) name : 정진혁
+2) time : 201803060946
+3) message : translates bytecodes into a machine language
+1) name : Sovan Chhaya
+2) time : 201803060946
+3) message : Example Virtualbox
+1) name : 조정훈
+2) time : 201803060951
+3) message : object oriented
+1) name : 서남진
+2) time : 201803060951
+3) message : OOT
+1) name : 조혜린
+2) time : 201803060951
+3) message : object-oriented?
+1) name : 권현우
+2) time : 201803060951
+3) message : Object oriented
+1) name : 김유진
+2) time : 201803060951
+3) message : Object_oriented
+1) name : 조정훈
+2) time : 201803060952
+3) message : turn on
+1) name : samer
+2) time : 201803060953
+3) message : Images
+1) name : 정진혁
+2) time : 201803060953
+3) message : project
+1) name : Jonathan
+2) time : 201803060953
+3) message : Turn off
+1) name : 권현우
+2) time : 201803060953
+3) message : show something
+1) name : 명진
+2) time : 201803060953
+3) message : showing display
+1) name : 영인
+2) time : 201803060953
+3) message : display
+1) name : Sovan Chhaya
+2) time : 201803060953
+3) message : Show the slid
+1) name : 한상민
+2) time : 201803060954
+3) message : turned on
+1) name : 오세현
+2) time : 201803060955
+3) message : connect to computer
+1) name : 한상민
+2) time : 201803060955
+3) message : turned off
+1) name : 정진혁
+2) time : 201803060955
+3) message : showing slides
+1) name : Jonathan
+2) time : 201803060955
+3) message : Projecting state
+1) name : 권현우
+2) time : 201803060955
+3) message : blue light that shows it is turned on
+1) name : 오세현
+2) time : 201803060958
+3) message : computer
+1) name : 정진혁
+2) time : 201803060958
+3) message : electricity
+1) name : 조정훈
+2) time : 201803060958
+3) message : wifi
+1) name : 명진
+2) time : 201803060959
+3) message : detectors?
+1) name : 윤종욱
+2) time : 201803060959
+3) message : router?
+1) name : 권현우
+2) time : 201803060959
+3) message : students?
+1) name : 김기철
+2) time : 201803060959
+3) message : smart phone
+1) name : 오세현
+2) time : 201803060959
+3) message : programs
+1) name : Sovan Chhaya
+2) time : 201803061003
+3) message : What is the disadvantage when we take the package from another?
+1) name : 조정훈
+2) time : 201803061013
+3) message : can you explain again?
+1) name : 조정훈
+2) time : 201803061013
+3) message : about class
+1) name : 권현우
+2) time : 201803061015
+3) message : Is there any difference between instance and Class?
+1) name : 남재창
+2) time : 201803061027
+3) message : Any names!
+1) name : 명진
+2) time : 201803061027
+3) message : JC
+1) name : 권현우
+2) time : 201803061027
+3) message : JC
+1) name : 오세현
+2) time : 201803061027
+3) message : smartclass
+1) name : 채지혜
+2) time : 201803061027
+3) message : JC's smartclass
+1) name : 조정훈
+2) time : 201803061027
+3) message : smartJC
+1) name : 정승영
+2) time : 201803061030
+3) message : is it related to javascript for web?
+1) name : 윤종욱
+2) time : 201803061030
+3) message : in web? 
+1) name : 권현우
+2) time : 201803061030
+3) message : to know where they are come from?
+1) name : Sovan Chhaya
+2) time : 201803061030
+3) message : To identify
+1) name : 조정훈
+2) time : 201803061037
+3) message : screen
+1) name : 영인
+2) time : 201803061040
+3) message : explanation about code
+1) name : 김석진
+2) time : 201803061040
+3) message : //
+1) name : 민주
+2) time : 201803061040
+3) message : /*
+1) name : 채지혜
+2) time : 201803061040
+3) message : to explain 
+1) name : 오세현
+2) time : 201803061041
+3) message : don't affect the program
+1) name : Sovan Chhaya
+2) time : 201803061041
+3) message : Use to explain how  code process to another developer
+1) name : 조정훈
+2) time : 201803061043
+3) message : I dont know
+1) name : 한상민
+2) time : 201803061058
+3) message : there is no index.html
+1) name : samer
+2) time : 201803061217
+3) message : Can any of the TA students help me?
+1) name : 남재창
+2) time : 201803061332
+3) message : If there is an error or no index.html when you generate Javadoc, check your path of your workspace. If your account name of your Windows in Korean, that seems to cause a problem. Eclipse seems not good at proceesing Korean characters. So, when opening Eclipse, change your workspace path without a Korean folder name.
+1) name : 남재창
+2) time : 201803061335
+3) message : Samer you can also contact me. (jcnam@handong.edu)
+1) name : 윤종욱
+2) time : 201803021211
+3) message : Good!  could you please use a mic?(방긋)
+1) name : 오세현
+2) time : 201803021225
+3) message : I think it's good!
+1) name : 정진혁
+2) time : 201803021226
+3) message : Using this talk is much fun!
+1) name : 권현우
+2) time : 201803021229
+3) message : I agree with 진혁, since I'm a shy guy, it helps me to participate more in the class. I hope we could keep this way more.
+1) name : 권현우
+2) time : 201803021230
+3) message : Thank you for considering us, and for your commitment to the class JC :)
+1) name : 조정훈
+2) time : 201803021304
+3) message : It was good. Thank you for your considering JC
+1) name : 남재창
+2) time : 201803021320
+3) message : OK, 종욱. I'll use a mic in the class. Thanks for the feedback. Using a mic will be helpful for students who have a seat in the back side.  Thanks all who agreed on using the open chat.
+1) name : 남재창
+2) time : 201803021323
+3) message : While you are reviwing Lecture 1-1 and 1-2, put some answers in Exam Questions in the lecture note. By doing that, you can also benenifit other students. I can correct your answers if there are misunderstanding about any concepts we learned! Hope to enjoy the first weekend of this semester.
+1) name : 남재창
+2) time : 201803021323
+3) message : Any qeustions and feedbacks are always welcome!
+1) name : 조정훈
+2) time : 201803021728
+3) message : JC, will you cover the ppts in class? 
+1) name : 남재창
+2) time : 201803021806
+3) message : Yes. I will cover the ppts for the summary purpose whenver each topic ends in the lecture. When we study java code, I'll direct you to the related slides by links in the lecture note. I already put some links for certain topics. There are some contents that are not in ppts as well. Thanks!
+1) name : Sovan Chhaya
+2) time : 201803060923
+3) message : I'm not clear with How java program run on a computer
+1) name : 정진혁
+2) time : 201803060934
+3) message : Good!
+1) name : 조완서
+2) time : 201803060934
+3) message : godd
+1) name : 권현우
+2) time : 201803060934
+3) message : Little sleepy
+1) name : samer
+2) time : 201803060934
+3) message : Good!
+1) name : 조완서
+2) time : 201803060934
+3) message : good
+1) name : 한별
+2) time : 201803060934
+3) message : Not bad
+1) name : 오세현
+2) time : 201803060934
+3) message : tired..
+1) name : 김유진
+2) time : 201803060934
+3) message : so tired...
+1) name : 서남진
+2) time : 201803060934
+3) message : good~~~
+1) name : 이명희
+2) time : 201803060934
+3) message : good
+1) name : 윤종욱
+2) time : 201803060934
+3) message : good
+1) name : Jonathan
+2) time : 201803060937
+3) message : Yes!
+1) name : 정진혁
+2) time : 201803060937
+3) message : Yes:)
+1) name : 오세현
+2) time : 201803060937
+3) message : got it!
+1) name : 조혜린
+2) time : 201803060937
+3) message : yes!
+1) name : 지승윤
+2) time : 201803060937
+3) message : yes
+1) name : 조정훈
+2) time : 201803060937
+3) message : okay
+1) name : 채지혜
+2) time : 201803060937
+3) message : yes
+1) name : 민주
+2) time : 201803060937
+3) message : yes!
+1) name : Sovan Chhaya
+2) time : 201803060937
+3) message : Yes
+1) name : 권현우
+2) time : 201803060937
+3) message : I clicked the hyperlink and it says I'm not authorized. Do I need to get your permission for every links?
+1) name : Sovan Chhaya
+2) time : 201803060943
+3) message : Is Machine languages for that JVM
+1) name : 정진혁
+2) time : 201803060946
+3) message : translates bytecodes into a machine language
+1) name : Sovan Chhaya
+2) time : 201803060946
+3) message : Example Virtualbox
+1) name : 조정훈
+2) time : 201803060951
+3) message : object oriented
+1) name : 서남진
+2) time : 201803060951
+3) message : OOT
+1) name : 조혜린
+2) time : 201803060951
+3) message : object-oriented?
+1) name : 권현우
+2) time : 201803060951
+3) message : Object oriented
+1) name : 김유진
+2) time : 201803060951
+3) message : Object_oriented
+1) name : 조정훈
+2) time : 201803060952
+3) message : turn on
+1) name : samer
+2) time : 201803060953
+3) message : Images
+1) name : 정진혁
+2) time : 201803060953
+3) message : project
+1) name : Jonathan
+2) time : 201803060953
+3) message : Turn off
+1) name : 권현우
+2) time : 201803060953
+3) message : show something
+1) name : 명진
+2) time : 201803060953
+3) message : showing display
+1) name : 영인
+2) time : 201803060953
+3) message : display
+1) name : Sovan Chhaya
+2) time : 201803060953
+3) message : Show the slid
+1) name : 한상민
+2) time : 201803060954
+3) message : turned on
+1) name : 오세현
+2) time : 201803060955
+3) message : connect to computer
+1) name : 한상민
+2) time : 201803060955
+3) message : turned off
+1) name : 정진혁
+2) time : 201803060955
+3) message : showing slides
+1) name : Jonathan
+2) time : 201803060955
+3) message : Projecting state
+1) name : 권현우
+2) time : 201803060955
+3) message : blue light that shows it is turned on
+1) name : 오세현
+2) time : 201803060958
+3) message : computer
+1) name : 정진혁
+2) time : 201803060958
+3) message : electricity
+1) name : 조정훈
+2) time : 201803060958
+3) message : wifi
+1) name : 명진
+2) time : 201803060959
+3) message : detectors?
+1) name : 윤종욱
+2) time : 201803060959
+3) message : router?
+1) name : 권현우
+2) time : 201803060959
+3) message : students?
+1) name : 김기철
+2) time : 201803060959
+3) message : smart phone
+1) name : 오세현
+2) time : 201803060959
+3) message : programs
+1) name : Sovan Chhaya
+2) time : 201803061003
+3) message : What is the disadvantage when we take the package from another?
+1) name : 조정훈
+2) time : 201803061013
+3) message : can you explain again?
+1) name : 조정훈
+2) time : 201803061013
+3) message : about class
+1) name : 권현우
+2) time : 201803061015
+3) message : Is there any difference between instance and Class?
+1) name : 남재창
+2) time : 201803061027
+3) message : Any names!
+1) name : 명진
+2) time : 201803061027
+3) message : JC
+1) name : 권현우
+2) time : 201803061027
+3) message : JC
+1) name : 오세현
+2) time : 201803061027
+3) message : smartclass
+1) name : 채지혜
+2) time : 201803061027
+3) message : JC's smartclass
+1) name : 조정훈
+2) time : 201803061027
+3) message : smartJC
+1) name : 정승영
+2) time : 201803061030
+3) message : is it related to javascript for web?
+1) name : 윤종욱
+2) time : 201803061030
+3) message : in web? 
+1) name : 권현우
+2) time : 201803061030
+3) message : to know where they are come from?
+1) name : Sovan Chhaya
+2) time : 201803061030
+3) message : To identify
+1) name : 조정훈
+2) time : 201803061037
+3) message : screen
+1) name : 영인
+2) time : 201803061040
+3) message : explanation about code
+1) name : 김석진
+2) time : 201803061040
+3) message : //
+1) name : 민주
+2) time : 201803061040
+3) message : /*
+1) name : 채지혜
+2) time : 201803061040
+3) message : to explain 
+1) name : 오세현
+2) time : 201803061041
+3) message : don't affect the program
+1) name : Sovan Chhaya
+2) time : 201803061041
+3) message : Use to explain how  code process to another developer
+1) name : 조정훈
+2) time : 201803061043
+3) message : I dont know
+1) name : 한상민
+2) time : 201803061058
+3) message : there is no index.html
+1) name : samer
+2) time : 201803061217
+3) message : Can any of the TA students help me?
+1) name : 남재창
+2) time : 201803061332
+3) message : If there is an error or no index.html when you generate Javadoc, check your path of your workspace. If your account name of your Windows in Korean, that seems to cause a problem. Eclipse seems not good at proceesing Korean characters. So, when opening Eclipse, change your workspace path without a Korean folder name.
+1) name : 남재창
+2) time : 201803061335
+3) message : Samer you can also contact me. (jcnam@handong.edu)
+1) name : samer
+2) time : 201803061340
+3) message : I done it jc
+1) name : samer
+2) time : 201803061340
+3) message : Thank you for your concern
+1) name : 남재창
+2) time : 201803061341
+3) message : OK, great! Thanks!
+1) name : 남재창
+2) time : 201803061342
+3) message : Is there any body who want to edit the today's lecture note? If you want to do, let me know by an email or put your name in the google sheet (check the annourcement in the lecture note.)
+1) name : 오세현
+2) time : 201803071923
+3) message : 오세현 left this chatroom.
+1) name : Sovan Chhaya
+2) time : 201803072044
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803072045
+3) message : I think about this one but how about number 10?
+1) name : Sovan Chhaya
+2) time : 201803072045
+3) message : can tell me?
+1) name : 남재창
+2) time : 201803072053
+3) message : Manager. Where did you get this? In the class, we may not cover UML.
+1) name : Sovan Chhaya
+2) time : 201803072055
+3) message : Or professor I just learn is but my self but I don't understand too much
+1) name : Sovan Chhaya
+2) time : 201803072055
+3) message : I need your help from you professor
+1) name : 남재창
+2) time : 201803072057
+3) message : You can make an appointment with me. Please, send me an email.
+1) name : Sovan Chhaya
+2) time : 201803072057
+3) message : Yes professor
+1) name : Sovan Chhaya
+2) time : 201803072058
+3) message : Chhormsovanchhaya@gmail.com
+1) name : Sovan Chhaya
+2) time : 201803072100
+3) message : It ok professor ?
+1) name : 남재창
+2) time : 201803072219
+3) message : Hi all I made some slides for your second lab. Please check your Google drive. You must finish lab02 for the next lab if you did not finish on time in the last class.
+1) name : 남재창
+2) time : 201803090927
+3) message : Good morning everyone! How are you today?
+1) name : 한별
+2) time : 201803090927
+3) message : Good!
+1) name : 정승영
+2) time : 201803090928
+3) message : (Emoticon) 
+1) name : 정진혁
+2) time : 201803090928
+3) message : Good morning!!
+1) name : 조완서
+2) time : 201803090928
+3) message : Good!
+1) name : 조완서
+2) time : 201803090928
+3) message : 😆
+1) name : 김유진
+2) time : 201803090928
+3) message : (Emoticon) tired..
+1) name : 이명희
+2) time : 201803090928
+3) message : good
+1) name : 권현우
+2) time : 201803090929
+3) message : happy
+1) name : 명진
+2) time : 201803090929
+3) message : still waking uo
+1) name : 명진
+2) time : 201803090929
+3) message : up
+1) name : 남재창
+2) time : 201803090929
+3) message : Great! :)
+1) name : 윤종욱
+2) time : 201803090929
+3) message : good~~
+1) name : 한상민
+2) time : 201803090931
+3) message : Good morning!
+1) name : 이수아
+2) time : 201803090931
+3) message : 이수아 joined this chatroom.
+1) name : 조혜린
+2) time : 201803090932
+3) message : good!!
+1) name : 권현우
+2) time : 201803090935
+3) message : Class
+1) name : 권현우
+2) time : 201803090935
+3) message : Package
+1) name : 조정훈
+2) time : 201803090935
+3) message : method
+1) name : 서남진
+2) time : 201803090935
+3) message : instance
+1) name : 권현우
+2) time : 201803090935
+3) message : Objects
+1) name : 정진혁
+2) time : 201803090937
+3) message : instance
+1) name : 권현우
+2) time : 201803090937
+3) message : instance
+1) name : 정진혁
+2) time : 201803090937
+3) message : class?
+1) name : 권현우
+2) time : 201803090941
+3) message : to identify where it is from
+1) name : 조정훈
+2) time : 201803090944
+3) message : state
+1) name : 정진혁
+2) time : 201803090944
+3) message : object actions and states
+1) name : 조정훈
+2) time : 201803090944
+3) message : action
+1) name : 김유진
+2) time : 201803090944
+3) message : action and state
+1) name : 채지혜
+2) time : 201803090944
+3) message : state
+1) name : 권현우
+2) time : 201803090955
+3) message : electricity?
+1) name : 조완서
+2) time : 201803090955
+3) message : on and off?
+1) name : 영인
+2) time : 201803090955
+3) message : turn on button
+1) name : 영인
+2) time : 201803090956
+3) message : temperatur
+1) name : 영인
+2) time : 201803090956
+3) message : e
+1) name : 조완서
+2) time : 201803090956
+3) message : size
+1) name : 남재창
+2) time : 201803130901
+3) message : Good mirnig everyone. Hope to see you soon!
+1) name : 권현우
+2) time : 201803130904
+3) message : good morning!
+1) name : 윤종욱
+2) time : 201803130904
+3) message : (굿)
+1) name : 한상민
+2) time : 201803130915
+3) message : (Emoticon) 
+1) name : 민주
+2) time : 201803130927
+3) message : good morning~~
+1) name : 채지혜
+2) time : 201803130931
+3) message : good morning~~~~
+1) name : 이준섭
+2) time : 201803130931
+3) message : Morning~
+1) name : Sovan Chhaya
+2) time : 201803130932
+3) message : Good morning
+1) name : 정승영
+2) time : 201803130953
+3) message : i got one!
+1) name : Sovan Chhaya
+2) time : 201803130954
+3) message : Not clear
+1) name : 영인
+2) time : 201803131018
+3) message : What is difference between local variable and instance variable?
+1) name : 영인
+2) time : 201803131034
+3) message : Then, can instance variable access same value with method?
+1) name : 한상민
+2) time : 201803131034
+3) message : Can you make a 1page image about levels of those things?
+1) name : 한상민
+2) time : 201803131045
+3) message : yes!
+1) name : Sovan Chhaya
+2) time : 201803131115
+3) message : I Get a point
+1) name : 남재창
+2) time : 201803160856
+3) message : Strong wind today! Pleaes, be safe. See you soon ;)
+1) name : Sovan Chhaya
+2) time : 201803160857
+3) message : Take care thank you professor
+1) name : 남재창
+2) time : 201803160857
+3) message : Just call me JC :)
+1) name : Sovan Chhaya
+2) time : 201803160858
+3) message : Ok JC
+1) name : 남재창
+2) time : 201803160858
+3) message : Great!
+1) name : 영인
+2) time : 201803160939
+3) message : maybe
+1) name : 이명희
+2) time : 201803160940
+3) message : each variable and action can access?
+1) name : 영인
+2) time : 201803160940
+3) message : you can access to vaue of data anywhere
+1) name : 권현우
+2) time : 201803160943
+3) message : Can we access the static variables from other classes?
+1) name : 영인
+2) time : 201803160945
+3) message : method
+1) name : 권현우
+2) time : 201803160945
+3) message : isn't ""out"" a form of system call ?
+1) name : 권현우
+2) time : 201803161014
+3) message : Fuel
+1) name : 명진
+2) time : 201803161014
+3) message : size
+1) name : 이준섭
+2) time : 201803161014
+3) message : No.of passengers?
+1) name : 이준섭
+2) time : 201803161014
+3) message : Max number*
+1) name : 민주
+2) time : 201803161015
+3) message : weight
+1) name : 권현우
+2) time : 201803161017
+3) message : propel?
+1) name : 명진
+2) time : 201803161017
+3) message : carrying capacity
+1) name : 권현우
+2) time : 201803161018
+3) message : sending signals
+1) name : samer
+2) time : 201803161018
+3) message : Isn't capacity as the max n of passengers?
+1) name : 조정훈
+2) time : 201803161020
+3) message : turn left
+1) name : 권현우
+2) time : 201803161020
+3) message : horns?
+1) name : 권현우
+2) time : 201803161020
+3) message : making sounds
+1) name : 권현우
+2) time : 201803161020
+3) message : supplying electricity
+1) name : 한상민
+2) time : 201803161021
+3) message : carry in?
+1) name : 권현우
+2) time : 201803161021
+3) message : locking some cabins in case of sinkage
+1) name : 임수진
+2) time : 201803161021
+3) message : engine on off
+1) name : samer
+2) time : 201803161022
+3) message : Propels/fan?
+1) name : Sovan Chhaya
+2) time : 201803161056
+3) message : Return
+1) name : 권현우
+2) time : 201803200913
+3) message : No but on the whiteboard someone wrote ""Java Programming 강의실 변경 OH402""
+1) name : 남재창
+2) time : 201803200914
+3) message : Please, delete it. Maybe it is for another Java programming section ;)
+1) name : 한상민
+2) time : 201803200937
+3) message : local
+1) name : 영인
+2) time : 201803200937
+3) message : local
+1) name : 조정훈
+2) time : 201803200937
+3) message : class
+1) name : 한상민
+2) time : 201803200937
+3) message : static
+1) name : 영인
+2) time : 201803200937
+3) message : static
+1) name : 권현우
+2) time : 201803200938
+3) message : Instacne variable
+1) name : 정석
+2) time : 201803200938
+3) message : instance
+1) name : 정석
+2) time : 201803200938
+3) message : parameter
+1) name : 명진
+2) time : 201803200938
+3) message : method?
+1) name : 채지혜
+2) time : 201803200938
+3) message : global
+1) name : 한상민
+2) time : 201803200943
+3) message : Does interface and javadoc are different?
+1) name : 권현우
+2) time : 201803200945
+3) message : Isn't Encapsulation something that is done naturally?
+1) name : 권현우
+2) time : 201803200947
+3) message : for the local variables, you don't have to make it public
+1) name : 권현우
+2) time : 201803200948
+3) message : is there an opposite concept of Encapsulation then? like opening up all your source codes of your methods, letting others to customize them
+1) name : 한상민
+2) time : 201803200953
+3) message : thank you
+1) name : 권현우
+2) time : 201803201031
+3) message : static?
+1) name : Sovan Chhaya
+2) time : 201803201036
+3) message : I don't understand prob 3
+1) name : Yeun
+2) time : 201803201104
+3) message : Yeun joined this chatroom.
+1) name : 남재창
+2) time : 201803230903
+3) message : Good morning everyone. Today is clean and sunny. Hope to see you soon!
+1) name : 권현우
+2) time : 201803230913
+3) message : good morning :)
+1) name : 채지혜
+2) time : 201803230913
+3) message : Good morning :) See you soon~~~~
+1) name : Sovan Chhaya
+2) time : 201803230935
+3) message : Morning
+1) name : 권현우
+2) time : 201803230939
+3) message : min/2
+1) name : 채지혜
+2) time : 201803230950
+3) message : month
+1) name : 명진
+2) time : 201803251600
+3) message : Professor JC, for the hw1, im having a problem making a javadoc for my main class. the comments wont appear in my javadoc for my main class even if i wrote the comments correctly
+1) name : 권현우
+2) time : 201803251602
+3) message : I had similar problem too.
+1) name : 권현우
+2) time : 201803251603
+3) message : In some classes it won't even appear, and for a pair of classes(Calculator, Calculator main) only one comment appeared
+1) name : 권현우
+2) time : 201803251603
+3) message : but anyway javadoc was made(some without a single comment).
+1) name : 남재창
+2) time : 201803251617
+3) message : 명진 can you send me an email with your code for the class
+1) name : 남재창
+2) time : 201803251617
+3) message : ?
+1) name : 명진
+2) time : 201803251622
+3) message : i sended the codes to your email JC
+1) name : 남재창
+2) time : 201803251629
+3) message : Got it and replied. Javadoc must be put right before the class/method/fileld.
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Photo
+1) name : Sovan Chhaya
+2) time : 201803251957
+3) message : Excuse me JC it is how to summit the Homework...?
+1) name : 남재창
+2) time : 201803252017
+3) message : Yes you've done HW1-2.
+1) name : Sovan Chhaya
+2) time : 201803252018
+3) message : That right JC ...?
+1) name : 남재창
+2) time : 201803252018
+3) message : Yeap
+1) name : Sovan Chhaya
+2) time : 201803252018
+3) message : Thank you JC
+1) name : 남재창
+2) time : 201803252019
+3) message : Press 전송
+1) name : Sovan Chhaya
+2) time : 201803252019
+3) message : Finished JC
+1) name : 남재창
+2) time : 201803252041
+3) message : Ok good!
+1) name : 이준섭
+2) time : 201803261704
+3) message : hello professor I seem to get error while trying to create archieve file and i tried giving permission to access this .zip file but its not working
+1) name : 이준섭
+2) time : 201803261704
+3) message : Photo
+1) name : 남재창
+2) time : 201803261710
+3) message : Could you try to export to another directoy such as just C:\? Where did you install Eclipse? Close your Eclipse and Put your eclipse installed directory into C:\Program Files and then try again. If you can't solve the problem, make an appointment with me and stop by. Also check your path to export includes any Korean chracters and space.
+1) name : 이준섭
+2) time : 201803261719
+3) message : it worked!! thank you so much professor :D
+1) name : 남재창
+2) time : 201803261719
+3) message : What was the problem?
+1) name : 이준섭
+2) time : 201803261720
+3) message : i think it was bcas i was writing to the file in desktop and also my eclipse.exe was outside C:\Program Files
+1) name : 남재창
+2) time : 201803261720
+3) message : OK, got it. Thanks~
+1) name : 이준섭
+2) time : 201803261720
+3) message : i did both and it worked ^^
+1) name : 이준섭
+2) time : 201803261720
+3) message : thank you :D
+1) name : 남재창
+2) time : 201803261955
+3) message : HW1-1 due is approaching in about two hours. Hope you are ready to submit!
+1) name : 권현우
+2) time : 201803271002
+3) message : since git is for a team project mainly
+1) name : 권현우
+2) time : 201803271030
+3) message : Cesco?
+1) name : 한별
+2) time : 201803271033
+3) message : Fkiller
+1) name : 한상민
+2) time : 201803271034
+3) message : could you tell me one more why we should use void type?
+1) name : 한상민
+2) time : 201803271036
+3) message : OK!
+1) name : 영인
+2) time : 201803271049
+3) message : main
+1) name : NYB☆
+2) time : 201803271124
+3) message : Is there any student that still stay in classroom? TT
+1) name : 남재창
+2) time : 201803271126
+3) message : I'm here
+1) name : 남재창
+2) time : 201803271126
+3) message : Why
+1) name : NYB☆
+2) time : 201803271128
+3) message : Ah, nono. I think I solve it! Thank you :)
+1) name : 정승영
+2) time : 201803271141
+3) message : Photo
+1) name : 정승영
+2) time : 201803271142
+3) message : Can somebody help me solve this prob? TT
+1) name : 권현우
+2) time : 201803271144
+3) message : maybe your system variable directory is not valid...?
+1) name : 권현우
+2) time : 201803271144
+3) message : from previous lab, installing jdk
+1) name : 남재창
+2) time : 201803271153
+3) message : Check 파일탐색기 if there is c:\Program Files\Java\jdk-9.0.4
+1) name : 윤종욱
+2) time : 201802281831
+3) message : 윤종욱 joined this chatroom.
+1) name : 남재창
+2) time : 201802281901
+3) message : Thanks and Welcome! You are the first guy joining in this chat room :)
+1) name : 최우림
+2) time : 201802281944
+3) message : 최우림 joined this chatroom.
+1) name : Yeun
+2) time : 201802282025
+3) message : Yeun joined this chatroom.
+1) name : 이민회
+2) time : 201802282121
+3) message : 이민회 joined this chatroom.
+1) name : 권현우
+2) time : 201802282123
+3) message : 권현우 joined this chatroom.
+1) name : 정석
+2) time : 201802282225
+3) message : 정석 joined this chatroom.
+1) name : NYB☆
+2) time : 201803010047
+3) message : NYB☆ joined this chatroom.
+1) name : 한별
+2) time : 201803010132
+3) message : 한별 joined this chatroom.
+1) name : 서남진
+2) time : 201803010157
+3) message : 서남진 joined this chatroom.
+1) name : 권현우
+2) time : 201803010620
+3) message : 오늘 수업 있었던걸로 기억하고 있는데, 맞나요?
+1) name : 권현우
+2) time : 201803010620
+3) message : 잘 기억이 안나네요 ㅠㅠ
+1) name : 남재창
+2) time : 201803010622
+3) message : This chat is for the Tuesday/Friday class. So no class today :) Pleae use English as this class is conducted in English.(wink)
+1) name : 권현우
+2) time : 201803010627
+3) message : Oh, I'm sorry. Have a nice holiday!
+1) name : 남재창
+2) time : 201803010953
+3) message : You too (grin)
+1) name : 조완서
+2) time : 201803011302
+3) message : 조완서 joined this chatroom.
+1) name : 오세현
+2) time : 201803011828
+3) message : 오세현 joined this chatroom.
+1) name : 남재창
+2) time : 201803011854
+3) message : In the class, we do labs. So, please bring your laptop. We will install Eclipse and JRE tomorrow.
+1) name : 남재창
+2) time : 201803011939
+3) message : If you have time, please download Java JDK and Eclipse installation files on your laptop in advance. It may take long time if all students download the same files at the same time. You can check how to download the files in the lab1 PPT file in HisNet. Thanks!
+1) name : 조정훈
+2) time : 201803011939
+3) message : 조정훈 joined this chatroom.
+1) name : 조완서
+2) time : 201803011945
+3) message : Thank you professor.
+1) name : 남재창
+2) time : 201803011947
+3) message : You can just call me JC like 'Thank you JC.' :)
+1) name : 조완서
+2) time : 201803011947
+3) message : (굿)(굿)
+1) name : 오세현
+2) time : 201803011948
+3) message : Thank you JC :)
+1) name : 남재창
+2) time : 201803011950
+3) message : (wow)
+1) name : 김유진
+2) time : 201803012007
+3) message : 김유진 joined this chatroom.
+1) name : 백주열
+2) time : 201803012029
+3) message : 백주열 joined this chatroom.
+1) name : Jonathan
+2) time : 201803012138
+3) message : Jonathan joined this chatroom.
+1) name : 이명희
+2) time : 201803012332
+3) message : 이명희 joined this chatroom.
+1) name : 박유경
+2) time : 201803020006
+3) message : 박유경 joined this chatroom.
+1) name : 채지혜
+2) time : 201803020008
+3) message : 채지혜 joined this chatroom.
+1) name : 임수진
+2) time : 201803020049
+3) message : 임수진 joined this chatroom.
+1) name : 김기철
+2) time : 201803020104
+3) message : 김기철 joined this chatroom.
+1) name : 정진혁
+2) time : 201803020329
+3) message : 정진혁 joined this chatroom.
+1) name : 민주
+2) time : 201803020923
+3) message : 민주 joined this chatroom.
+1) name : 한상민
+2) time : 201803020924
+3) message : 한상민 joined this chatroom.
+1) name : 지승윤
+2) time : 201803020929
+3) message : 지승윤 joined this chatroom.
+1) name : 김석진
+2) time : 201803020931
+3) message : 김석진 joined this chatroom.
+1) name : 이수현
+2) time : 201803020937
+3) message : 이수현 joined this chatroom.
+1) name : 권준범
+2) time : 201803020937
+3) message : 권준범 joined this chatroom.
+1) name : 조혜린
+2) time : 201803020937
+3) message : 조혜린 joined this chatroom.
+1) name : 명진
+2) time : 201803020938
+3) message : 명진 joined this chatroom.
+1) name : 이준섭
+2) time : 201803020939
+3) message : 이준섭 joined this chatroom.
+1) name : Yeun
+2) time : 201803020944
+3) message : Hi!
+1) name : 권현우
+2) time : 201803020944
+3) message : hello~
+1) name : Jonathan
+2) time : 201803020944
+3) message : Hello
+1) name : 조정훈
+2) time : 201803020944
+3) message : hi
+1) name : Yeun
+2) time : 201803020944
+3) message : :"")
+1) name : 이준섭
+2) time : 201803020944
+3) message : Hello
+1) name : 김유진
+2) time : 201803020944
+3) message : Hi:))
+1) name : 오세현
+2) time : 201803020944
+3) message : Hi!
+1) name : 조혜린
+2) time : 201803020944
+3) message : hi!
+1) name : 이명희
+2) time : 201803020944
+3) message : hi
+1) name : 민주
+2) time : 201803020944
+3) message : Hi!!
+1) name : 채지혜
+2) time : 201803020944
+3) message : Hi
+1) name : 서남진
+2) time : 201803020944
+3) message : Hello
+1) name : 한별
+2) time : 201803020944
+3) message : Hello
+1) name : 김수현
+2) time : 201803020944
+3) message : 김수현 joined this chatroom.
+1) name : 김기철
+2) time : 201803020945
+3) message : Hello
+1) name : 권현우
+2) time : 201803020945
+3) message : its just fine
+1) name : Jonathan
+2) time : 201803020945
+3) message : It's okay
+1) name : 정진혁
+2) time : 201803020945
+3) message : fine
+1) name : Yeun
+2) time : 201803020945
+3) message : it's fine
+1) name : 정승영
+2) time : 201803020945
+3) message : 정승영 joined this chatroom.
+1) name : 한상민
+2) time : 201803020946
+3) message : ok
+1) name : 정진혁
+2) time : 201803020947
+3) message : Can I get access to your lecture note?
+1) name : Sovan Chhaya
+2) time : 201803020947
+3) message : Sovan Chhaya joined this chatroom.
+1) name : Sovan Chhaya
+2) time : 201803020947
+3) message : Hi
+1) name : 정승영
+2) time : 201803020947
+3) message : any programming language using compiler is mostly HLL
+1) name : 영인
+2) time : 201803020947
+3) message : 영인 joined this chatroom.
+1) name : 권현우
+2) time : 201803020956
+3) message : machines that run java code
+1) name : 정진혁
+2) time : 201803020956
+3) message : similar to a compiler..?
+1) name : 정승영
+2) time : 201803020956
+3) message : not realistic
+1) name : 명진
+2) time : 201803020956
+3) message : a computer inside a computer?
+1) name : 정승영
+2) time : 201803021000
+3) message : don't need to buy additional hardware
+1) name : 권현우
+2) time : 201803021000
+3) message : ad : you can run your code anywhere
+1) name : 조정훈
+2) time : 201803021000
+3) message :  disadvantage : make slow down computer
+1) name : Sovan Chhaya
+2) time : 201803021000
+3) message : Gonna be make your machine slow
+1) name : 권현우
+2) time : 201803021004
+3) message : no
+1) name : 조정훈
+2) time : 201803021004
+3) message : no
+1) name : Yeun
+2) time : 201803021005
+3) message : not yet
+1) name : Sovan Chhaya
+2) time : 201803021005
+3) message : Never
+1) name : 정진혁
+2) time : 201803021005
+3) message : nope
+1) name : 오세현
+2) time : 201803021005
+3) message : no
+1) name : 채지혜
+2) time : 201803021005
+3) message : no
+1) name : 채지혜
+2) time : 201803021005
+3) message : no
+1) name : 윤종욱
+2) time : 201803021005
+3) message : no
+1) name : 권현우
+2) time : 201803021005
+3) message : only windows
+1) name : 권현우
+2) time : 201803021010
+3) message : no questions so far
+1) name : Sovan Chhaya
+2) time : 201803021010
+3) message : Not understand too much in this case
+1) name : 권현우
+2) time : 201803021011
+3) message : 2%
+1) name : 한상민
+2) time : 201803021011
+3) message : 2%
+1) name : Yeun
+2) time : 201803021011
+3) message : not much
+1) name : 조정훈
+2) time : 201803021011
+3) message : java virtual machine part is hard to understand
+1) name : 한상민
+2) time : 201803021014
+3) message : Change your mode to viewer
+1) name : 정진혁
+2) time : 201803021014
+3) message : get
+1) name : 이준섭
+2) time : 201803021014
+3) message : Like include in c?
+1) name : Sovan Chhaya
+2) time : 201803021014
+3) message : Take something inside
+1) name : 영인
+2) time : 201803021020
+3) message : declaration
+1) name : 영인
+2) time : 201803021020
+3) message : type
+1) name : 권현우
+2) time : 201803021021
+3) message : machine
+1) name : 조정훈
+2) time : 201803021021
+3) message : turn on
+1) name : samer
+2) time : 201803021023
+3) message : samer joined this chatroom.
+1) name : NYB☆
+2) time : 201803021025
+3) message : NYB☆ left this chatroom.
+1) name : NYB☆
+2) time : 201803021026
+3) message : NYB☆ joined this chatroom.
+1) name : 조정훈
+2) time : 201803021031
+3) message : cool
+1) name : 정진혁
+2) time : 201803021031
+3) message : not bad
+1) name : 권현우
+2) time : 201803021031
+3) message : looks similar to a C program
+1) name : Sovan Chhaya
+2) time : 201803021031
+3) message : Like c
+1) name : 권현우
+2) time : 201803021031
+3) message : but only using different ways
+1) name : 정진혁
+2) time : 201803021033
+3) message : bytecode?
+1) name : 이준섭
+2) time : 201803021036
+3) message : Isnt bytecode like an intermediate language that looks like assembly language?

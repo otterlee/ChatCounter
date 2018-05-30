@@ -14,8 +14,10 @@ public class ChatMessageCounter {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		DataReader dataReader = new DataReader();
-		dataReader.getData(args[0]);
-		System.out.println(args[0]);
+		CLIOption cliOption = new CLIOption();
+		cliOption.run(args);
+		dataReader.getData(cliOption.inputPath);
+		System.out.println(cliOption.inputPath);
 		DataReaderForTXT dataReaderForTXT = new DataReaderForTXT(dataReader.TXTdata);
 		DataReaderForCSV dataReaderForCSV = new DataReaderForCSV(dataReader.CSVdata);
 
@@ -37,31 +39,14 @@ public class ChatMessageCounter {
 		messageFilter.filterData();
 		HashMap<String, Integer> chatCountForOutPut = messageFilter.chatCount;
 
-		//Iterator<String> iterator = chatCountForOutPut.keySet().iterator();
-		// 반복자를 이용해서 출력
-
-		/*while (iterator.hasNext()) { 
-			String key = (String)iterator.next(); // 키 얻기
-			System.out.println("After) key = "+key+" / value="+chatCountForOutPut.get(key));  // 출력
-		}*/
 		for (String name : chatCountForOutPut.keySet()) {
 			// System.out.println(s.getScore());
 		}
-
-		Iterator iterator = chatCountForOutPut.keySet().iterator();
-
-		while(iterator.hasNext()) {
-			String temp = (String)iterator.next();
-			System.out.println(temp + " = " + chatCountForOutPut.get(temp));
-
-		}
-
-		Iterator it = sortByValue(chatCountForOutPut).iterator();
-		while(it.hasNext()) {
-			String temp = (String)it.next();
-			System.out.println(temp + " = " + chatCountForOutPut.get(temp));
-
-		}
+		System.out.println("cliOption.outputPath : "+cliOption.outputPath);
+		DataWriter dataWriter = new DataWriter(chatCountForOutPut, cliOption.outputPath);
+		dataWriter.run();
+		
+		
 	}
 	
 	public static List sortByValue(final Map map) {
@@ -78,7 +63,7 @@ public class ChatMessageCounter {
             }
             
         });
-        Collections.reverse(list); // 주석시 오름차순
+        //Collections.reverse(list); // 주석시 오름차순
         return list;
     }
 

@@ -24,29 +24,21 @@ public class MessageFilter implements Comparable<MessageFilter>{
 	}
 
 	private void checkRedundancy(HashMap<String, ArrayList<String[]>> messageSets){
-		int count = 0;
-		System.out.println("### Detect 정승영");
-		for(String[] s: messageSets.get("정승영")) {
-			//System.out.println(s[0] +" || "+ s[1]);
-		}
-
+		
 		for(String name : messageSets.keySet()) {
 			ArrayList<String[]> allMessages = messageSets.get(name);
 			ArrayList<String[]> resultList = new ArrayList<String[]>();
-   
+
 			for (int i = 0; i < allMessages.size(); i++) {
 				if(checkPhotoRedundancy(resultList,allMessages.get(i))) allMessages.remove(i);
 				if (!sameElement(resultList,allMessages.get(i))) {
-                    resultList.add(allMessages.get(i));
-                }
-            }
+					resultList.add(allMessages.get(i));
+				}
+			}
 			messageSets.put(name,resultList);
 		}
 
-		System.out.println("### Detect 정승영");
 
-		//for(String[] s: messageSets.get("정승영")) System.out.println(s[0] +" || "+ s[1]);
-		//if(count > 10) break;
 
 	}
 
@@ -56,14 +48,15 @@ public class MessageFilter implements Comparable<MessageFilter>{
 		}
 		return false;
 	}
-	
+
 	private boolean checkPhotoRedundancy(ArrayList<String[]> arrayList, String[] arr) {
+		//System.out.println("\narr[0] // arr[1]"+ arr[0] +" // "+arr[1]);
 		for(String s[] : arrayList) {
-			if(s[0].equals(arr[0])) {
-				if((s[1].equals("Photo") && arr[1].equals("사진")) 
-						|| (s[1].equals("사진") && arr[1].equals("Photo"))) return true;
-			}
-			
+			//System.out.println("s[0] // s[1]"+ s[0] +" // "+s[1]);
+			if(s[0].equals(arr[0])&&(s[1].equals("Photo") && arr[1].equals("사진")) 
+					|| (s[1].equals("사진") && arr[1].equals("Photo"))) return true;
+
+
 		}
 		return false;
 	}

@@ -6,6 +6,18 @@ import java.util.Scanner;
 
 import org.apache.commons.lang3.StringUtils;
 
+/**
+ * In this class, When get the path of the input files, read the files there. 
+ * if it is a CSV file, put that file to ArrayList 'CSVFiles'. Or if it is a TXT file, put that file to ArrayList 'TXTFiles'.
+ * Open files in different formats and put the string in the ArrayList 'messages' one after the other in order. 
+ * 
+ * ArrayList<String> messages is containing one line of messages.
+	
+ * @author suagu
+ *
+ */
+
+
 public class DataReader {
 	//class that reads file. In this class, instantiate DataReaderForCSV or DataReaderForTXT by file type.
 	ArrayList<String> messages;
@@ -32,6 +44,7 @@ public class DataReader {
 	private void getListOfFilesFromDirectory(File dataDir) {
 		CSVFiles = new ArrayList<File>();
 		TXTFiles = new ArrayList<File>();
+		System.out.println("dataDir.listFiles() SIZE : "+dataDir.listFiles());
 		for(File file: dataDir.listFiles()) {
 			//System.out.println(file.getAbsolutePath());
 			if(file.getAbsolutePath().contains(".csv")) {

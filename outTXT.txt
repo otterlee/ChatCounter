@@ -1,0 +1,1080 @@
+1) name : 권현우
+2) time : 201804271039
+3) message : changing the return integer
+1) name : 남재창
+2) time : 201804271108
+3) message : Lab is a part of a class. Students who leave early without finising the lab today will be marked as "Early Leave." (조퇴).
+1) name : 권현우
+2) time : 201804290652
+3) message : When we use 'super' to call a constructor(with some private variables) from superclass, does the constructor create another private variable instances in the memory space that is different from superclass' instances?
+1) name : 조완서
+2) time : 201804290716
+3) message : Yes I think so..
+1) name : 남재창
+2) time : 201804290824
+3) message : Yes, I think so too. Private variables are created when we call super. But I'm not sure if two instances are created. Some developer said that one instance is created. https://stackoverflow.com/questions/9005851/does-an-instance-of-superclass-get-created-when-we-instantiate-an-object?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa but I think two instances are created but they are directly connected. Instance of subclass can't directly access private members in superclass. You may write some code to check it. It's interesting discussion. Thanks!
+1) name : 권현우
+2) time : 201804290831
+3) message : oh, I didn't expect the answers to come this early. Thought maybe in Monday or so. Sorry for bothering JC and 완서 in weekend.
+1) name : 권현우
+2) time : 201804290832
+3) message : Thank you so much for the answers! :)
+1) name : 남재창
+2) time : 201804290834
+3) message : Love is not make your people wait ;) I love you guys~
+1) name : 권현우
+2) time : 201804290835
+3) message : (굿)
+1) name : 남재창
+2) time : 201804291459
+3) message : In HW1-7, Prob3 requires knowledge about abtract class which we wil learn on this Tuesday.  So you study abtract class in advance by doing prob3 or may solve other problems first. One of students suggested to provide detailed descriptions for each problem. Sorry for any inconvenience caused. But you can solve with creativity if you can get corret output. From HW2-2, detailed descriptions will be given but without candiate answer code. In additon, current code is not perfect in terms of namaing. You should fix all names if they are not following convetions. So be carefull and do not lose your mark becaseof that. (Hint: For prob1, WhatFriend() is not a proper method name. Check all others.)
+1) name : 조완서
+2) time : 201804291523
+3) message : Ok! thank you JC
+1) name : 조정훈
+2) time : 201804292342
+3) message : 사진
+1) name : 조정훈
+2) time : 201804292342
+3) message : do we use 'this' to refer to current object??
+1) name : 남재창
+2) time : 201804292344
+3) message : since there is no local variable with the same name, 'this' keyword is optional.
+1) name : 조정훈
+2) time : 201804292344
+3) message : okay thanks!!!
+1) name : 조정훈
+2) time : 201804292355
+3) message : 사진
+1) name : 조정훈
+2) time : 201804292355
+3) message : Also , we can use Student type parameter otherStudent for hasSameName method, because Student is a Person, right??
+1) name : 조정훈
+2) time : 201804292356
+3) message : 사진
+1) name : 남재창
+2) time : 201804292358
+3) message : Yeap, Student is a subclass of Person.
+1) name : 조정훈
+2) time : 201804292359
+3) message : Thank you so much(감동)(감동)
+1) name : 남재창
+2) time : 201804301200
+3) message : No problem~
+1) name : 조정훈
+2) time : 201804301036
+3) message : 사진
+1) name : 조정훈
+2) time : 201804301037
+3) message : Can we get the otherPerson's "name" data which is private like that? 
+1) name : 조정훈
+2) time : 201804301039
+3) message : I think we always get private data by calling getter method..
+1) name : 조정훈
+2) time : 201804301041
+3) message : Oh in this case, the hasSameName method is in Student class, so we don't need to call getter method?
+1) name : 조정훈
+2) time : 201804301043
+3) message : *Student > Person
+1) name : 조정훈
+2) time : 201804301057
+3) message : I think I got the answer(하하)
+1) name : 조정훈
+2) time : 201804301057
+3) message : 사진
+1) name : 남재창
+2) time : 201804302428
+3) message : Ok, good self-study. These are always confusing. Now you learnd it :)
+1) name : 조정훈
+2) time : 201804302439
+3) message : Yeap(하하)
+1) name : 남재창
+2) time : 201805011230
+3) message : Midterm exam scores are shared in the google sheet where I shared your homework scores before. If you think you get better or lower scores than you expected, stop by my office (check my calendar in my homepage and make an appoinment for one of empty slots in my calendar.) One student got full mark (FYI no students got full mark in Java class conducted in Korean.) The lowest score is 13.5.
+1) name : 남재창
+2) time : 201805011231
+3) message : Do not ask me average and std.
+1) name : 권현우
+2) time : 201805010945
+3) message : What's the difference between Abstract class and interface?
+1) name : 한별
+2) time : 201805010947
+3) message : When do we use to the abstract class??
+1) name : Sovan Chhaya
+2) time : 201805010947
+3) message : Thank
+1) name : 한별
+2) time : 201805010952
+3) message : Clear
+1) name : 권현우
+2) time : 201805011012
+3) message : What's the reason for using exceptions?
+1) name : 남재창
+2) time : 201805021850
+3) message : HW dealdine is extended (two hours, tha is 23:59 on the same day)
+1) name : Jonathan
+2) time : 201805021851
+3) message : Thank you professor!!
+1) name : 권현우
+2) time : 201804271039
+3) message : changing the return integer
+1) name : 남재창
+2) time : 201804271108
+3) message : Lab is a part of a class. Students who leave early without finising the lab today will be marked as "Early Leave." (조퇴).
+1) name : 권현우
+2) time : 201804290652
+3) message : When we use 'super' to call a constructor(with some private variables) from superclass, does the constructor create another private variable instances in the memory space that is different from superclass' instances?
+1) name : 조완서
+2) time : 201804290716
+3) message : Yes I think so..
+1) name : 남재창
+2) time : 201804290824
+3) message : Yes, I think so too. Private variables are created when we call super. But I'm not sure if two instances are created. Some developer said that one instance is created. https://stackoverflow.com/questions/9005851/does-an-instance-of-superclass-get-created-when-we-instantiate-an-object?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa but I think two instances are created but they are directly connected. Instance of subclass can't directly access private members in superclass. You may write some code to check it. It's interesting discussion. Thanks!
+1) name : 권현우
+2) time : 201804290831
+3) message : oh, I didn't expect the answers to come this early. Thought maybe in Monday or so. Sorry for bothering JC and 완서 in weekend.
+1) name : 권현우
+2) time : 201804290832
+3) message : Thank you so much for the answers! :)
+1) name : 남재창
+2) time : 201804290834
+3) message : Love is not make your people wait ;) I love you guys~
+1) name : 권현우
+2) time : 201804290835
+3) message : (굿)
+1) name : 남재창
+2) time : 201804291459
+3) message : In HW1-7, Prob3 requires knowledge about abtract class which we wil learn on this Tuesday.  So you study abtract class in advance by doing prob3 or may solve other problems first. One of students suggested to provide detailed descriptions for each problem. Sorry for any inconvenience caused. But you can solve with creativity if you can get corret output. From HW2-2, detailed descriptions will be given but without candiate answer code. In additon, current code is not perfect in terms of namaing. You should fix all names if they are not following convetions. So be carefull and do not lose your mark becaseof that. (Hint: For prob1, WhatFriend() is not a proper method name. Check all others.)
+1) name : 조완서
+2) time : 201804291523
+3) message : Ok! thank you JC
+1) name : 조정훈
+2) time : 201804292342
+3) message : 사진
+1) name : 조정훈
+2) time : 201804292342
+3) message : do we use 'this' to refer to current object??
+1) name : 남재창
+2) time : 201804292344
+3) message : since there is no local variable with the same name, 'this' keyword is optional.
+1) name : 조정훈
+2) time : 201804292344
+3) message : okay thanks!!!
+1) name : 조정훈
+2) time : 201804292355
+3) message : 사진
+1) name : 조정훈
+2) time : 201804292355
+3) message : Also , we can use Student type parameter otherStudent for hasSameName method, because Student is a Person, right??
+1) name : 조정훈
+2) time : 201804292356
+3) message : 사진
+1) name : 남재창
+2) time : 201804292358
+3) message : Yeap, Student is a subclass of Person.
+1) name : 조정훈
+2) time : 201804292359
+3) message : Thank you so much(감동)(감동)
+1) name : 남재창
+2) time : 201804301200
+3) message : No problem~
+1) name : 조정훈
+2) time : 201804301036
+3) message : 사진
+1) name : 조정훈
+2) time : 201804301037
+3) message : Can we get the otherPerson's "name" data which is private like that? 
+1) name : 조정훈
+2) time : 201804301039
+3) message : I think we always get private data by calling getter method..
+1) name : 조정훈
+2) time : 201804301041
+3) message : Oh in this case, the hasSameName method is in Student class, so we don't need to call getter method?
+1) name : 조정훈
+2) time : 201804301043
+3) message : *Student > Person
+1) name : 조정훈
+2) time : 201804301057
+3) message : I think I got the answer(하하)
+1) name : 조정훈
+2) time : 201804301057
+3) message : 사진
+1) name : 남재창
+2) time : 201804302428
+3) message : Ok, good self-study. These are always confusing. Now you learnd it :)
+1) name : 조정훈
+2) time : 201804302439
+3) message : Yeap(하하)
+1) name : 남재창
+2) time : 201805011230
+3) message : Midterm exam scores are shared in the google sheet where I shared your homework scores before. If you think you get better or lower scores than you expected, stop by my office (check my calendar in my homepage and make an appoinment for one of empty slots in my calendar.) One student got full mark (FYI no students got full mark in Java class conducted in Korean.) The lowest score is 13.5.
+1) name : 남재창
+2) time : 201805011231
+3) message : Do not ask me average and std.
+1) name : 권현우
+2) time : 201805010945
+3) message : What's the difference between Abstract class and interface?
+1) name : 한별
+2) time : 201805010947
+3) message : When do we use to the abstract class??
+1) name : Sovan Chhaya
+2) time : 201805010947
+3) message : Thank
+1) name : 한별
+2) time : 201805010952
+3) message : Clear
+1) name : 권현우
+2) time : 201805011012
+3) message : What's the reason for using exceptions?
+1) name : 남재창
+2) time : 201805021850
+3) message : HW dealdine is extended (two hours, tha is 23:59 on the same day)
+1) name : Jonathan
+2) time : 201805021851
+3) message : Thank you professor!!
+1) name : 명진
+2) time : 201805021951
+3) message : then the deadline is still friday professor??
+1) name : 남재창
+2) time : 201805021952
+3) message : It's tomorrow (Thursday).
+1) name : 남재창
+2) time : 201805021953
+3) message : May 3. HW1-7
+1) name : 명진
+2) time : 201805021953
+3) message : oh sorry thanks professor
+1) name : 김기철
+2) time : 201805021953
+3) message : Professor,You're a very gentleman.!! thank you
+1) name : 남재창
+2) time : 201805021955
+3) message : No electricity for two hours. That's why the deadline is extended.
+1) name : 김기철
+2) time : 201805021957
+3) message : Thank you JC~ 
+1) name : samer
+2) time : 201805022003
+3) message : thanks JC!
+1) name : 조정훈
+2) time : 201805030826
+3) message : 좋은하루 보내세욤~~
+1) name : 조정훈
+2) time : 201805030826
+3) message : Sorry..
+1) name : 남재창
+2) time : 201805030829
+3) message : Why sorry. You blessed us :) Have a great day all!
+1) name : 조정훈
+2) time : 201805030830
+3) message : (하하)
+1) name : 조정훈
+2) time : 201805030830
+3) message : You too JC
+1) name : 조완서
+2) time : 201805031010
+3) message : Hahaha Have a nice day XD
+1) name : 정진혁
+2) time : 201805031420
+3) message : Professor, do we have slides for gradle installation for Mac?
+1) name : 남재창
+2) time : 201805031423
+3) message : No slide but you can check here: https://gradle.org/install/#manually
+1) name : 정진혁
+2) time : 201805031429
+3) message : I tried with the package manager way and the manual way. Both caused errors. I will try more though! Thank you Professor!!
+1) name : 남재창
+2) time : 201805031430
+3) message : Yeap, try again and follow steps carefully. If your system is already messed up, it might not be easy. Good luck!
+1) name : 김석진
+2) time : 201805032146
+3) message : 사진
+1) name : 김석진
+2) time : 201805032147
+3) message : I followed all these steps
+1) name : 김석진
+2) time : 201805032147
+3) message : 사진
+1) name : 김석진
+2) time : 201805032147
+3) message : but 'Lab13' is not java project
+1) name : 김석진
+2) time : 201805032148
+3) message : anyone who can solve this? :~(
+1) name : 한별
+2) time : 201805032148
+3) message : Did you initiate the github?
+1) name : 한별
+2) time : 201805032148
+3) message : Oh sorry. git!
+1) name : 김석진
+2) time : 201805032150
+3) message : 사진
+1) name : 김석진
+2) time : 201805032150
+3) message : 사진
+1) name : 김석진
+2) time : 201805032150
+3) message : these two steps?
+1) name : 한별
+2) time : 201805032151
+3) message : Yes
+1) name : 김석진
+2) time : 201805032151
+3) message : I did
+1) name : 권현우
+2) time : 201805032159
+3) message : that's maybe
+1) name : 권현우
+2) time : 201805032200
+3) message : did you gradle init?
+1) name : 권현우
+2) time : 201805032200
+3) message : before you gradle init, you don't have anything in the lab13 I guess
+1) name : 권현우
+2) time : 201805032201
+3) message : cd lab13
+1) name : 권현우
+2) time : 201805032201
+3) message : and gradle init --type java-library
+1) name : 권현우
+2) time : 201805032201
+3) message : and in the eclipse import the lab13
+1) name : 김석진
+2) time : 201805032203
+3) message : wow
+1) name : 김석진
+2) time : 201805032204
+3) message : perfectly right!
+1) name : 김석진
+2) time : 201805032204
+3) message : thanks 현우!
+1) name : 권현우
+2) time : 201805032205
+3) message : Great
+1) name : 권현우
+2) time : 201805032205
+3) message : have a nice day with the homework(?)
+1) name : 권현우
+2) time : 201805032205
+3) message : :)
+1) name : 권현우
+2) time : 201805040937
+3) message : flowing water?
+1) name : 권현우
+2) time : 201805041006
+3) message : 3 lines are added at the end
+1) name : 한상민
+2) time : 201805041007
+3) message : How can I find out.txt?
+1) name : 권현우
+2) time : 201805041045
+3) message : What is the meaning of  Integer.parseInt() ?
+1) name : 권현우
+2) time : 201804271039
+3) message : changing the return integer
+1) name : 남재창
+2) time : 201804271108
+3) message : Lab is a part of a class. Students who leave early without finising the lab today will be marked as "Early Leave." (조퇴).
+1) name : 권현우
+2) time : 201804290652
+3) message : When we use 'super' to call a constructor(with some private variables) from superclass, does the constructor create another private variable instances in the memory space that is different from superclass' instances?
+1) name : 조완서
+2) time : 201804290716
+3) message : Yes I think so..
+1) name : 남재창
+2) time : 201804290824
+3) message : Yes, I think so too. Private variables are created when we call super. But I'm not sure if two instances are created. Some developer said that one instance is created. https://stackoverflow.com/questions/9005851/does-an-instance-of-superclass-get-created-when-we-instantiate-an-object?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa but I think two instances are created but they are directly connected. Instance of subclass can't directly access private members in superclass. You may write some code to check it. It's interesting discussion. Thanks!
+1) name : 권현우
+2) time : 201804290831
+3) message : oh, I didn't expect the answers to come this early. Thought maybe in Monday or so. Sorry for bothering JC and 완서 in weekend.
+1) name : 권현우
+2) time : 201804290832
+3) message : Thank you so much for the answers! :)
+1) name : 남재창
+2) time : 201804290834
+3) message : Love is not make your people wait ;) I love you guys~
+1) name : 권현우
+2) time : 201804290835
+3) message : (굿)
+1) name : 남재창
+2) time : 201804291459
+3) message : In HW1-7, Prob3 requires knowledge about abtract class which we wil learn on this Tuesday.  So you study abtract class in advance by doing prob3 or may solve other problems first. One of students suggested to provide detailed descriptions for each problem. Sorry for any inconvenience caused. But you can solve with creativity if you can get corret output. From HW2-2, detailed descriptions will be given but without candiate answer code. In additon, current code is not perfect in terms of namaing. You should fix all names if they are not following convetions. So be carefull and do not lose your mark becaseof that. (Hint: For prob1, WhatFriend() is not a proper method name. Check all others.)
+1) name : 조완서
+2) time : 201804291523
+3) message : Ok! thank you JC
+1) name : 조정훈
+2) time : 201804292342
+3) message : 사진
+1) name : 조정훈
+2) time : 201804292342
+3) message : do we use 'this' to refer to current object??
+1) name : 남재창
+2) time : 201804292344
+3) message : since there is no local variable with the same name, 'this' keyword is optional.
+1) name : 조정훈
+2) time : 201804292344
+3) message : okay thanks!!!
+1) name : 조정훈
+2) time : 201804292355
+3) message : 사진
+1) name : 조정훈
+2) time : 201804292355
+3) message : Also , we can use Student type parameter otherStudent for hasSameName method, because Student is a Person, right??
+1) name : 조정훈
+2) time : 201804292356
+3) message : 사진
+1) name : 남재창
+2) time : 201804292358
+3) message : Yeap, Student is a subclass of Person.
+1) name : 조정훈
+2) time : 201804292359
+3) message : Thank you so much(감동)(감동)
+1) name : 남재창
+2) time : 201804301200
+3) message : No problem~
+1) name : 조정훈
+2) time : 201804301036
+3) message : 사진
+1) name : 조정훈
+2) time : 201804301037
+3) message : Can we get the otherPerson's "name" data which is private like that? 
+1) name : 조정훈
+2) time : 201804301039
+3) message : I think we always get private data by calling getter method..
+1) name : 조정훈
+2) time : 201804301041
+3) message : Oh in this case, the hasSameName method is in Student class, so we don't need to call getter method?
+1) name : 조정훈
+2) time : 201804301043
+3) message : *Student > Person
+1) name : 조정훈
+2) time : 201804301057
+3) message : I think I got the answer(하하)
+1) name : 조정훈
+2) time : 201804301057
+3) message : 사진
+1) name : 남재창
+2) time : 201804302428
+3) message : Ok, good self-study. These are always confusing. Now you learnd it :)
+1) name : 조정훈
+2) time : 201804302439
+3) message : Yeap(하하)
+1) name : 남재창
+2) time : 201805011230
+3) message : Midterm exam scores are shared in the google sheet where I shared your homework scores before. If you think you get better or lower scores than you expected, stop by my office (check my calendar in my homepage and make an appoinment for one of empty slots in my calendar.) One student got full mark (FYI no students got full mark in Java class conducted in Korean.) The lowest score is 13.5.
+1) name : 남재창
+2) time : 201805011231
+3) message : Do not ask me average and std.
+1) name : 권현우
+2) time : 201805010945
+3) message : What's the difference between Abstract class and interface?
+1) name : 한별
+2) time : 201805010947
+3) message : When do we use to the abstract class??
+1) name : Sovan Chhaya
+2) time : 201805010947
+3) message : Thank
+1) name : 한별
+2) time : 201805010952
+3) message : Clear
+1) name : 권현우
+2) time : 201805011012
+3) message : What's the reason for using exceptions?
+1) name : 남재창
+2) time : 201805021850
+3) message : HW dealdine is extended (two hours, tha is 23:59 on the same day)
+1) name : Jonathan
+2) time : 201805021851
+3) message : Thank you professor!!
+1) name : 명진
+2) time : 201805021951
+3) message : then the deadline is still friday professor??
+1) name : 남재창
+2) time : 201805021952
+3) message : It's tomorrow (Thursday).
+1) name : 남재창
+2) time : 201805021953
+3) message : May 3. HW1-7
+1) name : 명진
+2) time : 201805021953
+3) message : oh sorry thanks professor
+1) name : 김기철
+2) time : 201805021953
+3) message : Professor,You're a very gentleman.!! thank you
+1) name : 남재창
+2) time : 201805021955
+3) message : No electricity for two hours. That's why the deadline is extended.
+1) name : 김기철
+2) time : 201805021957
+3) message : Thank you JC~ 
+1) name : samer
+2) time : 201805022003
+3) message : thanks JC!
+1) name : 조정훈
+2) time : 201805030826
+3) message : 좋은하루 보내세욤~~
+1) name : 조정훈
+2) time : 201805030826
+3) message : Sorry..
+1) name : 남재창
+2) time : 201805030829
+3) message : Why sorry. You blessed us :) Have a great day all!
+1) name : 조정훈
+2) time : 201805030830
+3) message : (하하)
+1) name : 조정훈
+2) time : 201805030830
+3) message : You too JC
+1) name : 조완서
+2) time : 201805031010
+3) message : Hahaha Have a nice day XD
+1) name : 정진혁
+2) time : 201805031420
+3) message : Professor, do we have slides for gradle installation for Mac?
+1) name : 남재창
+2) time : 201805031423
+3) message : No slide but you can check here: https://gradle.org/install/#manually
+1) name : 정진혁
+2) time : 201805031429
+3) message : I tried with the package manager way and the manual way. Both caused errors. I will try more though! Thank you Professor!!
+1) name : 남재창
+2) time : 201805031430
+3) message : Yeap, try again and follow steps carefully. If your system is already messed up, it might not be easy. Good luck!
+1) name : 김석진
+2) time : 201805032146
+3) message : 사진
+1) name : 김석진
+2) time : 201805032147
+3) message : I followed all these steps
+1) name : 김석진
+2) time : 201805032147
+3) message : 사진
+1) name : 김석진
+2) time : 201805032147
+3) message : but 'Lab13' is not java project
+1) name : 김석진
+2) time : 201805032148
+3) message : anyone who can solve this? :~(
+1) name : 한별
+2) time : 201805032148
+3) message : Did you initiate the github?
+1) name : 한별
+2) time : 201805032148
+3) message : Oh sorry. git!
+1) name : 김석진
+2) time : 201805032150
+3) message : 사진
+1) name : 김석진
+2) time : 201805032150
+3) message : 사진
+1) name : 김석진
+2) time : 201805032150
+3) message : these two steps?
+1) name : 한별
+2) time : 201805032151
+3) message : Yes
+1) name : 김석진
+2) time : 201805032151
+3) message : I did
+1) name : 권현우
+2) time : 201805032159
+3) message : that's maybe
+1) name : 권현우
+2) time : 201805032200
+3) message : did you gradle init?
+1) name : 권현우
+2) time : 201805032200
+3) message : before you gradle init, you don't have anything in the lab13 I guess
+1) name : 권현우
+2) time : 201805032201
+3) message : cd lab13
+1) name : 권현우
+2) time : 201805032201
+3) message : and gradle init --type java-library
+1) name : 권현우
+2) time : 201805032201
+3) message : and in the eclipse import the lab13
+1) name : 김석진
+2) time : 201805032203
+3) message : wow
+1) name : 김석진
+2) time : 201805032204
+3) message : perfectly right!
+1) name : 김석진
+2) time : 201805032204
+3) message : thanks 현우!
+1) name : 권현우
+2) time : 201805032205
+3) message : Great
+1) name : 권현우
+2) time : 201805032205
+3) message : have a nice day with the homework(?)
+1) name : 권현우
+2) time : 201805032205
+3) message : :)
+1) name : 권현우
+2) time : 201805040937
+3) message : flowing water?
+1) name : 권현우
+2) time : 201805041006
+3) message : 3 lines are added at the end
+1) name : 한상민
+2) time : 201805041007
+3) message : How can I find out.txt?
+1) name : 권현우
+2) time : 201805041045
+3) message : What is the meaning of  Integer.parseInt() ?
+1) name : 한별
+2) time : 201805041726
+3) message : What is the meaning of 'throw'?
+1) name : 남재창
+2) time : 201805041805
+3) message : Exception is object. Java considers exception/error object. So if exception is thrown, it must be catched and processes by our Java code. (공을 던지면Throw 공을 받듯이catch 에러를 객체로 만들어서 마치 공처럼 던지면 누군가 받아서 그 공을 처리한다는 개념으로 exeception을 처리한다고 이해하면 됨.)
+1) name : 한별
+2) time : 201805041811
+3) message : Oh, I see
+1) name : 한별
+2) time : 201805041811
+3) message : Thanks JC! Have a nice weekend!
+1) name : 권현우
+2) time : 201805081033
+3) message : The arraylist
+1) name : 권현우
+2) time : 201805081033
+3) message : of doubled numbers?
+1) name : 정진혁
+2) time : 201805081034
+3) message : doubled numbers
+1) name : 권현우
+2) time : 201805081034
+3) message : doubledNumbers
+1) name : 한별
+2) time : 201805081035
+3) message : doubleIntNumbers
+1) name : 권현우
+2) time : 201804271039
+3) message : changing the return integer
+1) name : 남재창
+2) time : 201804271108
+3) message : Lab is a part of a class. Students who leave early without finising the lab today will be marked as "Early Leave." (조퇴).
+1) name : 권현우
+2) time : 201804290652
+3) message : When we use 'super' to call a constructor(with some private variables) from superclass, does the constructor create another private variable instances in the memory space that is different from superclass' instances?
+1) name : 조완서
+2) time : 201804290716
+3) message : Yes I think so..
+1) name : 남재창
+2) time : 201804290824
+3) message : Yes, I think so too. Private variables are created when we call super. But I'm not sure if two instances are created. Some developer said that one instance is created. https://stackoverflow.com/questions/9005851/does-an-instance-of-superclass-get-created-when-we-instantiate-an-object?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa but I think two instances are created but they are directly connected. Instance of subclass can't directly access private members in superclass. You may write some code to check it. It's interesting discussion. Thanks!
+1) name : 권현우
+2) time : 201804290831
+3) message : oh, I didn't expect the answers to come this early. Thought maybe in Monday or so. Sorry for bothering JC and 완서 in weekend.
+1) name : 권현우
+2) time : 201804290832
+3) message : Thank you so much for the answers! :)
+1) name : 남재창
+2) time : 201804290834
+3) message : Love is not make your people wait ;) I love you guys~
+1) name : 권현우
+2) time : 201804290835
+3) message : (굿)
+1) name : 남재창
+2) time : 201804291459
+3) message : In HW1-7, Prob3 requires knowledge about abtract class which we wil learn on this Tuesday.  So you study abtract class in advance by doing prob3 or may solve other problems first. One of students suggested to provide detailed descriptions for each problem. Sorry for any inconvenience caused. But you can solve with creativity if you can get corret output. From HW2-2, detailed descriptions will be given but without candiate answer code. In additon, current code is not perfect in terms of namaing. You should fix all names if they are not following convetions. So be carefull and do not lose your mark becaseof that. (Hint: For prob1, WhatFriend() is not a proper method name. Check all others.)
+1) name : 조완서
+2) time : 201804291523
+3) message : Ok! thank you JC
+1) name : 조정훈
+2) time : 201804292342
+3) message : 사진
+1) name : 조정훈
+2) time : 201804292342
+3) message : do we use 'this' to refer to current object??
+1) name : 남재창
+2) time : 201804292344
+3) message : since there is no local variable with the same name, 'this' keyword is optional.
+1) name : 조정훈
+2) time : 201804292344
+3) message : okay thanks!!!
+1) name : 조정훈
+2) time : 201804292355
+3) message : 사진
+1) name : 조정훈
+2) time : 201804292355
+3) message : Also , we can use Student type parameter otherStudent for hasSameName method, because Student is a Person, right??
+1) name : 조정훈
+2) time : 201804292356
+3) message : 사진
+1) name : 남재창
+2) time : 201804292358
+3) message : Yeap, Student is a subclass of Person.
+1) name : 조정훈
+2) time : 201804292359
+3) message : Thank you so much(감동)(감동)
+1) name : 남재창
+2) time : 201804301200
+3) message : No problem~
+1) name : 조정훈
+2) time : 201804301036
+3) message : 사진
+1) name : 조정훈
+2) time : 201804301037
+3) message : Can we get the otherPerson's "name" data which is private like that? 
+1) name : 조정훈
+2) time : 201804301039
+3) message : I think we always get private data by calling getter method..
+1) name : 조정훈
+2) time : 201804301041
+3) message : Oh in this case, the hasSameName method is in Student class, so we don't need to call getter method?
+1) name : 조정훈
+2) time : 201804301043
+3) message : *Student > Person
+1) name : 조정훈
+2) time : 201804301057
+3) message : I think I got the answer(하하)
+1) name : 조정훈
+2) time : 201804301057
+3) message : 사진
+1) name : 남재창
+2) time : 201804302428
+3) message : Ok, good self-study. These are always confusing. Now you learnd it :)
+1) name : 조정훈
+2) time : 201804302439
+3) message : Yeap(하하)
+1) name : 남재창
+2) time : 201805011230
+3) message : Midterm exam scores are shared in the google sheet where I shared your homework scores before. If you think you get better or lower scores than you expected, stop by my office (check my calendar in my homepage and make an appoinment for one of empty slots in my calendar.) One student got full mark (FYI no students got full mark in Java class conducted in Korean.) The lowest score is 13.5.
+1) name : 남재창
+2) time : 201805011231
+3) message : Do not ask me average and std.
+1) name : 권현우
+2) time : 201805010945
+3) message : What's the difference between Abstract class and interface?
+1) name : 한별
+2) time : 201805010947
+3) message : When do we use to the abstract class??
+1) name : Sovan Chhaya
+2) time : 201805010947
+3) message : Thank
+1) name : 한별
+2) time : 201805010952
+3) message : Clear
+1) name : 권현우
+2) time : 201805011012
+3) message : What's the reason for using exceptions?
+1) name : 남재창
+2) time : 201805021850
+3) message : HW dealdine is extended (two hours, tha is 23:59 on the same day)
+1) name : Jonathan
+2) time : 201805021851
+3) message : Thank you professor!!
+1) name : 명진
+2) time : 201805021951
+3) message : then the deadline is still friday professor??
+1) name : 남재창
+2) time : 201805021952
+3) message : It's tomorrow (Thursday).
+1) name : 남재창
+2) time : 201805021953
+3) message : May 3. HW1-7
+1) name : 명진
+2) time : 201805021953
+3) message : oh sorry thanks professor
+1) name : 김기철
+2) time : 201805021953
+3) message : Professor,You're a very gentleman.!! thank you
+1) name : 남재창
+2) time : 201805021955
+3) message : No electricity for two hours. That's why the deadline is extended.
+1) name : 김기철
+2) time : 201805021957
+3) message : Thank you JC~ 
+1) name : samer
+2) time : 201805022003
+3) message : thanks JC!
+1) name : 조정훈
+2) time : 201805030826
+3) message : 좋은하루 보내세욤~~
+1) name : 조정훈
+2) time : 201805030826
+3) message : Sorry..
+1) name : 남재창
+2) time : 201805030829
+3) message : Why sorry. You blessed us :) Have a great day all!
+1) name : 조정훈
+2) time : 201805030830
+3) message : (하하)
+1) name : 조정훈
+2) time : 201805030830
+3) message : You too JC
+1) name : 조완서
+2) time : 201805031010
+3) message : Hahaha Have a nice day XD
+1) name : 정진혁
+2) time : 201805031420
+3) message : Professor, do we have slides for gradle installation for Mac?
+1) name : 남재창
+2) time : 201805031423
+3) message : No slide but you can check here: https://gradle.org/install/#manually
+1) name : 정진혁
+2) time : 201805031429
+3) message : I tried with the package manager way and the manual way. Both caused errors. I will try more though! Thank you Professor!!
+1) name : 남재창
+2) time : 201805031430
+3) message : Yeap, try again and follow steps carefully. If your system is already messed up, it might not be easy. Good luck!
+1) name : 김석진
+2) time : 201805032146
+3) message : 사진
+1) name : 김석진
+2) time : 201805032147
+3) message : I followed all these steps
+1) name : 김석진
+2) time : 201805032147
+3) message : 사진
+1) name : 김석진
+2) time : 201805032147
+3) message : but 'Lab13' is not java project
+1) name : 김석진
+2) time : 201805032148
+3) message : anyone who can solve this? :~(
+1) name : 한별
+2) time : 201805032148
+3) message : Did you initiate the github?
+1) name : 한별
+2) time : 201805032148
+3) message : Oh sorry. git!
+1) name : 김석진
+2) time : 201805032150
+3) message : 사진
+1) name : 김석진
+2) time : 201805032150
+3) message : 사진
+1) name : 김석진
+2) time : 201805032150
+3) message : these two steps?
+1) name : 한별
+2) time : 201805032151
+3) message : Yes
+1) name : 김석진
+2) time : 201805032151
+3) message : I did
+1) name : 권현우
+2) time : 201805032159
+3) message : that's maybe
+1) name : 권현우
+2) time : 201805032200
+3) message : did you gradle init?
+1) name : 권현우
+2) time : 201805032200
+3) message : before you gradle init, you don't have anything in the lab13 I guess
+1) name : 권현우
+2) time : 201805032201
+3) message : cd lab13
+1) name : 권현우
+2) time : 201805032201
+3) message : and gradle init --type java-library
+1) name : 권현우
+2) time : 201805032201
+3) message : and in the eclipse import the lab13
+1) name : 김석진
+2) time : 201805032203
+3) message : wow
+1) name : 김석진
+2) time : 201805032204
+3) message : perfectly right!
+1) name : 김석진
+2) time : 201805032204
+3) message : thanks 현우!
+1) name : 권현우
+2) time : 201805032205
+3) message : Great
+1) name : 권현우
+2) time : 201805032205
+3) message : have a nice day with the homework(?)
+1) name : 권현우
+2) time : 201805032205
+3) message : :)
+1) name : 권현우
+2) time : 201805040937
+3) message : flowing water?
+1) name : 권현우
+2) time : 201805041006
+3) message : 3 lines are added at the end
+1) name : 한상민
+2) time : 201805041007
+3) message : How can I find out.txt?
+1) name : 권현우
+2) time : 201805041045
+3) message : What is the meaning of  Integer.parseInt() ?
+1) name : 한별
+2) time : 201805041726
+3) message : What is the meaning of 'throw'?
+1) name : 남재창
+2) time : 201805041805
+3) message : Exception is object. Java considers exception/error object. So if exception is thrown, it must be catched and processes by our Java code. (공을 던지면Throw 공을 받듯이catch 에러를 객체로 만들어서 마치 공처럼 던지면 누군가 받아서 그 공을 처리한다는 개념으로 exeception을 처리한다고 이해하면 됨.)
+1) name : 한별
+2) time : 201805041811
+3) message : Oh, I see
+1) name : 한별
+2) time : 201805041811
+3) message : Thanks JC! Have a nice weekend!
+1) name : 권현우
+2) time : 201805081033
+3) message : The arraylist
+1) name : 권현우
+2) time : 201805081033
+3) message : of doubled numbers?
+1) name : 정진혁
+2) time : 201805081034
+3) message : doubled numbers
+1) name : 권현우
+2) time : 201805081034
+3) message : doubledNumbers
+1) name : 한별
+2) time : 201805081035
+3) message : doubleIntNumbers
+1) name : 남재창
+2) time : 201805082445
+3) message :  Please, do this survey to decide the class plan. Thanks! https://goo.gl/forms/6MkM1JeDObMgRefI3 
+1) name : 남재창
+2) time : 201805082212
+3) message : please, participate for the survey. Only 17 students answered for it. Thanks!
+1) name : 남재창
+2) time : 201805082342
+3) message : About 10 students did not answer for the survey. Please, do your survey. Based on the survey results, I'll decide the plan option that is voted by the more number of students than other options.
+1) name : Sovan Chhaya
+2) time : 201805082345
+3) message : I didn't get the permission yet JC
+1) name : 남재창
+2) time : 201805082347
+3) message : you can login with [your_student_id]@handing.edu and password is 'hgu000000' 000000 is your birthday yymmdd. Try it.
+1) name : 남재창
+2) time : 201805082347
+3) message : [your_student_id]@handong.edu
+1) name : 남재창
+2) time : 201805091228
+3) message : More than half of students agreed not to have a class this Friday. No class this Friday, but we have class on May 22 and June 12. Enjoy this festival week!
+1) name : Sovan Chhaya
+2) time : 201805091229
+3) message : Thank you JC
+1) name : 권현우
+2) time : 201805091235
+3) message : happy holiday JC and everyone :)
+1) name : 윤종욱
+2) time : 201805091236
+3) message : Thank you!!
+1) name : 윤종욱
+2) time : 201805101303
+3) message : JC, I have a question. Can I use '_'(underscore) in class name? If it is possible, what is the right class name? (Apple_Seller or Apple_seller) 
+1) name : 남재창
+2) time : 201805101304
+3) message : You can use underscore but not recommended. So do not use it. Not using it is convention usually accepted.
+1) name : 윤종욱
+2) time : 201805101305
+3) message : Thank you JC 
+1) name : NYB☆
+2) time : 201805101754
+3) message : Prob3 says the try-catch is within the main, that means I can't put try-catch block to run() or any other method but just main method??
+1) name : 남재창
+2) time : 201805110855
+3) message : Sorry for the late reply. You can put try-catch anwhyere in which statemnets that can cause exeptions exist.
+1) name : 권현우
+2) time : 201805110938
+3) message : How to make a loop which breaks when no exception is found?
+1) name : 권현우
+2) time : 201805110940
+3) message : Is it okay to put the try-catch block in a infinite loop?
+1) name : 권현우
+2) time : 201805110941
+3) message : what is an end condition for the loop, then?
+1) name : 남재창
+2) time : 201805111006
+3) message : If no exception is foond, you don't have to make infinite loop.
+1) name : 남재창
+2) time : 201805111007
+3) message : It is not good idea to add nested try-catch. Sometimes it is trick to come up with a good loop condition. You need some creativity to catch the idea.
+1) name : 권현우
+2) time : 201805111018
+3) message : hmm...
+1) name : 권현우
+2) time : 201805111019
+3) message : for a command-line system program(interacting program), if user typed something wrong, then the system needs to ask agian. In this case, exception handling is not usually used?
+1) name : 남재창
+2) time : 201805111045
+3) message : Usually, we can provide limited-trials (e.g., three-trials) for users. No infinite loop is applied usually.
+1) name : 권현우
+2) time : 201805111046
+3) message : Thank you for the answers! :)
+1) name : 남재창
+2) time : 201805111159
+3) message : Install Eclipse for mac pro users.
+1) name : 남재창
+2) time : 201805111159
+3) message : https://docs.google.com/presentation/d/1RFAlJ07aYyQOPhMH5IqZ-yOREOtZBIqa4ECwi4_yvi8/edit#slide=id.p
+1) name : 조완서
+2) time : 201805111337
+3) message : wow thank you JC!
+1) name : 심준석
+2) time : 201805111918
+3) message : Professor JC , I have a question . When I tried to run my class files , there are no reactions even if I clicked running button . Then how can I solve this problem? 
+1) name : 정승영
+2) time : 201805111924
+3) message : if that class file has no main method, that situation occurs.
+1) name : 남재창
+2) time : 201805111939
+3) message : Run your program by opening the popup menu on the java file that has a main method, "Run as" —> "Java Application" for sure.
+1) name : 심준석
+2) time : 201805111941
+3) message : I already checked out that there is main method. But still occured same problems
+1) name : 남재창
+2) time : 201805111942
+3) message : Is your program waiting for some keyboard input on your console??
+1) name : 심준석
+2) time : 201805111955
+3) message : No, I cannot find any reactions
+1) name : 남재창
+2) time : 201805111959
+3) message : Push your code
+1) name : 남재창
+2) time : 201805111959
+3) message : I can check it.
+1) name : 남재창
+2) time : 201805112000
+3) message : Then, let me know the prob #
+1) name : 남재창
+2) time : 201805112002
+3) message : If you can't see your console, then click Wondow menu >> show view >> console.
+1) name : 심준석
+2) time : 201805112032
+3) message : I pushed professor! , and in prob 3, 5  I experienced that problems
+1) name : 남재창
+2) time : 201805112051
+3) message : Your program is working. Your program is just waiting for keyboard input.
+1) name : 남재창
+2) time : 201805112053
+3) message : You should type something in your console. Then you can see your program is actually working.
+1) name : 심준석
+2) time : 201805112104
+3) message : I understand it ! Thanks for help Professor
+1) name : 권현우
+2) time : 201805150933
+3) message : ArrayList?
+1) name : 정승영
+2) time : 201805150945
+3) message : It was so uncomfortable is C
+1) name : 정승영
+2) time : 201805150945
+3) message : needs time to adjust to it
+1) name : 정진혁
+2) time : 201805151010
+3) message : apple
+1) name : 권현우
+2) time : 201805151033
+3) message : Create inner class
+1) name : 정진혁
+2) time : 201805151111
+3) message : datareader
+1) name : 명진
+2) time : 201805151111
+3) message : IDcounter
