@@ -31,6 +31,10 @@ public class DataWriter {
 		this.outputPath = outputPath;	
 	}
 
+	DataWriter(HashMap<String, Integer> chatDataList){
+		this.chatDataList = chatDataList;
+	}
+
 	/**
 	 * run method is the main method in DataWriter.
 	 * by using Iterator, write the HashMap chatDataList.
@@ -47,14 +51,13 @@ public class DataWriter {
 			System.exit(0);
 		}
 
-
 		Iterator iterator = chatDataList.keySet().iterator();
-
 		Iterator it = sortByCount(chatDataList).iterator();
 		while(it.hasNext()) {
 			String temp = (String)it.next();
-			outputStream.println(temp + "," + chatDataList.get(temp));
-			System.out.println(temp + "," + chatDataList.get(temp));
+			System.out.println(temp + " = " + chatDataList.get(temp));
+				
+			outputStream.println(temp + " = " + chatDataList.get(temp));
 		}
 
 		outputStream.close();

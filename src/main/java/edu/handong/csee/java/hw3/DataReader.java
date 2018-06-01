@@ -46,7 +46,7 @@ public class DataReader {
 
 	private File getDirectory(String strDir) {
 		File myDirectory = new File(strDir);
-		System.out.println("Directory : " +myDirectory);
+		System.out.println("in getDirectory , Directory : " +myDirectory);
 		return myDirectory;
 
 	}

@@ -35,7 +35,10 @@ public class MessageFilter {
 		checkRedundancy(filteredChatDataList);
 		chatCount = createCountList(filteredChatDataList);
 		//chatCount = sortHashMap(chatCount);
-
+		for(String name : chatCount.keySet()) {
+			System.out.println(name +" "+chatCount.get(name));
+		}
+		
 	}
 
 	private void checkRedundancy(HashMap<String, ArrayList<String[]>> messageSets){

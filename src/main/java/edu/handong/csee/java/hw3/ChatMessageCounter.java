@@ -32,7 +32,7 @@ public class ChatMessageCounter {
 		CLIOption cliOption = new CLIOption();
 		cliOption.run(args);
 
-		dataReader.getData(cliOption.inputPath);
+		dataReader.getData(args[0]);
 	
 		System.out.println(cliOption.inputPath);
 		DataReaderForTXT dataReaderForTXT = new DataReaderForTXT(dataReader.TXTdata);
