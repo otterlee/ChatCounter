@@ -42,11 +42,9 @@ public class ChatMessageCounter {
 		MessageFilter messageFilter = new MessageFilter(dataReader.parsedLines);
 		messageFilter.filterData();
 		HashMap<String, Integer> chatCountForOutPut = messageFilter.chatCount;
-		for(String name: chatCountForOutPut.keySet()) {
-			System.out.println(name + " "+chatCountForOutPut.get(name));
-		}
+		
 		//System.out.println("cliOption.outputPath : "+cliOption.outputPath);
-		DataWriter dataWriter = new DataWriter(chatCountForOutPut, "/c/chat/output/output.csv");
+		DataWriter dataWriter = new DataWriter(chatCountForOutPut, "C:\\chat\\output\\output.csv");
 		dataWriter.run();
 
 
