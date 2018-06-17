@@ -18,10 +18,11 @@ import java.util.TreeMap;
 public class MessageFilter {
 	ArrayList<String[]> dataList;
 	HashMap<String, ArrayList<String[]>> filteredChatDataList;
-	HashMap<String, Integer> chatCount;
+	HashMap<String, Integer> chatCount=new HashMap<String, Integer>();
 
 	MessageFilter(ArrayList<String[]> dataList){
 		this.dataList = dataList;
+		System.out.println("Constructor 안의 dataList.size() :"+dataList.size());
 	}
 	/**
 	 * filterData is the main method.
@@ -31,18 +32,14 @@ public class MessageFilter {
 	 */
 
 	public void filterData() {
-		filteredChatDataList = createHashMap();
+		filteredChatDataList = createHashMap(dataList);
 		checkRedundancy(filteredChatDataList);
 		chatCount = createCountList(filteredChatDataList);
 		//chatCount = sortHashMap(chatCount);
-		for(String name : chatCount.keySet()) {
-			System.out.println(name +" "+chatCount.get(name));
-		}
-		
+
 	}
 
 	private void checkRedundancy(HashMap<String, ArrayList<String[]>> messageSets){
-
 		for(String name : messageSets.keySet()) {
 			ArrayList<String[]> allMessages = messageSets.get(name);
 			ArrayList<String[]> resultList = new ArrayList<String[]>();
@@ -55,9 +52,6 @@ public class MessageFilter {
 			}
 			messageSets.put(name,resultList);
 		}
-
-
-
 	}
 
 	private boolean sameElement(ArrayList<String[]> arrayList, String[] arr) {
@@ -88,9 +82,9 @@ public class MessageFilter {
 	}
 
 
-	private HashMap<String, ArrayList<String[]>> createHashMap(){
+	private HashMap<String, ArrayList<String[]>> createHashMap(ArrayList<String[]> parsedData){
 		HashMap<String, ArrayList<String[]>> messageSet = new HashMap<String, ArrayList<String[]>>();
-		for(String[] s: dataList) {
+		for(String[] s: parsedData) {
 			String name = s[0];
 			String []timeAndMessage = {s[1], s[2]};
 
@@ -102,7 +96,6 @@ public class MessageFilter {
 				timeAndMessages.add(timeAndMessage);
 				messageSet.put(name,timeAndMessages);
 			}
-
 		}
 		return messageSet;
 	}

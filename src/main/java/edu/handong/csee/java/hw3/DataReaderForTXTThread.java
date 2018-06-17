@@ -13,6 +13,8 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.lang3.StringUtils;
+
 
 /**
  * DataReaderForTXT class is the class that parse the strings from txt file and put to parsedData ArrayList.
@@ -24,19 +26,28 @@ import java.util.regex.Pattern;
  * 
  * @author sua
  */
-public class DataReaderForTXT {
-	ArrayList<String> TXTData;
-	ArrayList<String[]> parsedData;
-
+public class DataReaderForTXTThread implements Runnable{
+	ArrayList<String> allLines = new ArrayList<String>();
+	ArrayList<String[]> allParsedLines = new ArrayList<String[]>();
+	File TXTFile;
+	
 	final String chatMessagePattern ="\\[(.+)\\]\\s\\[(.+)\\s([0-9]+):([0-9]+)\\]\\s(.+)";
 	final String datePattern ="-+\\s([0-9]+).\\s([0-9]+).\\s([0-9]+).\\s.+\\s-+";
 	final Pattern c = Pattern.compile(chatMessagePattern);
 	final Pattern d = Pattern.compile(datePattern);
 
-	DataReaderForTXT(ArrayList<String> td){
-		this.TXTData= td;
+	DataReaderForTXTThread(File file){
+		this.TXTFile = file;
 	}
-
+	
+	public void run() {
+		readFileByLine(TXTFile);
+		parseTXT(allParsedLines);
+	}
+	
+	public ArrayList<String[]> getParsedLines(){
+		return allParsedLines;
+	}
 	/**
 	 * parseTXT is the main method in DataReaderForTXT.
 	 * by using chooseParseType method, distinguish the type of string.
@@ -45,25 +56,37 @@ public class DataReaderForTXT {
 	 * 
 	 * @return data is the ArrayList which contains parsed string array.
 	 */
-	public ArrayList<String[]> parseTXT() {
-		ArrayList<String[]> data = new ArrayList<String[]>();
+	public void readFileByLine(File txtFile) {
+		BufferedReader br = null;
+		try{
+			br = new BufferedReader(new InputStreamReader(new FileInputStream(txtFile), "UTF-8"));
+			String line ="";
+
+			while ((line = br.readLine()) != null) {
+				allLines.add(line);
+			}
+		} catch (IOException e) {
+			System.out.println ("Error opening the file" + txtFile.getName());
+			System.exit(0);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+	
+	public void parseTXT(ArrayList<String[]> parsedData) {
 		String[] s;
 		String date= "";
 		
-		for(String line : TXTData) {
+		for(String line : allLines) {
 			int kind = chooseParseType(line);
 			if(kind == 1) {
 				date = parseDate(line);
 			}
 			else if(kind == 2) {
 				s = parseLine(line, date);
-				data.add(s);
+				parsedData.add(s);
 			}
-
 		} 
-		System.out.println("Finish to output/ TXT");
-		parsedData = data;
-		return data;
 	}
 
 	private int chooseParseType(String line) {

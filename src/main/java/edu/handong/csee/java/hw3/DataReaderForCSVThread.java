@@ -1,5 +1,6 @@
 package edu.handong.csee.java.hw3;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,6 +12,9 @@ import java.util.ArrayList;
 import java.io.PrintWriter;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import org.apache.commons.lang3.StringUtils;
+
 import com.opencsv.*;
 
 /**
@@ -24,17 +28,27 @@ import com.opencsv.*;
  * 
  */
 
-public class DataReaderForCSV {
-	ArrayList<String> CSVData;
-	ArrayList<String[]> data;
-	ArrayList <ArrayList<String>> messages;
+public class DataReaderForCSVThread implements Runnable{
+	ArrayList<String> allLines= new ArrayList<String>();
+	File CSVFile;
+	ArrayList<String[]> allParsedLines= new ArrayList<String[]>();
+	//ArrayList <ArrayList<String>> messages;
 	final String pattern = "(.+),\\\"(.+)\\\",\\\"(.+)\\\"";
 	final Pattern p = Pattern.compile(pattern);
 
-	DataReaderForCSV(ArrayList<String> csvData){
-		this.CSVData = csvData;
+	DataReaderForCSVThread(File file){
+		this.CSVFile = file;
 	}
 
+	public void run() {
+		readFileByLine(CSVFile);
+		//parseCSV(allParsedLines);
+
+	}
+
+	public ArrayList<String[]> getParsedLines(){
+		return allParsedLines;
+	}
 	/**
 	 * ParseCSV method is the main method in this class.
 	 * Use method mergeDatetime to make date and time easy to compare in check redundancy).
@@ -42,26 +56,44 @@ public class DataReaderForCSV {
 	 * 
 	 * @return data is the parsed data.
 	 */
+	public void readFileByLine(File csvFile) {
+		//ArrayList<String> lines =
+		BufferedReader br = null;
+		try{
+			br = new BufferedReader(new InputStreamReader(new FileInputStream(csvFile), "UTF-8"));
+			String line ="";
 
-	public ArrayList<String[]> parseCSV() {
-		this.data = new ArrayList<String[]>();
+			while ((line = br.readLine()) != null) {
+				int count = StringUtils.countMatches(line, "\"");
+				if(!line.contains("\"")) continue;
+				if(count == 1) continue;
+				if(!line.endsWith("\"")) line = line+ "\"";
+				//System.out.println(line);
+				allLines.add(line);
+			}
+		} catch (IOException e) {
+			System.out.println ("Error opening the file" + csvFile.getName());
+			System.exit(0);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 
-		for(String line : CSVData) {
+		for(String line : allLines) {
 			Matcher matcher = p.matcher(line);
-
 			if(matcher.find()) {
 				if(matcher.group(1).equals("Data")) {
 					continue;
 				}
 				String timeData = mergeDatetime(matcher.group(1));
 				String []m = {matcher.group(2), timeData, matcher.group(3)};
-				data.add(m);
+				allParsedLines.add(m);
 			}
-
 		} 
-
-		return data;
 	}
+
+
+
+
 
 	private String mergeDatetime(String dateTime) {
 		String pattern = "([0-9]+)-([0-9]+)-([0-9]+)\\s([0-9]+):([0-9]+):([0-9]+)";

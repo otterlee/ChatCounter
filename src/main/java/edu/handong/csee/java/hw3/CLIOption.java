@@ -17,6 +17,7 @@ import org.apache.commons.cli.Options;
 public class CLIOption {
 
 	String inputPath, outputPath;
+	int inputNumThread;
 	boolean verbose;
 	boolean help;
 
@@ -47,6 +48,7 @@ public class CLIOption {
 
 			inputPath = cmd.getOptionValue("i");
 			outputPath = cmd.getOptionValue("o");
+			inputNumThread = Integer.parseInt(cmd.getOptionValue("c"));
 			help = cmd.hasOption("h");
 
 		} catch (Exception e) {
@@ -73,6 +75,13 @@ public class CLIOption {
 				.argName("the output directory path")
 				.required()
 				.build());
+		options.addOption(Option.builder("c").longOpt("numthreads")
+				.desc("Set the number of threads")
+				.hasArg()
+				.argName("the number of thread")
+				.required()
+				.build());
+		
 
 		options.addOption(Option.builder("h").longOpt("help")
 				.desc("Help")

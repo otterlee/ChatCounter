@@ -2,7 +2,8 @@ package edu.handong.csee.java.hw3;
 
 import java.io.*;
 import java.util.*;
-import org.apache.commons.lang3.StringUtils;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * In this class, When get the path of the input files, read the files there. 
@@ -18,14 +19,19 @@ import org.apache.commons.lang3.StringUtils;
  */
 
 
-public class DataReader {
+public class DataReader{
 	//class that reads file. In this class, instantiate DataReaderForCSV or DataReaderForTXT by file type.
-
+	String inputPath;
+	int inputNumThreads;
 	ArrayList<File> CSVFiles;
 	ArrayList<File> TXTFiles;
 	ArrayList<String> CSVdata;
 	ArrayList<String> TXTdata;
-
+	ArrayList<String[]> parsedLines = new ArrayList<String[]>();
+	//ArrayList<ArrayList<String>> parsedMessages;
+	DataReader (int numThread){
+		this.inputNumThreads = numThread;
+	}
 	/**
 	 * GetData is the main method in DataReader class.
 	 * By using getDirectory, obtain file directory.
@@ -37,11 +43,19 @@ public class DataReader {
 	 * @throws Exception 
 	 * 
 	 */
+	/*public void run() {
+		try {
+			getData(inputPath);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}*/
+
 	public void getData(String strDir) throws Exception{
 		File myDir = getDirectory(strDir);
 		getListOfFilesFromDirectory(myDir);
-		CSVdata = readFiles(CSVFiles);
-		TXTdata = readFiles(TXTFiles);
+
 	}
 
 	private File getDirectory(String strDir) {
@@ -52,16 +66,24 @@ public class DataReader {
 	}
 
 	private void getListOfFilesFromDirectory(File dataDir) {
-		CSVFiles = new ArrayList<File>();
-		TXTFiles = new ArrayList<File>();
+		//Thread[] threads = new Thread[dataDir.listFiles().length];
+
+		ExecutorService executor = Executors.newFixedThreadPool(inputNumThreads);
+		ArrayList<DataReaderForCSVThread> threadsCSV = new ArrayList<DataReaderForCSVThread>();
+		ArrayList<DataReaderForTXTThread> threadsTXT = new ArrayList<DataReaderForTXTThread>();
+
 		try {
 			for(File file: dataDir.listFiles()) {
 				if(file.getAbsolutePath().contains(".csv")) {
-					CSVFiles.add(file);
+					Runnable worker = new DataReaderForCSVThread(file);
+					executor.execute(worker);
+					threadsCSV.add((DataReaderForCSVThread)worker);
 
 				}
 				else if(file.getAbsolutePath().contains(".txt")) {
-					TXTFiles.add(file);
+					Runnable worker = new DataReaderForTXTThread(file);
+					executor.execute(worker);
+					threadsTXT.add((DataReaderForTXTThread)worker);
 
 				}
 				else if(file.getAbsolutePath().contains(".doc")) throw new Exception();
@@ -69,37 +91,18 @@ public class DataReader {
 		} catch(Exception e) {
 			System.out.println("Wrong File Format!");
 		}
-	}
 
-	private ArrayList<String> readFiles(ArrayList<File> files) throws Exception {
-		ArrayList<String> data = new ArrayList<String>();
-		BufferedReader br = null;
-		for(File f :files) {
-			try{
-				br = new BufferedReader(new InputStreamReader(new FileInputStream(f), "UTF-8"));
-				String line ="";
+		executor.shutdown();
 
-				while ((line = br.readLine()) != null) {
-					if(f.getName().contains(".csv")) {
-						int count = StringUtils.countMatches(line, "\"");
-						if(!line.contains("\"")) continue;
-						if(count == 1) continue;
-						if(!line.endsWith("\"")) line = line+ "\"";
-						data.add(line);
-					}
-					else if(f.getName().contains(".txt")){
-						data.add(line);
-					}
-				}
-			} catch (IOException e) {
-				System.out.println ("Error opening the file" + f.getName());
-				System.exit(0);
-			} catch (Exception e) {
-				System.out.println(e.getMessage());
-			}
+		while (!executor.isTerminated()) {}
 
+		System.out.println("DataReader에서 parsedLines ");
+
+		for(DataReaderForCSVThread t: threadsCSV) {
+			parsedLines.addAll(t.getParsedLines());
 		}
-		return data;		
+		for(DataReaderForTXTThread t: threadsTXT) {
+			parsedLines.addAll(t.getParsedLines());
+		}
 	}
-
 }

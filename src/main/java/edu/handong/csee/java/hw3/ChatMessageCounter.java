@@ -1,6 +1,7 @@
 package edu.handong.csee.java.hw3;
 
 import java.util.ArrayList;
+
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -28,38 +29,25 @@ public class ChatMessageCounter {
 	 */
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		DataReader dataReader = new DataReader();
 		CLIOption cliOption = new CLIOption();
 		cliOption.run(args);
-
-		dataReader.getData(args[0]);
-	
-		System.out.println(cliOption.inputPath);
-		DataReaderForTXT dataReaderForTXT = new DataReaderForTXT(dataReader.TXTdata);
-		DataReaderForCSV dataReaderForCSV = new DataReaderForCSV(dataReader.CSVdata);
-
-		ArrayList<String[]> parsedDataListFromTXT = dataReaderForTXT.parseTXT();
-		ArrayList<String[]> parsedDataListFromCSV = dataReaderForCSV.parseCSV();
-
-		ArrayList<String[]> parsedDataList = new ArrayList<String[]>();
-
-		parsedDataList.addAll(parsedDataListFromTXT);
-		parsedDataList.addAll(parsedDataListFromCSV);
-
-		System.out.println("  "+parsedDataListFromTXT.size());
-		System.out.println("  "+parsedDataListFromCSV.size());
-		System.out.println("  "+parsedDataList.size());
-
-
-		MessageFilter messageFilter = new MessageFilter(parsedDataList);
-
+		DataReader dataReader = new DataReader(cliOption.inputNumThread);
+		
+		dataReader.getData(cliOption.inputPath);
+		//dataReader.inputPath = args[0];
+		//dataReader.getData(args[0]);
+		
+		//System.out.println(cliOption.inputPath);
+		
+		MessageFilter messageFilter = new MessageFilter(dataReader.parsedLines);
 		messageFilter.filterData();
 		HashMap<String, Integer> chatCountForOutPut = messageFilter.chatCount;
-
-	
+		for(String name: chatCountForOutPut.keySet()) {
+			System.out.println(name + " "+chatCountForOutPut.get(name));
+		}
 		System.out.println("cliOption.outputPath : "+cliOption.outputPath);
-		DataWriter dataWriter = new DataWriter(chatCountForOutPut, cliOption.outputPath);
-		dataWriter.run();
+		//DataWriter dataWriter = new DataWriter(chatCountForOutPut, cliOption.outputPath);
+		//dataWriter.run();*/
 
 
 	}
