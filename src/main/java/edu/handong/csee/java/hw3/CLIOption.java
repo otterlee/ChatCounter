@@ -43,19 +43,16 @@ public class CLIOption {
 		CommandLineParser parser = new DefaultParser();
 
 		try {
-
 			CommandLine cmd = parser.parse(options, args);
 
 			inputPath = cmd.getOptionValue("i");
 			outputPath = cmd.getOptionValue("o");
 			inputNumThread = Integer.parseInt(cmd.getOptionValue("c"));
 			help = cmd.hasOption("h");
-
 		} catch (Exception e) {
 			printHelp(options);
 			return false;
 		}
-
 		return true;
 	}
 
