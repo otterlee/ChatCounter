@@ -17,10 +17,11 @@ import org.apache.commons.lang3.StringUtils;
 
 
 /**
- * DataReaderForTXT class is the class that parse the strings from txt file and put to parsedData ArrayList.
+ * DataReaderForTXT class is the class that implements Runnable interface.
+ * that parse the strings from txt file and put to parsedData ArrayList.
  * 
- * TXTData is raw data from DataReader class.
- * parsedData is parsed data from parseTXT method.
+ * allLines is raw data created by just file reading.
+ * allParsedLines is parsed data from parseTXT method.
  * chatMessagePattern and datePattern are pattern for using regex.
  * Pattern c and d are for parsing. 
  * 
@@ -39,24 +40,29 @@ public class DataReaderForTXTThread implements Runnable{
 	DataReaderForTXTThread(File file){
 		this.TXTFile = file;
 	}
-	
+	/**
+	 * Method 'run' is the main method in DataReaderForTXT.
+	 * First, call 'readFileByLine' method to create ArrayList<String> that contains all lines of one txt file.
+	 * And call 'parseTXT' and by using 'chooseParseType' method in parseTXT distinguish the type of string.
+	 * if the type is the 'date', use parseDate method.
+	 * or just 'message, use parseLine method.
+	 * 
+	 */
 	public void run() {
 		readFileByLine(TXTFile);
 		parseTXT(allParsedLines);
 	}
 	
+	/**
+	 * Method 'getParsedLines' is the method that returns parsed line from this class.
+	 * @return ArrayList<String[]> allParsedLines
+	 */
+	
 	public ArrayList<String[]> getParsedLines(){
 		return allParsedLines;
 	}
-	/**
-	 * parseTXT is the main method in DataReaderForTXT.
-	 * by using chooseParseType method, distinguish the type of string.
-	 * if the type is the 'data', use parseDate method.
-	 * or just 'message,  use parseLine method.
-	 * 
-	 * @return data is the ArrayList which contains parsed string array.
-	 */
-	public void readFileByLine(File txtFile) {
+	
+	private void readFileByLine(File txtFile) {
 		BufferedReader br = null;
 		try{
 			br = new BufferedReader(new InputStreamReader(new FileInputStream(txtFile), "UTF-8"));

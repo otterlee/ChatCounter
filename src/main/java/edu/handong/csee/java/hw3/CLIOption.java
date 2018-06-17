@@ -10,6 +10,9 @@ import org.apache.commons.cli.Options;
 
 /**
  * CLIOption is the class that set the CLI option.
+ * inputPath is the path that contains files to read.
+ * outputPath is the path where the new file will be written.
+ * inputNumThread is the number of threads.
  * @author suagu
  *
  */

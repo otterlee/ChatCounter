@@ -21,8 +21,8 @@ import com.opencsv.*;
  * DataReaderForCSV class is the class that parse the strings from csv file and put to CSVData ArrayList.
  * @author suagu
  * 
- * CSVData is the raw data from DataReader class.
- * parsedData is parsed data from parseCSV method.
+ * allLines is raw data created by just file reading.
+ * allParsdLines is parsed data from parseCSV method.
  * pattern is the pattern type of string from csv file.
  * Pattern p is for parsing. 
  * 
@@ -30,9 +30,8 @@ import com.opencsv.*;
 
 public class DataReaderForCSVThread implements Runnable{
 	ArrayList<String> allLines= new ArrayList<String>();
-	File CSVFile;
 	ArrayList<String[]> allParsedLines= new ArrayList<String[]>();
-	//ArrayList <ArrayList<String>> messages;
+	File CSVFile;
 	final String pattern = "(.+),\\\"(.+)\\\",\\\"(.+)\\\"";
 	final Pattern p = Pattern.compile(pattern);
 

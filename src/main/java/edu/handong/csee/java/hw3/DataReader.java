@@ -23,10 +23,6 @@ public class DataReader{
 	//class that reads file. In this class, instantiate DataReaderForCSV or DataReaderForTXT by file type.
 	String inputPath;
 	int inputNumThreads;
-	ArrayList<File> CSVFiles;
-	ArrayList<File> TXTFiles;
-	ArrayList<String> CSVdata;
-	ArrayList<String> TXTdata;
 	ArrayList<String[]> parsedLines = new ArrayList<String[]>();
 	//ArrayList<ArrayList<String>> parsedMessages;
 	DataReader (int numThread){
@@ -35,23 +31,13 @@ public class DataReader{
 	/**
 	 * GetData is the main method in DataReader class.
 	 * By using getDirectory, obtain file directory.
-	 * And use getListOfFilesFromDirectory to get file arrayList.
-	 * and by reaFiles method, set the CSVData and TXT data.
+	 * And use getListOfFilesFromDirectory to get file parsed data by using thread pool.
 	 * 
 	 * @param strDir is came from ChatMessageCounter class which is main class.
 	 * strDir is path of input files. 
 	 * @throws Exception 
 	 * 
 	 */
-	/*public void run() {
-		try {
-			getData(inputPath);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}*/
-
 	public void getData(String strDir) throws Exception{
 		File myDir = getDirectory(strDir);
 		getListOfFilesFromDirectory(myDir);

@@ -15,7 +15,7 @@ import java.util.Set;
 
 
 /**
- * DataWriter class is the class that write the output file.
+ * DataWriter class is the class that writes the output file.
  * Write the file from Hashmap chatDataList.
  * By constructor, set the output file's name.
  * @author sua
@@ -64,9 +64,7 @@ public class DataWriter {
 		System.out.println ("Those lines were written to " + fileName);
 	}
 
-
-
-	public static List sortByCount(HashMap<String, Integer> map) {
+	private static List sortByCount(HashMap<String, Integer> map) {
 		List<String> list = new ArrayList();
 		list.addAll(map.keySet());
 
