@@ -28,22 +28,17 @@ public class ChatMessageCounter {
 	 */
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		//CLIOption cliOption = new CLIOption();
-		//cliOption.run(args);
-		//DataReader dataReader = new DataReader(cliOption.inputNumThread);
-		DataReader dataReader = new DataReader(4);
+		CLIOption cliOption = new CLIOption();
+		cliOption.run(args);
+		DataReader dataReader = new DataReader(cliOption.inputNumThread);
 
-		//dataReader.getData(cliOption.inputPath);
-		dataReader.getData(args[0]);
+		dataReader.getData(cliOption.inputPath);
 
 		MessageFilter messageFilter = new MessageFilter(dataReader.parsedLines);
 		messageFilter.filterData();
 		HashMap<String, Integer> chatCountForOutPut = messageFilter.chatCount;
-
-		//System.out.println("cliOption.outputPath : "+cliOption.outputPath);
 		
-		//DataWriter dataWriter = new DataWriter(chatCountForOutPut, cliOption.outputPath);
-		DataWriter dataWriter = new DataWriter(chatCountForOutPut,"C:\\chat\\output\\ouput.csv");
+		DataWriter dataWriter = new DataWriter(chatCountForOutPut, cliOption.outputPath);
 		
 		dataWriter.run();
 	}

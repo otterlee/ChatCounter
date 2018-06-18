@@ -16,7 +16,7 @@ import java.util.Set;
 
 /**
  * DataWriter class is the class that writes the output file.
- * Write the file from Hashmap chatDataList.
+ * Sort the HashMap chatDataList and write the file from Hashmap chatDataList.
  * By constructor, set the output file's name.
  * @author sua
  *
@@ -37,7 +37,7 @@ public class DataWriter {
 
 	/**
 	 * run method is the main method in DataWriter.
-	 * by using Iterator, write the HashMap chatDataList.
+	 * Call method 'sortChatDataList' to sort and by using Iterator, write the HashMap chatDataList.
 	 * 
 	 */
 	public void run() {
@@ -55,7 +55,7 @@ public class DataWriter {
 		ArrayList<String> orderOfName = sortChatDataList(chatDataListToSort);
 		for(String name: orderOfName) {
 			System.out.println(name + "," + chatDataList.get(name));
-			outputStream.println(name + "," + chatDataListToSort.get(name));
+			outputStream.println(name + "," + chatDataList.get(name));
 		}
 
 		outputStream.close();

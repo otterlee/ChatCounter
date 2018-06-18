@@ -20,11 +20,10 @@ import java.util.concurrent.Executors;
 
 
 public class DataReader{
-	//class that reads file. In this class, instantiate DataReaderForCSV or DataReaderForTXT by file type.
 	String inputPath;
 	int inputNumThreads;
 	ArrayList<String[]> parsedLines = new ArrayList<String[]>();
-	//ArrayList<ArrayList<String>> parsedMessages;
+	
 	DataReader (int numThread){
 		this.inputNumThreads = numThread;
 	}
@@ -50,8 +49,6 @@ public class DataReader{
 	}
 
 	private void getListOfFilesFromDirectory(File dataDir) {
-		//Thread[] threads = new Thread[dataDir.listFiles().length];
-
 		ExecutorService executor = Executors.newFixedThreadPool(inputNumThreads);
 		ArrayList<DataReaderForCSVThread> threadsCSV = new ArrayList<DataReaderForCSVThread>();
 		ArrayList<DataReaderForTXTThread> threadsTXT = new ArrayList<DataReaderForTXTThread>();
@@ -73,7 +70,7 @@ public class DataReader{
 				else if(file.getAbsolutePath().contains(".doc")) throw new Exception();
 			}
 		} catch(Exception e) {
-			System.out.println("Wrong File Format!");
+			System.out.println("Wrong File Format! Reading problem");
 		}
 
 		executor.shutdown();
