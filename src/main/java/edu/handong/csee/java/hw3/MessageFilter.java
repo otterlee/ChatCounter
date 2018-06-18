@@ -22,7 +22,6 @@ public class MessageFilter {
 
 	MessageFilter(ArrayList<String[]> dataList){
 		this.dataList = dataList;
-		System.out.println("Constructor 안의 dataList.size() :"+dataList.size());
 	}
 	/**
 	 * filterData is the main method.
