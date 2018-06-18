@@ -31,7 +31,7 @@ public class DataReaderForTXTThread implements Runnable{
 	ArrayList<String> allLines = new ArrayList<String>();
 	ArrayList<String[]> allParsedLines = new ArrayList<String[]>();
 	File TXTFile;
-	
+
 	final String chatMessagePattern ="\\[(.+)\\]\\s\\[(.+)\\s([0-9]+):([0-9]+)\\]\\s(.+)";
 	final String datePattern ="-+\\s([0-9]+).\\s([0-9]+).\\s([0-9]+).\\s.+\\s-+";
 	final Pattern c = Pattern.compile(chatMessagePattern);
@@ -52,16 +52,16 @@ public class DataReaderForTXTThread implements Runnable{
 		readFileByLine(TXTFile);
 		parseTXT(allParsedLines);
 	}
-	
+
 	/**
 	 * Method 'getParsedLines' is the method that returns parsed line from this class.
 	 * @return ArrayList<String[]> allParsedLines
 	 */
-	
+
 	public ArrayList<String[]> getParsedLines(){
 		return allParsedLines;
 	}
-	
+
 	private void readFileByLine(File txtFile) {
 		BufferedReader br = null;
 		try{
@@ -78,11 +78,11 @@ public class DataReaderForTXTThread implements Runnable{
 			System.out.println(e.getMessage());
 		}
 	}
-	
+
 	public void parseTXT(ArrayList<String[]> parsedData) {
 		String[] s;
 		String date= "";
-		
+
 		for(String line : allLines) {
 			int kind = chooseParseType(line);
 			if(kind == 1) {

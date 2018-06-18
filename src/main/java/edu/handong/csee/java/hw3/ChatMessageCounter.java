@@ -37,9 +37,9 @@ public class ChatMessageCounter {
 		MessageFilter messageFilter = new MessageFilter(dataReader.parsedLines);
 		messageFilter.filterData();
 		HashMap<String, Integer> chatCountForOutPut = messageFilter.chatCount;
-		
+
 		DataWriter dataWriter = new DataWriter(chatCountForOutPut, cliOption.outputPath);
-		
+
 		dataWriter.run();
 	}
 

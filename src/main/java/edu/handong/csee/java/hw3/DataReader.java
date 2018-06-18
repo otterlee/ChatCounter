@@ -23,7 +23,7 @@ public class DataReader{
 	String inputPath;
 	int inputNumThreads;
 	ArrayList<String[]> parsedLines = new ArrayList<String[]>();
-	
+
 	DataReader (int numThread){
 		this.inputNumThreads = numThread;
 	}
