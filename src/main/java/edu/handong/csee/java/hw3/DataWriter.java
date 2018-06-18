@@ -50,34 +50,35 @@ public class DataWriter {
 			System.out.println("Error opening the file " + fileName);
 			System.exit(0);
 		}
-
+		chatDataList = sortChatDataList(chatDataList);
 		Iterator iterator = chatDataList.keySet().iterator();
-		Iterator it = sortByCount(chatDataList).iterator();
-		while(it.hasNext()) {
-			String temp = (String)it.next();
-			System.out.println(temp + " = " + chatDataList.get(temp));
-				
-			outputStream.println(temp + " = " + chatDataList.get(temp));
+
+		while(iterator.hasNext()) {
+			String temp = (String)iterator.next();
+			System.out.println(temp + "," + chatDataList.get(temp));
+			outputStream.println(temp + "," + chatDataList.get(temp));
 		}
 
 		outputStream.close();
 		System.out.println ("Those lines were written to " + fileName);
 	}
 
-	private static List sortByCount(HashMap<String, Integer> map) {
-		List<String> list = new ArrayList();
-		list.addAll(map.keySet());
-
-		Collections.sort(list,new Comparator() {
-
-			public int compare(Object o1,Object o2) {
-				Object v1 = map.get(o1);
-				Object v2 = map.get(o2);
-
-				return ((Comparable) v2).compareTo(v1);
+	private HashMap<String, Integer> sortChatDataList(HashMap<String, Integer> beforeData){
+		int i=0, max = 0;
+		String maxName="";
+		ArrayList<String> orderOfName = new ArrayList<String>();
+		HashMap<String, Integer> sortedChatDataList = new HashMap<String, Integer>();
+		for(i=0; i< beforeData.keySet().size();i++) {
+			for(String name : beforeData.keySet()) {
+				if(beforeData.get(name) > max) {
+					max = beforeData.get(name);
+					maxName = name;
+				}
+				beforeData.remove(name);
 			}
-
-		});
-		return list;
+			sortedChatDataList.put(maxName, max);
+		}
+		return sortedChatDataList;
 	}
+
 }
