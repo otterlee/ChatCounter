@@ -7,13 +7,12 @@ import java.util.concurrent.Executors;
 
 /**
  * In this class, When get the path of the input files, read the files there. 
- * if it is a CSV file, put that file to ArrayList 'CSVFiles'. Or if it is a TXT file, put that file to ArrayList 'TXTFiles'.
- * Open files in different formats and put the string in the ArrayList 'messages' one after the other in order. 
+ * if it is a CSV file, create CSVThread. Or if it is a TXT file, TXTThread.
+ * Open files in different formats and put the string in the ArrayList 'parsedLines'. 
  * About Instance variables,
- * 'messages' is ArrayList containing strings of messages.
- * 'CSVFiles' and 'TXTFiles' are ArrayList containing files of each format.
- * 'CSVData' and 'TXTData' are ArrayList containing strings from messages for each format.
- * 
+ * 'parsedLines' is ArrayList containing strings of parsed messages.
+ * 'inputNumThread' is the input number of threads
+ * 'inputPath' is the path containing files.
  * @author sua
  *
  */
