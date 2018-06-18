@@ -46,9 +46,7 @@ public class DataReader{
 
 	private File getDirectory(String strDir) {
 		File myDirectory = new File(strDir);
-		System.out.println("in getDirectory , Directory : " +myDirectory);
 		return myDirectory;
-
 	}
 
 	private void getListOfFilesFromDirectory(File dataDir) {
@@ -81,8 +79,6 @@ public class DataReader{
 		executor.shutdown();
 
 		while (!executor.isTerminated()) {}
-
-		System.out.println("DataReader에서 parsedLines ");
 
 		for(DataReaderForCSVThread t: threadsCSV) {
 			parsedLines.addAll(t.getParsedLines());

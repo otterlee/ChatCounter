@@ -41,7 +41,6 @@ public class DataReaderForCSVThread implements Runnable{
 
 	public void run() {
 		readFileByLine(CSVFile);
-		//parseCSV(allParsedLines);
 
 	}
 
@@ -56,7 +55,6 @@ public class DataReaderForCSVThread implements Runnable{
 	 * @return data is the parsed data.
 	 */
 	public void readFileByLine(File csvFile) {
-		//ArrayList<String> lines =
 		BufferedReader br = null;
 		try{
 			br = new BufferedReader(new InputStreamReader(new FileInputStream(csvFile), "UTF-8"));
@@ -67,7 +65,6 @@ public class DataReaderForCSVThread implements Runnable{
 				if(!line.contains("\"")) continue;
 				if(count == 1) continue;
 				if(!line.endsWith("\"")) line = line+ "\"";
-				//System.out.println(line);
 				allLines.add(line);
 			}
 		} catch (IOException e) {
@@ -89,10 +86,6 @@ public class DataReaderForCSVThread implements Runnable{
 			}
 		} 
 	}
-
-
-
-
 
 	private String mergeDatetime(String dateTime) {
 		String pattern = "([0-9]+)-([0-9]+)-([0-9]+)\\s([0-9]+):([0-9]+):([0-9]+)";
